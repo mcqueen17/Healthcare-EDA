@@ -1,2 +1,4 @@
-# Healthcare-EDA
-This repository contains a synthetic healthcare dataset and an example Exploratory Data Analysis (EDA) workflow. It is designed as a portfolio project to showcase data cleaning, visualization, and insight generation skills.
+# About This Project
+This project demonstrates a full exploratory analysis workflow using a synthetic healthcare dataset designed to mirror real-world clinical, demographic, and utilization patterns. It highlights the core analytical skills used across healthcare quality, population health, and value-based care environments—cleaning patient-level data, exploring risk factors, visualizing trends, and identifying drivers of 30-day readmissions.
+
+The goal of this project is to showcase the technical and analytical capabilities required for healthcare analytics roles, including EDA, data quality checks, insight generation, and basic clinical interpretation. It reflects how an analyst supports quality improvement, SDoH initiatives, care management programs, and operational decision-making through data.
