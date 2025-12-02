@@ -1,0 +1,13 @@
+column_name,type,description
+patient_id,integer,Unique patient identifier
+age,integer,Age of the patient in years
+gender,category,Gender of the patient
+bmi,float,Body Mass Index
+smoking_status,category,"Smoking status (Never, Former, Current)"
+hypertension,binary (0/1),"Indicator for hypertension diagnosis (1 = Yes, 0 = No)"
+diabetes,binary (0/1),"Indicator for diabetes diagnosis (1 = Yes, 0 = No)"
+cholesterol_total,integer,Total cholesterol level (mg/dL)
+systolic_bp,integer,Systolic blood pressure (mmHg)
+diastolic_bp,integer,Diastolic blood pressure (mmHg)
+hospital_visits_past_year,integer,Number of hospital visits in the past 12 months
+readmitted_30_days,binary (0/1),"Indicator for readmission within 30 days (1 = Yes, 0 = No)"
