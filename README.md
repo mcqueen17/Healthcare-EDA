@@ -1,8 +1,8 @@
-###Hospital Readmissions Analysis Using SQL & Exploratory Data Analysis
+# Hospital Readmissions Analysis Using SQL & Exploratory Data Analysis
 
 A full-stack healthcare analytics project demonstrating SQL, EDA, and clinical quality metrics.
 
-##Project Overview
+## Project Overview
 
 Hospital readmissions—especially within 7 and 30 days—are a core CMS quality metric and one of the most expensive and preventable healthcare events.
 This project performs an end-to-end analysis of inpatient encounters and readmissions using:
@@ -31,7 +31,7 @@ Operational and clinical gaps based on readmission behavior
 
 This project is structured exactly like a real Quality Analyst / Healthcare Data Analyst portfolio.
 
-📂 Repository Structure
+## 📂 Repository Structure
 healthcare_readmissions_analysis/
 │
 ├── data/
@@ -52,62 +52,70 @@ healthcare_readmissions_analysis/
 │
 └── README.md
 
-🧠 Key Questions Answered in This Project
+## Key Questions Answered in This Project
+
 ✔ What is the hospital’s 30-day readmission rate?
+
 ✔ How does readmission rate vary by medical condition?
+
 ✔ Are certain months associated with higher readmissions?
+
 ✔ Who are the “frequent flyer” patients?
+
 ✔ How many patients are readmitted within 7 days (an early bounce-back)?
+
+
 ✔ What are the operational patterns behind readmission behavior?
-🗃️ Dataset Description
+
+## Dataset Description
 
 This project uses three synthetic but realistic healthcare datasets:
 
-1. hospital_readmissions.csv
+### 1. hospital_readmissions.csv
 
-Encounter-level data including:
+    Encounter-level data including:
 
-encounter_id
+    encounter_id
 
-patient_name
+    patient_name
 
-DOB
+    DOB
 
-date_of_admission
+    date_of_admission
 
-date_of_discharge
+    date_of_discharge
 
-date_of_readmission
+    date_of_readmission
 
-primary & secondary medical conditions
+    primary & secondary medical conditions
 
-measure_name
+    measure_name
 
-2. patient_encounters.csv
+### 2. patient_encounters.csv
 
-General utilization metrics:
+    General utilization metrics:
 
-billing amount
+    billing amount
 
-length of stay
+    length of stay
 
-payor type
+    payor type
 
-admission/discharge dates
+    admission/discharge dates
 
-3. members.csv
+### 3. members.csv
 
-Member-level demographics:
+    Member-level demographics:
 
-risk scores
+    risk scores
 
-line of business (Medicaid/Medicare)
+    line of business (Medicaid/Medicare)
 
-SDoH flag
+    SDoH flag
 
-geographic indicators
+    geographic indicators
 
-Tools & Technologies Used
+## Tools & Technologies Used
 SQL Server / T-SQL
 
 CTEs
@@ -134,22 +142,20 @@ Patient-level utilization patterns
 
 Quality improvement metrics
 
-EDA Techniques
-
-(Optional notebook using Python/Pandas)
-
-Core Analyses & SQL Logic
+## Core Analyses & SQL Logic
 
 Below are examples of the types of metrics calculated in this project.
 
-🔹 1. Identify All 30-Day Readmissions
+### 🔹 1. Identify All 30-Day Readmissions
+```sql
 SELECT
     COUNT(*) AS total_readmissions
 FROM hospital_readmissions
 WHERE date_of_readmission IS NOT NULL
   AND DATEDIFF(DAY, date_of_discharge, date_of_readmission) BETWEEN 0 AND 30;
-
-🔹 2. Readmission Rate by Primary Medical Condition
+```
+### 🔹 2. Readmission Rate by Primary Medical Condition
+```sql
 SELECT
     primary_medical_condition,
     COUNT(*) AS total_discharges,
@@ -165,8 +171,9 @@ SELECT
 FROM hospital_readmissions
 GROUP BY primary_medical_condition
 ORDER BY readmission_rate DESC;
-
-🔹 3. Monthly Readmission Trend
+```
+### 🔹 3. Monthly Readmission Trend
+```sql
 SELECT
     FORMAT(date_of_discharge, 'yyyy-MM') AS discharge_month,
     COUNT(*) AS total_discharges,
@@ -181,8 +188,9 @@ SELECT
 FROM hospital_readmissions
 GROUP BY FORMAT(date_of_discharge, 'yyyy-MM')
 ORDER BY discharge_month;
-
-🔹 4. Early Readmissions (0–7 Days)
+```
+### 🔹 4. Early Readmissions (0–7 Days)
+```sql
 SELECT
     encounter_id,
     patient_name,
@@ -193,7 +201,8 @@ FROM hospital_readmissions
 WHERE date_of_readmission IS NOT NULL
   AND DATEDIFF(DAY, date_of_discharge, date_of_readmission) BETWEEN 0 AND 7;
 
-🔹 5. Frequent Flyers (Patients With >1 Readmission)
+### 🔹 5. Frequent Flyers (Patients With >1 Readmission)
+```sql
 WITH frequent_patients AS (
     SELECT
         patient_name,
@@ -214,9 +223,10 @@ JOIN frequent_patients AS fp
     ON hr.patient_name = fp.patient_name
 WHERE hr.date_of_readmission IS NOT NULL
 ORDER BY hr.patient_name, hr.date_of_discharge;
+```
+## Skills Demonstrated
 
-Skills Demonstrated
-SQL / Data Engineering
+### SQL / Data Engineering
 
 Data modeling
 
@@ -228,7 +238,7 @@ Error-proof analytics (NULL handling, DIV0 protection)
 
 Window functions & CTEs
 
-Healthcare Domain Knowledge
+### Healthcare Domain Knowledge
 
 CMS readmission definitions
 
@@ -238,7 +248,7 @@ High-utilization patient identification
 
 Trend analysis for quality improvement
 
-Business Intelligence
+### Business Intelligence
 
 KPI development
 
@@ -248,7 +258,7 @@ Performance insights for care management
 
 Clinical operations reporting
 
-Why This Project Matters
+## Why This Project Matters
 
 Hospital readmissions represent:
 
