@@ -1,0 +1,1001 @@
+patient_id,patient_name,age,dob,gender,doctor,payor,billing_amount,date_of_admission,date_of_discharge,home_address,zip_code,phone_number,email
+1,Noah Green,42,11/24/1983,M,Dr. Michael Lee,Commercial - Cigna,18288.21,6/16/2025,6/25/2025,"3328 Walnut Ave, Seattle, AZ 25118",25118,(880)-538-6143,noah.green@gmail.com
+2,Yasmin Morgan,82,7/22/1942,M,Dr. Laura Gomez,Medicare Advantage,16992.41,10/29/2024,11/2/2024,"6311 Pine Dr, Nashville, WA 95180",95180,(761)-200-5978,yasmin.morgan@example.org
+3,Anthony Green,59,12/6/1966,M,Dr. Jason Miller,Commercial - BlueCross,27511.65,6/7/2025,6/20/2025,"1489 Birch St, Atlanta, FL 70217",70217,(969)-440-6085,anthony.green@yahoo.com
+4,Elena Thompson,23,10/7/2001,F,Dr. Jason Miller,Commercial - Aetna,34214.9,3/15/2024,3/26/2024,"6391 Ridge Rd, Seattle, IL 37460",37460,(871)-904-1090,elena.thompson@gmail.com
+5,Zoe Brown,46,8/22/1978,F,Dr. Jason Miller,Medicare,22960.12,5/4/2024,5/17/2024,"8802 Walnut Ave, Miami, GA 58393",58393,(761)-656-3607,zoe.brown@example.org
+6,Peter Flores,49,5/8/1976,M,Dr. Jason Miller,Commercial - Cigna,10710.97,3/26/2025,,"4551 Walnut Ave, Chicago, AZ 93320",93320,(354)-436-7275,peter.flores@yahoo.com
+7,Caroline Brown,70,10/23/1955,M,Dr. Jason Miller,Commercial - BlueCross,3897.23,3/6/2025,3/19/2025,"420 Sunset Blvd, Miami, TX 80282",80282,(560)-505-7389,caroline.brown@example.org
+8,Sophia Baker,87,6/22/1938,F,Dr. Jason Miller,Medicaid,12008.01,5/12/2025,,"6724 Pine Dr, Miami, CO 30635",30635,(746)-227-7455,sophia.baker@gmail.com
+9,Caroline Lopez,72,6/11/1953,F,Dr. Jason Miller,Medicaid,3435.96,1/23/2025,1/31/2025,"6311 Birch St, Seattle, WA 82420",82420,(283)-681-1317,caroline.lopez@gmail.com
+10,Mia Wilson,26,3/16/1998,F,Dr. Michael Lee,Medicaid,9175.39,1/21/2024,1/25/2024,"1974 Cedar Ln, Miami, WA 45697",45697,(577)-371-2876,mia.wilson@yahoo.com
+11,Jacob Rodriguez,21,12/27/2003,M,Dr. Laura Gomez,Commercial - BlueCross,37746.62,7/22/2024,,"4078 Maple Ave, Denver, AZ 46265",46265,(779)-242-6688,jacob.rodriguez@outlook.com
+12,Caroline Allen,61,8/23/1964,F,Dr. Laura Gomez,Self-Pay,20372.77,3/19/2025,3/30/2025,"2606 Sunset Blvd, Houston, WA 72493",72493,(751)-993-8921,caroline.allen@outlook.com
+13,Liam Barnes,49,7/11/1976,F,Dr. Angela Chen,Commercial - BlueCross,10888.74,4/20/2025,5/1/2025,"570 Ridge Rd, Chicago, CO 96374",96374,(417)-563-5232,liam.barnes@outlook.com
+14,Sophia Thompson,84,12/16/1941,F,Dr. Priya Shah,Medicaid,29222.87,5/15/2025,5/19/2025,"8141 Ridge Rd, Dallas, AZ 94012",94012,(426)-614-4986,sophia.thompson@outlook.com
+15,Quinn Martinez,85,5/9/1939,M,Dr. Laura Gomez,Commercial - Cigna,22689.96,12/26/2024,12/31/2024,"3877 Maple Ave, Phoenix, FL 96673",96673,(960)-748-4033,
+16,Yasmin Davis,53,1/23/1971,M,Dr. Priya Shah,Self-Pay,8973.53,8/20/2024,8/25/2024,"8851 Pine Dr, Denver, TX 77033",77033,(255)-766-5786,yasmin.davis@yahoo.com
+17,Victoria Barnes,80,1/9/1945,F,Dr. Michael Lee,Commercial - Aetna,12447.06,5/5/2025,5/8/2025,"7927 Maple Ave, Austin, GA 56438",56438,(275)-790-1878,
+18,Anthony Green,56,10/8/1969,F,Dr. Robert Kim,Medicare,22985.81,3/2/2025,3/15/2025,"8661 Sunset Blvd, Miami, TN 24621",24621,(802)-639-6003,anthony.green@gmail.com
+19,Uma Baker,30,2/6/1994,F,Dr. Robert Kim,Medicare Advantage,26926.48,6/9/2024,6/18/2024,"143 Sunset Blvd, Miami, TN 44973",44973,(233)-437-5720,uma.baker@example.org
+20,Caroline King,47,3/3/1977,M,Dr. Robert Kim,Commercial - BlueCross,5918.89,8/18/2024,8/23/2024,"1077 Pine Dr, Denver, WA 19305",19305,(327)-679-5982,caroline.king@outlook.com
+21,Ruby Martinez,81,5/1/1944,M,Dr. Priya Shah,Commercial - Aetna,3034.64,3/18/2025,3/28/2025,"1596 Cedar Ln, Nashville, TX 30374",30374,(888)-475-1659,ruby.martinez@yahoo.com
+22,Quinn Allen,74,6/14/1951,M,Dr. Samuel Ortiz,Commercial - Aetna,18281.57,5/18/2025,5/26/2025,"5560 Walnut Ave, Austin, CO 36071",36071,(621)-910-9117,quinn.allen@example.org
+23,Bianca Collins,88,7/28/1936,F,Dr. Jason Miller,Medicare,13608.91,11/27/2024,12/10/2024,"8531 Oak St, Atlanta, TN 69177",69177,(255)-392-9494,bianca.collins@example.org
+24,Victoria Scott,24,8/4/2000,F,Dr. Angela Chen,Commercial - Aetna,6544.01,10/21/2024,11/2/2024,"572 Cedar Ln, Houston, WA 11934",11934,(214)-765-7684,
+25,Bianca Rodriguez,77,7/27/1947,F,Dr. Samuel Ortiz,Commercial - BlueCross,37407.14,10/25/2024,10/30/2024,"8005 Ridge Rd, Phoenix, TN 11934",11934,(348)-592-4122,bianca.rodriguez@yahoo.com
+26,Caleb Nguyen,53,10/19/1971,M,Dr. David Patel,Self-Pay,21047.9,1/3/2024,1/8/2024,"8122 Pine Dr, Miami, TN 52487",52487,(540)-765-9903,caleb.nguyen@outlook.com
+27,Caleb Miller,48,12/26/1976,M,Dr. Robert Kim,Self-Pay,31358.46,2/14/2024,2/22/2024,"6346 Sunset Blvd, Houston, TN 66959",66959,(237)-329-9229,caleb.miller@outlook.com
+28,Caleb Rodriguez,74,2/16/1951,F,Dr. Jason Miller,Medicare,29314.09,2/23/2025,2/26/2025,"4442 Walnut Ave, Nashville, GA 85880",85880,(282)-536-9742,caleb.rodriguez@outlook.com
+29,Victoria Adams,80,2/14/1944,F,Dr. Priya Shah,Medicaid,25799.7,10/21/2024,11/2/2024,"1712 Maple Ave, Miami, CO 51441",51441,(506)-229-1753,victoria.adams@gmail.com
+30,Jacob Hernandez,65,10/28/1959,M,Dr. Samuel Ortiz,Medicaid,21949.9,7/3/2024,7/5/2024,"6367 Cedar Ln, Miami, CO 86622",86622,(672)-853-5161,jacob.hernandez@gmail.com
+31,Diana Rivera,77,11/14/1947,M,Dr. Samuel Ortiz,Medicare,18506.6,12/19/2024,12/24/2024,"4197 Ridge Rd, Denver, IL 31643",31643,(694)-309-4886,diana.rivera@outlook.com
+32,Thomas Morgan,55,8/27/1969,F,Dr. Laura Gomez,Medicare Advantage,1811.77,2/20/2024,3/3/2024,"4789 Cedar Ln, Nashville, FL 44718",44718,(851)-394-5106,thomas.morgan@yahoo.com
+33,Victoria Rodriguez,23,5/11/2001,M,Dr. Jason Miller,Medicare,23813.59,5/14/2024,,"6907 Pine Dr, Phoenix, CO 42914",42914,(752)-574-9697,victoria.rodriguez@outlook.com
+34,Bianca Brooks,50,3/25/1974,M,Dr. Angela Chen,Commercial - Cigna,35010.28,4/27/2024,4/29/2024,"3796 Sunset Blvd, Atlanta, FL 15695",15695,(604)-214-5332,bianca.brooks@example.org
+35,Mia King,51,9/11/1974,M,Dr. David Patel,Medicare,27481.21,4/27/2025,,"3726 Maple Ave, Miami, WA 85880",85880,(618)-319-3290,
+36,Benjamin Morgan,81,11/24/1943,F,Dr. Priya Shah,Medicaid,35659.48,5/18/2024,5/24/2024,"8950 Sunset Blvd, Nashville, CO 63964",63964,(624)-870-2622,benjamin.morgan@example.org
+37,Isabella Carter,65,11/12/1960,F,Dr. Jason Miller,Commercial - BlueCross,38096.37,1/6/2025,,"9020 Walnut Ave, Dallas, GA 79352",79352,(394)-325-8450,
+38,Grace Lopez,20,9/7/2004,F,Dr. David Patel,Medicaid,39569.6,7/29/2024,,"9707 Cedar Ln, Phoenix, FL 54942",54942,(351)-810-1046,grace.lopez@yahoo.com
+39,Elena Martinez,50,4/19/1974,F,Dr. Priya Shah,Commercial - Cigna,34858.24,5/14/2024,,"5404 Oak St, Houston, WA 38893",38893,(329)-959-7897,elena.martinez@gmail.com
+40,Quinn Scott,64,11/17/1960,F,Dr. Jason Miller,Commercial - Aetna,10029.67,2/14/2024,2/28/2024,"5041 Ridge Rd, Dallas, TX 63354",63354,(611)-636-2768,quinn.scott@example.org
+41,Caroline Nguyen,59,9/10/1965,F,Dr. Priya Shah,Medicaid,12088.12,11/28/2024,12/8/2024,"7533 Sunset Blvd, Austin, AZ 37535",37535,(870)-866-4522,caroline.nguyen@yahoo.com
+42,Olivia Johnson,76,6/5/1949,M,Dr. Laura Gomez,Commercial - Cigna,5160.8,3/13/2025,3/18/2025,"7870 Maple Ave, Austin, AZ 70217",70217,(642)-298-7105,olivia.johnson@gmail.com
+43,Thomas Martinez,89,1/10/1936,M,Dr. Priya Shah,Commercial - BlueCross,15113.53,3/9/2025,3/21/2025,"9937 Birch St, Chicago, AZ 61173",61173,(719)-417-3535,thomas.martinez@yahoo.com
+44,Caleb Rodriguez,62,9/25/1962,M,Dr. Priya Shah,Self-Pay,12224.88,8/19/2024,9/2/2024,"9221 Oak St, Nashville, WA 13905",13905,(384)-479-6062,caleb.rodriguez@outlook.com
+45,Ava Brooks,36,9/7/1988,M,Dr. Priya Shah,Medicaid,30027.31,2/1/2024,,"6263 Sunset Blvd, Miami, FL 19358",19358,(578)-519-6314,ava.brooks@gmail.com
+46,Diana Carter,37,10/15/1988,F,Dr. Michael Lee,Commercial - Cigna,4640.89,3/29/2025,4/6/2025,"6885 Birch St, Phoenix, AZ 52487",52487,(640)-313-5640,diana.carter@example.org
+47,Ruby King,57,5/7/1967,F,Dr. Robert Kim,Commercial - BlueCross,39401.16,2/26/2024,,"2348 Birch St, Denver, FL 96673",96673,(207)-709-8055,
+48,Noah Martinez,47,2/28/1977,M,Dr. Priya Shah,Commercial - BlueCross,34677.93,2/13/2024,2/21/2024,"5229 Sunset Blvd, Nashville, GA 80468",80468,(855)-627-5743,
+49,Ava Johnson,39,7/17/1985,M,Dr. David Patel,Medicare,18313.4,4/18/2024,4/28/2024,"1388 Sunset Blvd, Denver, FL 28301",28301,(541)-997-3754,
+50,Victoria Rodriguez,85,5/7/1939,F,Dr. David Patel,Medicare Advantage,29504.1,5/31/2024,6/3/2024,"2942 Pine Dr, Austin, CO 33405",33405,(991)-843-9095,victoria.rodriguez@example.org
+51,William Green,59,5/19/1966,M,Dr. Samuel Ortiz,Commercial - BlueCross,4129.02,3/28/2025,4/10/2025,"1020 Walnut Ave, Atlanta, AZ 44522",44522,(672)-662-1616,
+52,Bianca Morgan,27,10/21/1997,F,Dr. Laura Gomez,Commercial - BlueCross,23842.68,2/12/2024,2/25/2024,"3184 Walnut Ave, Nashville, TN 98259",98259,(354)-263-8381,
+53,Diana Stewart,61,9/20/1964,F,Dr. Samuel Ortiz,Medicare,11038.13,3/24/2025,4/2/2025,"2700 Walnut Ave, Chicago, WA 79163",79163,(618)-993-6543,diana.stewart@gmail.com
+54,Anthony Lopez,60,11/20/1965,F,Dr. David Patel,Medicare,22981.58,1/30/2025,2/11/2025,"2563 Walnut Ave, Austin, CO 13101",13101,(558)-517-7421,
+55,Xavier Nguyen,57,11/14/1968,M,Dr. David Patel,Self-Pay,6420.06,6/23/2025,,"8431 Walnut Ave, Dallas, FL 44522",44522,(384)-419-6598,xavier.nguyen@example.org
+56,Grace Wilson,35,12/17/1989,F,Dr. Priya Shah,Medicare Advantage,34010.49,4/13/2024,4/22/2024,"718 Walnut Ave, Nashville, CO 48890",48890,(585)-357-3658,
+57,Xavier Collins,39,5/25/1985,M,Dr. Michael Lee,Commercial - BlueCross,15525.53,8/31/2024,9/10/2024,"7455 Cedar Ln, Atlanta, IL 44522",44522,(680)-398-7026,xavier.collins@example.org
+58,Peter Collins,54,11/16/1970,M,Dr. Laura Gomez,Medicaid,32950.31,5/21/2024,5/22/2024,"6181 Maple Ave, Atlanta, AZ 99166",99166,(285)-981-3626,peter.collins@yahoo.com
+59,Bianca Brown,29,9/12/1996,F,Dr. Jason Miller,Medicare Advantage,37323.17,2/28/2025,,"3962 Sunset Blvd, Austin, FL 42325",42325,(228)-526-2623,bianca.brown@outlook.com
+60,Anthony Garcia,35,8/20/1989,F,Dr. Angela Chen,Self-Pay,19689.51,5/22/2024,5/30/2024,"186 Maple Ave, Dallas, WA 70142",70142,(353)-761-9647,anthony.garcia@outlook.com
+61,Henry Morgan,33,8/20/1992,F,Dr. Robert Kim,Commercial - BlueCross,26099.64,4/13/2025,,"8882 Oak St, Atlanta, IL 27361",27361,(347)-498-8032,
+62,Mia Wilson,71,9/26/1953,F,Dr. Priya Shah,Commercial - Aetna,39024.2,3/10/2024,3/19/2024,"8416 Oak St, Seattle, TN 36062",36062,(850)-596-7116,mia.wilson@gmail.com
+63,Mia Rivera,26,6/5/1998,M,Dr. Robert Kim,Commercial - Cigna,26798.52,4/16/2024,4/28/2024,"826 Walnut Ave, Atlanta, FL 82309",82309,(858)-379-8612,mia.rivera@example.org
+64,Victoria Brooks,35,6/10/1989,F,Dr. Jason Miller,Medicare,12797.54,2/14/2024,2/15/2024,"8544 Sunset Blvd, Atlanta, TN 24371",24371,(237)-971-4131,victoria.brooks@gmail.com
+65,Caleb Lopez,60,6/6/1965,M,Dr. Priya Shah,Self-Pay,15668.74,2/13/2025,2/20/2025,"8229 Ridge Rd, Chicago, WA 53719",53719,(284)-944-7955,
+66,Uma Stewart,41,12/14/1983,M,Dr. David Patel,Medicare,4582.65,10/29/2024,11/8/2024,"2830 Ridge Rd, Chicago, TN 83563",83563,(944)-561-8126,uma.stewart@gmail.com
+67,Caroline King,69,2/8/1956,M,Dr. Samuel Ortiz,Medicare,6997.01,3/24/2025,,"6101 Walnut Ave, Seattle, TX 81066",81066,(357)-895-8371,caroline.king@outlook.com
+68,Peter Collins,27,1/24/1997,F,Dr. David Patel,Commercial - BlueCross,13603.84,10/12/2024,10/14/2024,"3148 Ridge Rd, Atlanta, GA 39831",39831,(775)-320-5288,peter.collins@example.org
+69,Grace Patel,54,8/3/1970,M,Dr. Robert Kim,Medicare,6725.54,3/16/2024,3/28/2024,"5336 Walnut Ave, Austin, WA 44970",44970,(507)-361-3852,grace.patel@yahoo.com
+70,Daniel Miller,35,3/20/1990,F,Dr. Jason Miller,Medicare,15394.52,1/12/2025,1/21/2025,"1512 Maple Ave, Denver, GA 27361",27361,(936)-690-9612,daniel.miller@example.org
+71,Bianca Green,27,3/27/1998,F,Dr. David Patel,Commercial - Cigna,4355.35,4/22/2025,4/28/2025,"9132 Pine Dr, Houston, GA 95649",95649,(256)-327-9488,
+72,Franklin Brooks,59,9/9/1965,F,Dr. David Patel,Commercial - Aetna,35954.65,3/21/2024,4/1/2024,"2150 Birch St, Nashville, AZ 95649",95649,(856)-372-3526,
+73,Uma Baker,61,10/14/1963,F,Dr. Michael Lee,Medicare,3250.28,9/28/2024,10/11/2024,"596 Ridge Rd, Atlanta, WA 62923",62923,(509)-694-5012,uma.baker@example.org
+74,Jacob Scott,27,3/11/1998,F,Dr. Samuel Ortiz,Commercial - BlueCross,17501.44,4/20/2025,4/30/2025,"5331 Walnut Ave, Seattle, CO 24029",24029,(579)-727-2739,jacob.scott@example.org
+75,Daniel Flores,75,4/28/1950,F,Dr. Samuel Ortiz,Medicare,3448.3,1/28/2025,2/4/2025,"2716 Walnut Ave, Nashville, FL 14207",14207,(981)-363-9163,daniel.flores@example.org
+76,Quinn Morgan,81,1/2/1943,F,Dr. Priya Shah,Commercial - BlueCross,20959.61,9/3/2024,9/9/2024,"4709 Ridge Rd, Nashville, TN 25014",25014,(749)-208-2761,quinn.morgan@outlook.com
+77,Yasmin Hernandez,69,2/13/1955,M,Dr. Michael Lee,Commercial - BlueCross,3469.57,7/18/2024,7/23/2024,"8361 Ridge Rd, Atlanta, WA 29536",29536,(838)-896-2946,
+78,Daniel Perez,65,1/2/1960,M,Dr. David Patel,Self-Pay,7054.29,6/5/2025,6/6/2025,"2345 Walnut Ave, Miami, TN 97841",97841,(820)-727-3290,daniel.perez@outlook.com
+79,Franklin Perez,56,6/22/1969,M,Dr. Jason Miller,Commercial - Cigna,23172.58,5/1/2025,5/7/2025,"1895 Sunset Blvd, Nashville, WA 46265",46265,(942)-904-1436,franklin.perez@outlook.com
+80,Victoria Rivera,47,4/2/1978,F,Dr. Jason Miller,Medicaid,21682.94,1/24/2025,2/4/2025,"9480 Maple Ave, Phoenix, TX 92719",92719,(521)-628-3481,victoria.rivera@yahoo.com
+81,Olivia Allen,78,9/13/1946,F,Dr. Samuel Ortiz,Commercial - Aetna,9482.66,11/28/2024,12/6/2024,"5240 Pine Dr, Miami, FL 16630",16630,(562)-892-5331,olivia.allen@yahoo.com
+82,Henry Flores,89,6/16/1935,M,Dr. Robert Kim,Medicare Advantage,31190.21,7/31/2024,8/8/2024,"5814 Birch St, Denver, AZ 59672",59672,(892)-756-7220,henry.flores@example.org
+83,Bianca Hernandez,36,11/9/1988,M,Dr. Michael Lee,Medicare Advantage,38279.58,3/21/2024,3/29/2024,"7949 Cedar Ln, Phoenix, WA 56025",56025,(775)-912-5450,
+84,Uma Baker,48,2/14/1976,F,Dr. Michael Lee,Commercial - Cigna,36349.59,8/19/2024,8/20/2024,"5511 Ridge Rd, Austin, CO 13278",13278,(763)-361-7666,uma.baker@example.org
+85,Quinn Lopez,43,9/24/1981,M,Dr. David Patel,Medicare Advantage,26367.07,4/1/2024,4/5/2024,"711 Pine Dr, Seattle, CO 94080",94080,(237)-606-9116,
+86,Yasmin Barnes,55,5/15/1969,F,Dr. Michael Lee,Medicare Advantage,23366.53,4/19/2024,4/25/2024,"9001 Ridge Rd, Houston, TN 88104",88104,(397)-315-6417,
+87,Peter Lopez,50,4/6/1974,F,Dr. Michael Lee,Commercial - Cigna,14478.82,10/29/2024,11/11/2024,"6743 Sunset Blvd, Atlanta, FL 89131",89131,(610)-885-2562,
+88,Elena Davis,59,5/19/1966,F,Dr. Michael Lee,Medicare Advantage,16267.61,4/2/2025,4/8/2025,"9486 Oak St, Denver, FL 69929",69929,(441)-263-2936,elena.davis@yahoo.com
+89,Noah King,82,4/5/1942,M,Dr. Priya Shah,Commercial - Cigna,36771.02,10/29/2024,11/2/2024,"7934 Pine Dr, Miami, FL 25860",25860,(918)-762-8714,noah.king@yahoo.com
+90,Zoe Wilson,28,9/17/1996,M,Dr. David Patel,Medicare,36813.92,4/24/2024,,"3412 Pine Dr, Houston, FL 99399",99399,(732)-652-2904,zoe.wilson@example.org
+91,Caroline Allen,75,8/22/1950,F,Dr. Jason Miller,Medicaid,21260.04,4/12/2025,4/21/2025,"5149 Oak St, Seattle, WA 83519",83519,(203)-963-4570,caroline.allen@gmail.com
+92,Olivia Hernandez,26,11/24/1999,F,Dr. Priya Shah,Commercial - BlueCross,2721.79,2/22/2025,2/25/2025,"6987 Walnut Ave, Seattle, TN 30257",30257,(586)-584-2314,olivia.hernandez@yahoo.com
+93,Victoria Barnes,62,1/25/1962,F,Dr. Samuel Ortiz,Commercial - Aetna,16632.76,5/10/2024,5/14/2024,"472 Birch St, Miami, GA 46509",46509,(588)-435-5055,victoria.barnes@yahoo.com
+94,Isabella Miller,32,2/20/1992,F,Dr. Laura Gomez,Commercial - Aetna,30993.06,1/17/2024,1/19/2024,"650 Ridge Rd, Nashville, TX 76784",76784,(958)-245-7590,isabella.miller@yahoo.com
+95,Zoe Barnes,25,11/27/1999,F,Dr. Angela Chen,Medicaid,32907.77,11/22/2024,12/5/2024,"5353 Cedar Ln, Denver, CO 96163",96163,(733)-426-7775,zoe.barnes@gmail.com
+96,Sophia Green,40,12/14/1985,M,Dr. Jason Miller,Medicare,38933.17,1/25/2025,1/31/2025,"6788 Pine Dr, Denver, GA 52504",52504,(972)-750-8758,sophia.green@yahoo.com
+97,Jacob Barnes,36,7/8/1989,M,Dr. Michael Lee,Commercial - Aetna,17388.08,3/2/2025,3/5/2025,"4277 Cedar Ln, Chicago, AZ 62227",62227,(660)-579-2514,jacob.barnes@yahoo.com
+98,Benjamin Flores,66,6/10/1958,F,Dr. Priya Shah,Medicaid,32479.05,8/10/2024,8/24/2024,"351 Cedar Ln, Phoenix, AZ 82692",82692,(972)-690-4974,benjamin.flores@yahoo.com
+99,Noah Wilson,88,9/16/1937,M,Dr. Angela Chen,Commercial - BlueCross,19450.64,1/2/2025,1/8/2025,"7735 Maple Ave, Miami, FL 39219",39219,(408)-579-6126,noah.wilson@yahoo.com
+100,Yasmin Garcia,20,4/16/2004,M,Dr. Laura Gomez,Medicare Advantage,7367.84,12/3/2024,12/13/2024,"9121 Walnut Ave, Denver, TN 55309",55309,(940)-857-9037,yasmin.garcia@outlook.com
+101,Franklin Garcia,87,2/27/1937,M,Dr. Samuel Ortiz,Commercial - Aetna,39627.46,3/1/2024,3/15/2024,"894 Oak St, Seattle, CO 15482",15482,(845)-436-2113,franklin.garcia@gmail.com
+102,Grace Allen,76,1/18/1949,M,Dr. Michael Lee,Commercial - Aetna,26052.55,5/9/2025,5/10/2025,"9138 Sunset Blvd, Dallas, TX 34050",34050,(939)-481-9777,grace.allen@gmail.com
+103,Ruby Stewart,73,5/27/1951,F,Dr. Priya Shah,Medicare,21688.84,9/3/2024,9/12/2024,"5907 Birch St, Seattle, AZ 26483",26483,(615)-670-4984,ruby.stewart@yahoo.com
+104,Jacob King,28,1/23/1997,F,Dr. Priya Shah,Commercial - BlueCross,16101.66,5/2/2025,,"2907 Maple Ave, Miami, GA 84668",84668,(539)-779-2562,jacob.king@gmail.com
+105,Henry Miller,90,11/2/1934,M,Dr. Angela Chen,Medicare,37080.13,10/14/2024,10/24/2024,"3038 Walnut Ave, Dallas, IL 82845",82845,(347)-970-7525,henry.miller@outlook.com
+106,Franklin Green,48,12/3/1976,M,Dr. David Patel,Commercial - BlueCross,30590.96,5/23/2024,6/4/2024,"8304 Walnut Ave, Dallas, AZ 10942",10942,(437)-277-6580,franklin.green@example.org
+107,Zoe Johnson,21,10/22/2004,M,Dr. Jason Miller,Commercial - BlueCross,10283.33,1/19/2025,1/30/2025,"6327 Maple Ave, Nashville, WA 15778",15778,(452)-930-2204,
+108,Elena Perez,37,6/25/1987,M,Dr. David Patel,Medicare Advantage,5602.21,1/6/2024,1/14/2024,"4519 Maple Ave, Houston, AZ 17331",17331,(641)-659-9395,elena.perez@gmail.com
+109,Caroline Hernandez,88,2/24/1936,F,Dr. David Patel,Self-Pay,16331.66,10/25/2024,11/7/2024,"9267 Cedar Ln, Nashville, CO 27154",27154,(589)-373-3274,caroline.hernandez@outlook.com
+110,Quinn Garcia,26,5/8/1999,F,Dr. Laura Gomez,Medicare Advantage,17712.44,5/10/2025,5/16/2025,"8223 Cedar Ln, Miami, AZ 69429",69429,(511)-206-7483,quinn.garcia@example.org
+111,Anthony Barnes,60,12/7/1964,M,Dr. David Patel,Commercial - BlueCross,32895.81,5/19/2024,5/29/2024,"7948 Walnut Ave, Houston, GA 51114",51114,(526)-498-9044,anthony.barnes@yahoo.com
+112,Liam Perez,53,3/22/1971,M,Dr. David Patel,Medicare,37384.59,7/23/2024,8/1/2024,"9112 Oak St, Miami, IL 19305",19305,(498)-909-2133,liam.perez@example.org
+113,William Davis,35,8/20/1990,M,Dr. Robert Kim,Medicare Advantage,26858.52,3/9/2025,3/11/2025,"7951 Sunset Blvd, Atlanta, GA 22833",22833,(237)-568-9796,william.davis@gmail.com
+114,Daniel Collins,49,7/4/1976,M,Dr. Samuel Ortiz,Commercial - Cigna,25088.1,2/13/2025,2/19/2025,"272 Maple Ave, Denver, IL 62772",62772,(964)-731-4621,daniel.collins@example.org
+115,Peter Collins,82,2/27/1942,F,Dr. David Patel,Medicare,20086.69,10/29/2024,10/31/2024,"2421 Walnut Ave, Denver, FL 41195",41195,(411)-733-8912,peter.collins@gmail.com
+116,Peter Baker,75,6/21/1949,M,Dr. Priya Shah,Medicare Advantage,3220.3,4/27/2024,,"1891 Pine Dr, Phoenix, CO 11934",11934,(363)-538-7985,peter.baker@yahoo.com
+117,Anthony Perez,41,7/1/1983,F,Dr. Laura Gomez,Commercial - BlueCross,2623.9,7/21/2024,7/28/2024,"3619 Cedar Ln, Denver, AZ 61173",61173,(304)-749-4063,anthony.perez@yahoo.com
+118,Peter Rodriguez,51,6/28/1974,M,Dr. David Patel,Commercial - Aetna,16462.61,2/5/2025,2/11/2025,"7601 Pine Dr, Denver, AZ 36772",36772,(337)-520-2931,peter.rodriguez@gmail.com
+119,Franklin Hernandez,36,11/18/1989,M,Dr. Laura Gomez,Commercial - Aetna,6807.89,1/27/2025,2/4/2025,"2938 Pine Dr, Miami, WA 57819",57819,(391)-522-8389,franklin.hernandez@outlook.com
+120,Ava Davis,35,7/23/1990,F,Dr. Laura Gomez,Commercial - Aetna,20959.36,5/21/2025,5/29/2025,"7372 Ridge Rd, Houston, AZ 38016",38016,(231)-979-4613,ava.davis@outlook.com
+121,Henry Martinez,54,10/4/1971,F,Dr. Jason Miller,Commercial - Aetna,30086.95,5/22/2025,5/24/2025,"4489 Walnut Ave, Atlanta, TX 24029",24029,(936)-651-9951,henry.martinez@example.org
+122,Daniel Baker,49,4/7/1975,M,Dr. Michael Lee,Commercial - BlueCross,11618.39,3/30/2024,4/1/2024,"9732 Walnut Ave, Nashville, GA 80010",80010,(830)-342-4385,daniel.baker@gmail.com
+123,Thomas Hernandez,86,9/22/1938,M,Dr. Samuel Ortiz,Medicare Advantage,39191.51,10/26/2024,10/31/2024,"1660 Pine Dr, Seattle, TX 79352",79352,(871)-329-3174,thomas.hernandez@outlook.com
+124,Bianca Wilson,68,11/26/1957,M,Dr. Samuel Ortiz,Commercial - Aetna,25847.48,2/28/2025,3/2/2025,"1625 Sunset Blvd, Atlanta, WA 51441",51441,(577)-665-8996,bianca.wilson@gmail.com
+125,Caleb Collins,29,4/16/1996,M,Dr. David Patel,Self-Pay,3938.23,2/11/2025,2/18/2025,"4499 Walnut Ave, Denver, FL 95477",95477,(791)-333-8951,caleb.collins@gmail.com
+126,Benjamin Rodriguez,76,7/7/1949,F,Dr. Priya Shah,Self-Pay,7582.37,4/12/2025,,"2261 Birch St, Houston, WA 70217",70217,(870)-569-5102,
+127,William Lopez,39,12/4/1985,F,Dr. Laura Gomez,Commercial - Cigna,13262.11,8/27/2024,8/29/2024,"117 Cedar Ln, Miami, AZ 59823",59823,(807)-431-9510,william.lopez@gmail.com
+128,Ava Adams,61,12/26/1963,F,Dr. Laura Gomez,Commercial - Cigna,6588.74,3/13/2024,3/15/2024,"1778 Maple Ave, Chicago, FL 33509",33509,(506)-340-7270,ava.adams@yahoo.com
+129,Victoria King,36,11/24/1989,F,Dr. Michael Lee,Commercial - Aetna,26525.78,3/26/2025,3/30/2025,"2580 Sunset Blvd, Nashville, TN 23473",23473,(422)-288-2646,
+130,Daniel Green,67,4/18/1957,M,Dr. Laura Gomez,Medicare Advantage,31956.45,9/10/2024,9/12/2024,"9946 Birch St, Dallas, WA 37869",37869,(730)-821-9348,
+131,Noah Morgan,24,9/1/2001,F,Dr. Jason Miller,Commercial - BlueCross,5840.63,5/26/2025,5/28/2025,"6016 Walnut Ave, Houston, GA 23473",23473,(782)-630-6986,noah.morgan@yahoo.com
+132,Zoe Davis,27,7/17/1997,F,Dr. Priya Shah,Medicare,11594.13,2/10/2024,2/23/2024,"4793 Sunset Blvd, Seattle, GA 57052",57052,(855)-749-9808,zoe.davis@outlook.com
+133,Caroline Morgan,28,12/28/1996,F,Dr. Samuel Ortiz,Commercial - Aetna,14079.89,3/8/2024,3/15/2024,"4009 Oak St, Phoenix, AZ 53025",53025,(644)-318-8428,caroline.morgan@gmail.com
+134,Jacob King,40,9/17/1984,F,Dr. Michael Lee,Commercial - Cigna,6782.65,1/12/2024,1/18/2024,"4347 Pine Dr, Chicago, CO 49240",49240,(999)-475-2934,jacob.king@gmail.com
+135,Liam Rivera,72,6/2/1952,M,Dr. Priya Shah,Medicare Advantage,28924.45,3/19/2024,3/28/2024,"8285 Pine Dr, Chicago, CO 30033",30033,(991)-305-2889,liam.rivera@gmail.com
+136,Benjamin Barnes,19,1/18/2005,F,Dr. Michael Lee,Commercial - BlueCross,15513.1,6/2/2024,6/16/2024,"6970 Cedar Ln, Chicago, IL 42493",42493,(937)-527-5444,benjamin.barnes@outlook.com
+137,Daniel Allen,24,8/28/2000,F,Dr. Robert Kim,Self-Pay,21357.3,2/17/2024,2/19/2024,"4725 Birch St, Chicago, AZ 22224",22224,(667)-208-7044,daniel.allen@outlook.com
+138,Yasmin Patel,49,4/5/1975,M,Dr. David Patel,Commercial - Aetna,38916.52,7/19/2024,7/28/2024,"204 Sunset Blvd, Dallas, IL 82132",82132,(554)-851-1157,yasmin.patel@gmail.com
+139,Zoe King,66,3/23/1958,M,Dr. Priya Shah,Medicaid,21897.86,8/31/2024,9/1/2024,"4684 Maple Ave, Dallas, IL 60140",60140,(732)-622-7102,zoe.king@gmail.com
+140,Thomas Rodriguez,82,4/10/1942,F,Dr. Laura Gomez,Medicare,24287.99,3/4/2024,3/7/2024,"4376 Walnut Ave, Seattle, FL 23947",23947,(663)-478-4827,
+141,Grace Garcia,31,6/25/1993,F,Dr. Priya Shah,Medicaid,18808.32,11/17/2024,11/26/2024,"3501 Ridge Rd, Denver, TN 88172",88172,(322)-292-3582,grace.garcia@outlook.com
+142,Bianca Adams,23,9/2/2001,F,Dr. David Patel,Medicaid,5011.7,9/11/2024,9/18/2024,"4996 Birch St, Houston, TX 33405",33405,(614)-663-5093,
+143,Daniel Rivera,35,7/12/1989,F,Dr. Michael Lee,Medicare,33469.33,8/15/2024,8/29/2024,"1476 Birch St, Austin, TX 54597",54597,(402)-861-8265,daniel.rivera@gmail.com
+144,Diana Barnes,60,8/1/1965,F,Dr. Michael Lee,Commercial - BlueCross,3449.55,3/19/2025,3/26/2025,"6370 Sunset Blvd, Houston, FL 94259",94259,(391)-481-5585,diana.barnes@yahoo.com
+145,Benjamin Patel,49,5/13/1976,M,Dr. Jason Miller,Commercial - BlueCross,35486.98,5/5/2025,,"2348 Sunset Blvd, Phoenix, IL 34356",34356,(756)-219-7266,benjamin.patel@outlook.com
+146,Quinn Martinez,80,1/26/1944,M,Dr. David Patel,Commercial - BlueCross,11911.77,1/27/2024,1/31/2024,"4702 Oak St, Miami, FL 45697",45697,(798)-438-3615,
+147,William Wilson,52,3/6/1973,F,Dr. Robert Kim,Commercial - Aetna,34090.45,2/1/2025,2/15/2025,"3975 Walnut Ave, Chicago, TX 83792",83792,(917)-560-3328,william.wilson@yahoo.com
+148,Bianca Rivera,81,1/17/1943,M,Dr. Samuel Ortiz,Commercial - BlueCross,2961.6,2/27/2024,3/2/2024,"7931 Oak St, Chicago, IL 93507",93507,(333)-548-3907,bianca.rivera@outlook.com
+149,Benjamin Thompson,36,12/22/1989,F,Dr. Priya Shah,Self-Pay,21762.35,1/8/2025,1/14/2025,"6581 Maple Ave, Chicago, WA 93748",93748,(339)-361-8157,benjamin.thompson@example.org
+150,Victoria Johnson,40,12/10/1984,M,Dr. Robert Kim,Commercial - Cigna,24174.58,6/28/2024,7/10/2024,"2186 Pine Dr, Dallas, GA 56898",56898,(989)-781-1530,
+151,Liam Rivera,46,3/21/1978,F,Dr. Jason Miller,Medicaid,14249.98,3/20/2024,3/26/2024,"1553 Walnut Ave, Miami, TX 88172",88172,(414)-455-2110,liam.rivera@gmail.com
+152,Yasmin Thompson,24,7/12/2000,M,Dr. Jason Miller,Commercial - Cigna,17656.65,6/19/2024,6/27/2024,"9046 Sunset Blvd, Austin, TN 16658",16658,(791)-866-4695,
+153,Caroline Rivera,22,3/13/2002,M,Dr. Michael Lee,Medicare Advantage,11553.42,4/17/2024,,"2736 Maple Ave, Atlanta, AZ 79514",79514,(808)-828-8909,caroline.rivera@example.org
+154,Victoria Brooks,73,12/24/1951,F,Dr. Michael Lee,Medicare,14247.14,7/13/2024,7/22/2024,"8949 Birch St, Denver, WA 62350",62350,(298)-250-7437,victoria.brooks@example.org
+155,Elena Carter,64,4/6/1961,F,Dr. Laura Gomez,Medicare,12840.15,5/6/2025,5/7/2025,"4881 Maple Ave, Miami, AZ 10425",10425,(607)-682-9013,elena.carter@outlook.com
+156,Caroline Lopez,87,5/15/1938,M,Dr. Samuel Ortiz,Medicare Advantage,35591.47,1/13/2025,1/14/2025,"7719 Birch St, Phoenix, WA 73092",73092,(263)-354-2584,
+157,Mia Rivera,87,9/22/1938,M,Dr. Robert Kim,Commercial - Aetna,3847.87,1/31/2025,2/7/2025,"7879 Cedar Ln, Miami, WA 59797",59797,(604)-931-1568,mia.rivera@yahoo.com
+158,Daniel Collins,75,2/22/1949,F,Dr. Samuel Ortiz,Medicaid,32625.74,5/9/2024,,"7233 Cedar Ln, Houston, WA 91959",91959,(944)-268-2425,daniel.collins@example.org
+159,Sophia Johnson,53,7/5/1972,M,Dr. Michael Lee,Self-Pay,28465.87,6/19/2025,6/21/2025,"2528 Maple Ave, Austin, AZ 42914",42914,(492)-748-6633,sophia.johnson@outlook.com
+160,Noah Lopez,80,12/13/1944,M,Dr. Michael Lee,Medicaid,12103.44,5/27/2024,6/7/2024,"735 Sunset Blvd, Chicago, IL 64987",64987,(963)-686-5400,noah.lopez@gmail.com
+161,Liam Stewart,56,3/10/1968,M,Dr. Angela Chen,Self-Pay,20427.34,4/10/2024,4/14/2024,"7359 Walnut Ave, Denver, GA 81066",81066,(861)-291-4079,liam.stewart@example.org
+162,Yasmin Davis,84,7/5/1940,M,Dr. Michael Lee,Commercial - Aetna,31972.38,3/8/2024,3/17/2024,"8689 Oak St, Houston, IL 33206",33206,(405)-259-5087,
+163,Benjamin Hernandez,43,11/1/1982,M,Dr. David Patel,Self-Pay,19372.41,2/10/2025,2/12/2025,"4063 Walnut Ave, Miami, TN 93886",93886,(685)-800-6730,benjamin.hernandez@outlook.com
+164,Yasmin Stewart,29,4/22/1995,M,Dr. Michael Lee,Commercial - BlueCross,3411.57,8/7/2024,8/18/2024,"3487 Birch St, Seattle, TX 83385",83385,(999)-985-1145,yasmin.stewart@yahoo.com
+165,Victoria Brooks,19,11/9/2005,F,Dr. Angela Chen,Commercial - Aetna,32495.79,11/8/2024,11/20/2024,"7043 Sunset Blvd, Chicago, TN 24371",24371,(423)-677-5950,victoria.brooks@example.org
+166,Thomas Rodriguez,18,5/21/2007,M,Dr. Angela Chen,Medicare Advantage,27849.91,5/8/2025,,"5427 Birch St, Denver, WA 40021",40021,(353)-729-4937,thomas.rodriguez@example.org
+167,William Johnson,35,1/19/1990,F,Dr. Jason Miller,Medicare Advantage,11487.91,3/4/2025,3/16/2025,"9472 Cedar Ln, Chicago, IL 98039",98039,(747)-853-8794,william.johnson@outlook.com
+168,Ruby Morgan,39,3/22/1985,F,Dr. Angela Chen,Medicare,19625.06,9/21/2024,9/30/2024,"5599 Maple Ave, Phoenix, FL 42325",42325,(962)-514-7889,ruby.morgan@outlook.com
+169,Mia Flores,55,9/4/1969,M,Dr. Priya Shah,Commercial - BlueCross,3566.56,3/13/2024,3/17/2024,"6353 Birch St, Seattle, TX 30257",30257,(354)-340-4281,mia.flores@example.org
+170,Elena Johnson,41,1/15/1983,F,Dr. Jason Miller,Medicare Advantage,25794.76,6/30/2024,7/1/2024,"4581 Cedar Ln, Houston, CO 66498",66498,(981)-998-2442,
+171,Olivia Lopez,72,6/1/1952,M,Dr. Laura Gomez,Commercial - BlueCross,16257.68,2/8/2024,2/20/2024,"5379 Cedar Ln, Dallas, TX 76562",76562,(951)-454-4707,olivia.lopez@outlook.com
+172,Jacob Garcia,31,8/24/1993,M,Dr. Angela Chen,Medicaid,4013.55,2/16/2024,2/21/2024,"8624 Walnut Ave, Seattle, CO 88504",88504,(701)-567-4087,
+173,Ethan Rivera,69,10/17/1955,F,Dr. Robert Kim,Medicaid,29496,5/14/2024,5/15/2024,"2868 Maple Ave, Chicago, TX 26828",26828,(855)-461-9761,ethan.rivera@gmail.com
+174,William Rodriguez,20,12/5/2004,F,Dr. Priya Shah,Commercial - BlueCross,18606.1,5/6/2024,5/14/2024,"3466 Oak St, Denver, GA 96163",96163,(303)-878-9524,william.rodriguez@yahoo.com
+175,Olivia Stewart,31,5/27/1994,F,Dr. Angela Chen,Medicare,31713.26,5/24/2025,5/28/2025,"8671 Cedar Ln, Chicago, GA 54587",54587,(364)-240-9980,olivia.stewart@yahoo.com
+176,Xavier Davis,60,8/5/1964,F,Dr. Michael Lee,Medicare,27357.88,4/23/2024,5/4/2024,"1575 Maple Ave, Austin, WA 25713",25713,(436)-667-5850,xavier.davis@gmail.com
+177,Daniel Stewart,40,2/28/1984,F,Dr. Angela Chen,Medicare Advantage,32361.45,11/16/2024,11/18/2024,"851 Oak St, Houston, CO 36071",36071,(566)-648-5395,daniel.stewart@gmail.com
+178,Mia Stewart,61,12/28/1964,F,Dr. Priya Shah,Commercial - BlueCross,16909.63,4/12/2025,4/19/2025,"7935 Sunset Blvd, Houston, AZ 59823",59823,(912)-943-1960,mia.stewart@yahoo.com
+179,Daniel Brown,79,11/27/1946,M,Dr. Samuel Ortiz,Commercial - Aetna,16120.4,1/2/2025,1/16/2025,"2240 Ridge Rd, Miami, AZ 97806",97806,(621)-651-1753,
+180,Victoria Johnson,19,4/16/2005,F,Dr. David Patel,Commercial - Aetna,21639.47,4/7/2024,4/19/2024,"5764 Sunset Blvd, Houston, TX 39256",39256,(858)-360-9283,victoria.johnson@example.org
+181,Caleb Brooks,27,4/18/1997,M,Dr. David Patel,Medicaid,14239.45,10/11/2024,,"6303 Sunset Blvd, Phoenix, AZ 97684",97684,(654)-786-8341,
+182,Quinn Scott,58,9/18/1966,F,Dr. Jason Miller,Commercial - Cigna,26654.86,4/15/2024,4/16/2024,"102 Maple Ave, Nashville, WA 42527",42527,(720)-775-4389,quinn.scott@example.org
+183,Liam Hernandez,24,12/15/2001,F,Dr. Jason Miller,Medicare Advantage,23065.81,4/29/2025,5/5/2025,"1968 Maple Ave, Phoenix, TX 10074",10074,(563)-848-5783,liam.hernandez@outlook.com
+184,Xavier Rodriguez,23,4/7/2002,F,Dr. Jason Miller,Medicaid,33140.79,2/23/2025,3/5/2025,"2078 Sunset Blvd, Phoenix, TN 29536",29536,(395)-933-6536,
+185,Olivia Carter,33,1/17/1992,M,Dr. Jason Miller,Commercial - Cigna,24188.67,5/31/2025,6/8/2025,"895 Sunset Blvd, Nashville, TN 53025",53025,(720)-999-3903,olivia.carter@yahoo.com
+186,Yasmin Stewart,34,7/20/1990,F,Dr. Laura Gomez,Commercial - Cigna,24621.02,11/25/2024,12/2/2024,"4167 Birch St, Seattle, FL 67199",67199,(501)-663-3185,
+187,Uma Adams,83,12/10/1941,M,Dr. David Patel,Commercial - Cigna,29867.52,8/10/2024,8/20/2024,"5757 Pine Dr, Houston, FL 80468",80468,(318)-979-6771,uma.adams@example.org
+188,William Baker,86,3/2/1938,M,Dr. Laura Gomez,Self-Pay,1991.66,4/19/2024,,"1027 Cedar Ln, Denver, CO 25014",25014,(899)-456-3399,william.baker@outlook.com
+189,Grace Collins,87,7/8/1937,F,Dr. David Patel,Self-Pay,18924.89,8/17/2024,8/26/2024,"8470 Birch St, Dallas, GA 79163",79163,(626)-901-6122,grace.collins@gmail.com
+190,Ava Baker,50,12/20/1975,F,Dr. Jason Miller,Self-Pay,10183.62,1/11/2025,1/20/2025,"3318 Cedar Ln, Denver, TN 93886",93886,(899)-276-4063,ava.baker@gmail.com
+191,Noah Carter,72,8/23/1952,M,Dr. Angela Chen,Medicaid,7695.76,9/18/2024,,"2636 Oak St, Houston, FL 48890",48890,(252)-992-5934,noah.carter@outlook.com
+192,Caroline Rivera,58,9/13/1967,F,Dr. Samuel Ortiz,Commercial - Aetna,4124.79,6/1/2025,6/10/2025,"1606 Walnut Ave, Phoenix, IL 86503",86503,(539)-539-6911,caroline.rivera@example.org
+193,Sophia Stewart,19,6/13/2005,F,Dr. David Patel,Commercial - BlueCross,10753.39,9/6/2024,9/17/2024,"1957 Sunset Blvd, Denver, WA 65302",65302,(729)-988-7143,sophia.stewart@example.org
+194,Quinn Carter,55,9/18/1969,F,Dr. David Patel,Commercial - Aetna,4670.3,4/8/2024,4/21/2024,"220 Maple Ave, Phoenix, IL 83385",83385,(901)-634-2702,quinn.carter@example.org
+195,Victoria Stewart,27,1/6/1997,F,Dr. Michael Lee,Commercial - BlueCross,29099.43,2/8/2024,,"4227 Maple Ave, Nashville, IL 50001",50001,(464)-617-7357,victoria.stewart@example.org
+196,Olivia Johnson,20,1/23/2004,M,Dr. Priya Shah,Commercial - Aetna,1727.11,3/5/2024,3/15/2024,"1289 Walnut Ave, Atlanta, AZ 80381",80381,(902)-508-2417,olivia.johnson@example.org
+197,Noah Perez,21,9/10/2004,M,Dr. Samuel Ortiz,Commercial - Aetna,9964.83,2/4/2025,2/18/2025,"2460 Birch St, Chicago, TX 22224",22224,(768)-344-3019,
+198,Thomas Patel,68,9/5/1956,F,Dr. Angela Chen,Medicaid,30309.42,12/18/2024,12/29/2024,"2737 Pine Dr, Phoenix, WA 62581",62581,(317)-385-1891,thomas.patel@example.org
+199,Victoria Martinez,27,3/22/1998,M,Dr. Priya Shah,Medicare Advantage,5280.79,5/13/2025,5/19/2025,"3942 Maple Ave, Denver, AZ 15075",15075,(398)-525-8960,victoria.martinez@outlook.com
+200,Xavier Green,37,12/24/1987,M,Dr. David Patel,Commercial - BlueCross,7992.62,11/16/2024,11/20/2024,"7245 Birch St, Chicago, CO 41285",41285,(950)-539-8863,xavier.green@outlook.com
+201,Zoe Morgan,80,9/7/1944,F,Dr. Samuel Ortiz,Commercial - Cigna,24855.17,10/14/2024,10/17/2024,"4412 Maple Ave, Austin, TX 15229",15229,(719)-846-1511,zoe.morgan@example.org
+202,Zoe Green,45,6/13/1980,F,Dr. Angela Chen,Commercial - Aetna,35918.46,4/28/2025,5/1/2025,"3758 Birch St, Houston, TN 98259",98259,(722)-292-7500,zoe.green@gmail.com
+203,William Wilson,39,6/2/1985,F,Dr. Jason Miller,Medicaid,8397.09,5/29/2024,6/6/2024,"3685 Ridge Rd, Phoenix, AZ 88172",88172,(578)-439-1701,william.wilson@outlook.com
+204,Noah Davis,76,12/9/1949,F,Dr. Michael Lee,Commercial - Cigna,13976.74,6/17/2025,6/22/2025,"9580 Pine Dr, Seattle, GA 21226",21226,(801)-869-2275,noah.davis@example.org
+205,Ethan Wilson,84,1/17/1941,M,Dr. David Patel,Self-Pay,34907.2,5/13/2025,5/23/2025,"2376 Ridge Rd, Houston, IL 22156",22156,(726)-858-5600,ethan.wilson@yahoo.com
+206,Franklin Hernandez,33,8/7/1991,F,Dr. Laura Gomez,Self-Pay,14213.65,4/26/2024,5/4/2024,"9779 Pine Dr, Seattle, TX 28131",28131,(244)-330-3639,
+207,Ruby Carter,36,10/21/1989,F,Dr. Samuel Ortiz,Medicare Advantage,37014.2,6/13/2025,6/23/2025,"405 Birch St, Austin, IL 14117",14117,(821)-682-8891,
+208,Bianca Brown,36,10/3/1988,F,Dr. Angela Chen,Medicaid,29381.19,12/16/2024,12/26/2024,"3865 Sunset Blvd, Seattle, CO 91070",91070,(216)-407-9564,bianca.brown@example.org
+209,Bianca Garcia,30,2/16/1995,F,Dr. Jason Miller,Commercial - Aetna,24592.83,6/28/2025,6/30/2025,"2235 Oak St, Seattle, GA 19071",19071,(244)-914-9680,bianca.garcia@example.org
+210,Anthony Collins,66,2/10/1959,M,Dr. Priya Shah,Commercial - BlueCross,6654.5,5/3/2025,5/17/2025,"9902 Sunset Blvd, Denver, IL 13278",13278,(926)-961-1116,anthony.collins@gmail.com
+211,Ruby Thompson,66,5/9/1958,F,Dr. David Patel,Commercial - BlueCross,15447.39,6/7/2024,6/17/2024,"8883 Sunset Blvd, Nashville, FL 16572",16572,(482)-896-7511,ruby.thompson@example.org
+212,Sophia Rivera,89,10/12/1936,M,Dr. Samuel Ortiz,Medicare Advantage,23025.11,5/10/2025,5/15/2025,"6622 Pine Dr, Austin, IL 18834",18834,(916)-365-2642,sophia.rivera@example.org
+213,Anthony Johnson,88,3/16/1936,F,Dr. Samuel Ortiz,Commercial - BlueCross,38635.95,1/6/2024,1/20/2024,"9934 Sunset Blvd, Austin, AZ 65333",65333,(427)-579-2311,anthony.johnson@example.org
+214,Ethan Perez,84,11/26/1941,M,Dr. Michael Lee,Self-Pay,33078.81,5/21/2025,5/25/2025,"8589 Birch St, Phoenix, TX 74032",74032,(813)-722-9451,ethan.perez@yahoo.com
+215,William Carter,64,11/13/1960,F,Dr. Michael Lee,Medicaid,4843.45,10/9/2024,10/15/2024,"6742 Cedar Ln, Atlanta, TX 90173",90173,(920)-270-2477,william.carter@outlook.com
+216,Mia Stewart,53,9/4/1971,F,Dr. Robert Kim,Commercial - BlueCross,37293.98,1/5/2024,1/12/2024,"9252 Maple Ave, Atlanta, WA 10074",10074,(319)-725-5222,mia.stewart@outlook.com
+217,Xavier Scott,66,1/16/1959,M,Dr. Robert Kim,Self-Pay,14576.94,4/14/2025,4/24/2025,"2004 Birch St, Austin, GA 87992",87992,(425)-893-4767,xavier.scott@example.org
+218,Mia Allen,86,6/3/1939,F,Dr. Angela Chen,Medicaid,12560.65,2/12/2025,2/26/2025,"9185 Pine Dr, Miami, FL 50306",50306,(423)-787-5408,
+219,Yasmin King,42,4/27/1982,M,Dr. Robert Kim,Medicaid,29814.02,9/28/2024,10/2/2024,"5933 Pine Dr, Austin, AZ 35313",35313,(280)-892-9071,yasmin.king@gmail.com
+220,Caleb Davis,65,9/9/1960,M,Dr. Jason Miller,Commercial - Aetna,34947.6,5/17/2025,5/30/2025,"6618 Cedar Ln, Nashville, CO 68878",68878,(738)-633-8836,caleb.davis@gmail.com
+221,Ruby Hernandez,68,1/22/1957,F,Dr. Jason Miller,Medicare,28382.42,4/16/2025,4/17/2025,"3552 Sunset Blvd, Nashville, AZ 76540",76540,(570)-827-5254,
+222,Isabella Wilson,52,6/12/1973,M,Dr. David Patel,Medicare Advantage,8580.68,3/10/2025,3/22/2025,"6663 Birch St, Miami, CO 31579",31579,(334)-789-4744,isabella.wilson@outlook.com
+223,Anthony Wilson,89,3/14/1935,M,Dr. Laura Gomez,Medicaid,7114.98,6/2/2024,6/3/2024,"8285 Pine Dr, Atlanta, FL 42914",42914,(698)-507-5111,anthony.wilson@gmail.com
+224,Noah Rodriguez,38,5/12/1986,F,Dr. Robert Kim,Self-Pay,11290.15,4/8/2024,4/14/2024,"6003 Birch St, Chicago, TX 77839",77839,(324)-559-4259,noah.rodriguez@yahoo.com
+225,Zoe Morgan,63,8/21/1961,M,Dr. Jason Miller,Self-Pay,29856.26,3/21/2024,3/26/2024,"2473 Pine Dr, Chicago, GA 18981",18981,(827)-785-7631,zoe.morgan@gmail.com
+226,Caroline Brooks,61,5/15/1963,F,Dr. David Patel,Medicare Advantage,26641,9/30/2024,10/7/2024,"6050 Ridge Rd, Seattle, CO 52504",52504,(223)-328-4844,caroline.brooks@gmail.com
+227,Grace Brooks,68,7/17/1957,F,Dr. Priya Shah,Medicare,37566.56,4/29/2025,4/30/2025,"1463 Maple Ave, Denver, CO 55082",55082,(870)-599-6068,grace.brooks@outlook.com
+228,Peter Lopez,34,8/15/1990,F,Dr. Samuel Ortiz,Medicare,2853.47,12/31/2024,1/6/2025,"8956 Birch St, Atlanta, TN 69429",69429,(914)-752-3900,peter.lopez@example.org
+229,Victoria Baker,90,5/12/1934,M,Dr. Angela Chen,Medicare Advantage,20043.59,8/20/2024,8/28/2024,"6853 Birch St, Houston, WA 39256",39256,(200)-735-3233,victoria.baker@example.org
+230,Sophia Thompson,80,1/18/1944,M,Dr. Angela Chen,Medicare,30985.96,10/26/2024,11/8/2024,"6221 Cedar Ln, Seattle, GA 80686",80686,(455)-367-7385,sophia.thompson@yahoo.com
+231,Isabella Nguyen,72,4/28/1953,F,Dr. Angela Chen,Medicare Advantage,26465.6,6/28/2025,6/30/2025,"1221 Pine Dr, Houston, WA 57400",57400,(852)-666-8418,isabella.nguyen@example.org
+232,Grace Johnson,20,12/15/2004,F,Dr. Michael Lee,Commercial - Aetna,2352.04,4/14/2024,4/17/2024,"234 Cedar Ln, Austin, CO 23434",23434,(705)-422-6601,grace.johnson@example.org
+233,Mia Scott,22,7/3/2002,M,Dr. Priya Shah,Self-Pay,30396.93,5/29/2024,,"8999 Ridge Rd, Houston, IL 24168",24168,(456)-590-1206,
+234,Zoe Adams,49,2/17/1975,M,Dr. Jason Miller,Medicaid,29898.33,2/4/2024,2/16/2024,"3515 Ridge Rd, Seattle, WA 76768",76768,(530)-362-1691,zoe.adams@gmail.com
+235,Isabella Davis,56,11/14/1968,F,Dr. David Patel,Medicare,34750.82,8/11/2024,8/15/2024,"5416 Oak St, Houston, WA 65444",65444,(322)-605-4982,
+236,Benjamin Green,78,10/11/1946,F,Dr. David Patel,Self-Pay,4944.98,6/10/2024,6/21/2024,"1083 Oak St, Chicago, CO 91416",91416,(749)-309-3061,benjamin.green@outlook.com
+237,Sophia Rivera,62,1/16/1963,M,Dr. Robert Kim,Medicare,28036.12,1/1/2025,1/6/2025,"7268 Birch St, Atlanta, TN 14207",14207,(780)-391-9906,sophia.rivera@example.org
+238,Isabella Barnes,88,6/15/1936,F,Dr. Priya Shah,Commercial - Aetna,7468.48,10/29/2024,11/7/2024,"111 Sunset Blvd, Houston, TX 79615",79615,(572)-994-4912,isabella.barnes@gmail.com
+239,William Martinez,67,6/4/1957,F,Dr. Jason Miller,Self-Pay,22731.51,10/16/2024,10/27/2024,"1677 Maple Ave, Dallas, CO 83000",83000,(232)-406-2753,william.martinez@gmail.com
+240,Benjamin Green,67,4/21/1957,M,Dr. Angela Chen,Medicare,15604.63,3/13/2024,,"8151 Maple Ave, Miami, TX 41571",41571,(771)-961-7814,benjamin.green@gmail.com
+241,Bianca Patel,52,2/24/1972,F,Dr. Priya Shah,Self-Pay,13200.33,8/9/2024,8/11/2024,"3884 Sunset Blvd, Phoenix, IL 28373",28373,(872)-454-3931,bianca.patel@example.org
+242,Yasmin Rodriguez,63,6/22/1961,M,Dr. Laura Gomez,Medicare,7922.16,7/3/2024,7/12/2024,"2691 Ridge Rd, Chicago, FL 80855",80855,(532)-580-7755,yasmin.rodriguez@example.org
+243,Bianca Baker,59,8/13/1965,F,Dr. Robert Kim,Commercial - BlueCross,30979.77,9/17/2024,9/25/2024,"103 Oak St, Denver, TX 35112",35112,(338)-509-1107,bianca.baker@yahoo.com
+244,Grace Barnes,58,8/12/1966,F,Dr. Angela Chen,Commercial - Aetna,21183.95,6/7/2024,,"2657 Pine Dr, Denver, FL 42527",42527,(796)-455-4817,grace.barnes@outlook.com
+245,Caroline Green,69,12/23/1956,F,Dr. Priya Shah,Commercial - Cigna,14000.64,5/9/2025,5/23/2025,"9540 Maple Ave, Nashville, WA 88907",88907,(948)-790-7251,
+246,Benjamin Collins,60,12/21/1964,M,Dr. Laura Gomez,Commercial - BlueCross,37314.47,5/3/2024,5/7/2024,"9968 Oak St, Seattle, TX 69470",69470,(736)-242-6231,benjamin.collins@yahoo.com
+247,Liam Allen,46,10/19/1979,F,Dr. Michael Lee,Commercial - Cigna,29665.78,2/6/2025,2/19/2025,"8369 Maple Ave, Phoenix, GA 80381",80381,(603)-351-3165,liam.allen@example.org
+248,Thomas Baker,24,3/16/2001,M,Dr. Angela Chen,Medicare,16843.29,3/20/2025,3/23/2025,"9263 Cedar Ln, Miami, GA 87924",87924,(785)-400-9589,thomas.baker@gmail.com
+249,Isabella Collins,73,6/12/1952,M,Dr. Priya Shah,Medicare,27362.28,3/9/2025,3/13/2025,"9830 Oak St, Denver, CO 24662",24662,(831)-652-3389,isabella.collins@yahoo.com
+250,Grace King,65,5/1/1959,F,Dr. Priya Shah,Medicare,29973.89,9/5/2024,9/8/2024,"5724 Maple Ave, Denver, TN 85525",85525,(223)-539-4424,grace.king@yahoo.com
+251,Grace Martinez,84,1/13/1940,M,Dr. Jason Miller,Commercial - Aetna,29602.06,5/24/2024,6/4/2024,"9651 Oak St, Denver, CO 10851",10851,(490)-405-5444,
+252,Victoria Thompson,26,5/28/1999,M,Dr. Angela Chen,Commercial - Cigna,34305.19,1/3/2025,1/4/2025,"6432 Cedar Ln, Seattle, AZ 39154",39154,(523)-696-9709,
+253,Grace Allen,76,12/6/1948,F,Dr. Michael Lee,Medicaid,37007.4,11/8/2024,11/15/2024,"401 Walnut Ave, Chicago, FL 76562",76562,(509)-441-9212,grace.allen@gmail.com
+254,Victoria Flores,67,12/13/1958,F,Dr. Angela Chen,Medicaid,7340.76,2/6/2025,2/8/2025,"8631 Cedar Ln, Seattle, IL 59672",59672,(356)-636-6118,victoria.flores@outlook.com
+255,Peter Martinez,34,12/23/1990,F,Dr. Samuel Ortiz,Commercial - Aetna,22342.12,7/26/2024,7/31/2024,"8682 Pine Dr, Seattle, CO 91183",91183,(778)-361-6201,
+256,Sophia Baker,33,7/10/1991,F,Dr. David Patel,Self-Pay,35366.07,1/31/2024,2/7/2024,"7358 Birch St, Houston, IL 92397",92397,(334)-389-1429,sophia.baker@outlook.com
+257,Uma Green,47,3/17/1977,F,Dr. Robert Kim,Commercial - Cigna,2504.25,3/22/2024,3/30/2024,"7780 Walnut Ave, Houston, GA 56438",56438,(685)-340-3683,
+258,Benjamin Brown,19,3/15/2005,M,Dr. Laura Gomez,Medicaid,30081.12,7/26/2024,7/28/2024,"8127 Walnut Ave, Miami, IL 87110",87110,(614)-994-1685,benjamin.brown@example.org
+259,Yasmin Johnson,68,9/18/1956,F,Dr. Priya Shah,Commercial - BlueCross,19090.67,2/13/2024,2/17/2024,"6581 Oak St, Atlanta, GA 42591",42591,(983)-845-1807,
+260,Peter Perez,56,8/27/1968,M,Dr. Jason Miller,Medicaid,17764.79,2/25/2024,2/28/2024,"7500 Maple Ave, Atlanta, AZ 38785",38785,(997)-799-9952,
+261,Olivia Johnson,75,5/11/1949,F,Dr. Samuel Ortiz,Commercial - BlueCross,24227.15,7/25/2024,7/27/2024,"2786 Maple Ave, Austin, AZ 23104",23104,(660)-849-6946,
+262,Xavier Perez,83,11/28/1941,F,Dr. Laura Gomez,Commercial - Aetna,16153.37,6/23/2024,7/3/2024,"2559 Pine Dr, Houston, CO 46930",46930,(929)-252-7874,xavier.perez@example.org
+263,Jacob Lopez,41,8/28/1983,F,Dr. Samuel Ortiz,Medicaid,1636.02,9/16/2024,,"8269 Oak St, Nashville, TN 62350",62350,(422)-802-8794,jacob.lopez@example.org
+264,Caroline Patel,18,3/2/2006,F,Dr. Angela Chen,Commercial - Aetna,25702.46,7/31/2024,,"5818 Oak St, Houston, TX 78522",78522,(791)-817-5889,caroline.patel@gmail.com
+265,Benjamin Rodriguez,71,10/12/1953,F,Dr. Samuel Ortiz,Commercial - Cigna,12448.65,6/30/2024,7/12/2024,"687 Maple Ave, Denver, FL 73699",73699,(588)-269-8001,benjamin.rodriguez@gmail.com
+266,Jacob Davis,35,10/2/1990,F,Dr. Angela Chen,Medicare Advantage,21791.53,6/21/2025,6/25/2025,"1890 Maple Ave, Miami, WA 87110",87110,(823)-524-5254,jacob.davis@outlook.com
+267,Ethan Garcia,90,1/4/1934,M,Dr. Jason Miller,Commercial - BlueCross,32607.24,8/26/2024,8/30/2024,"492 Ridge Rd, Austin, IL 10464",10464,(830)-624-7783,
+268,Mia Martinez,45,9/11/1979,F,Dr. Robert Kim,Commercial - Cigna,12342.63,3/10/2024,3/19/2024,"200 Maple Ave, Chicago, FL 80686",80686,(941)-782-1477,mia.martinez@yahoo.com
+269,Liam Stewart,61,8/28/1963,M,Dr. Jason Miller,Self-Pay,2868.99,5/19/2024,5/30/2024,"8897 Walnut Ave, Miami, GA 19099",19099,(960)-257-9537,liam.stewart@outlook.com
+270,Sophia Martinez,20,3/9/2004,F,Dr. David Patel,Self-Pay,36773.18,12/28/2024,,"610 Walnut Ave, Seattle, CO 31579",31579,(820)-598-4070,sophia.martinez@outlook.com
+271,Xavier Barnes,58,5/7/1966,F,Dr. Angela Chen,Commercial - BlueCross,4841.71,8/31/2024,9/14/2024,"8703 Birch St, Houston, AZ 26483",26483,(238)-996-4311,xavier.barnes@example.org
+272,Ruby Thompson,79,3/25/1946,F,Dr. Robert Kim,Medicare Advantage,37060.02,6/20/2025,6/26/2025,"1709 Pine Dr, Phoenix, TX 97684",97684,(596)-930-9558,
+273,Jacob Carter,29,5/21/1995,M,Dr. Jason Miller,Medicare,5469.46,11/15/2024,,"3538 Walnut Ave, Phoenix, IL 25014",25014,(483)-745-6228,jacob.carter@gmail.com
+274,Isabella Garcia,38,6/18/1987,M,Dr. Priya Shah,Medicare,38394.48,6/10/2025,6/19/2025,"5318 Birch St, Houston, WA 59672",59672,(450)-375-2167,isabella.garcia@outlook.com
+275,Sophia Scott,24,2/14/2000,F,Dr. Michael Lee,Commercial - BlueCross,36276.76,2/21/2024,2/22/2024,"6521 Pine Dr, Nashville, TN 72493",72493,(564)-519-6444,sophia.scott@gmail.com
+276,Ethan Collins,77,5/22/1948,F,Dr. Priya Shah,Self-Pay,32390.49,4/24/2025,,"7725 Ridge Rd, Phoenix, IL 58520",58520,(831)-464-6954,ethan.collins@outlook.com
+277,Anthony Barnes,59,3/10/1965,M,Dr. Jason Miller,Medicare,4016.56,4/25/2024,5/3/2024,"5811 Pine Dr, Atlanta, AZ 95180",95180,(931)-309-6339,anthony.barnes@gmail.com
+278,Anthony Morgan,86,7/3/1938,M,Dr. Laura Gomez,Commercial - Aetna,17417.51,9/6/2024,9/14/2024,"5682 Cedar Ln, Nashville, GA 74032",74032,(645)-780-6606,anthony.morgan@yahoo.com
+279,Franklin King,27,8/6/1997,M,Dr. Priya Shah,Commercial - Aetna,24448.91,11/29/2024,12/13/2024,"5146 Sunset Blvd, Austin, AZ 27154",27154,(810)-989-7208,franklin.king@gmail.com
+280,Caroline Miller,35,10/15/1990,F,Dr. Samuel Ortiz,Commercial - Cigna,7244.83,6/28/2025,6/30/2025,"3305 Cedar Ln, Chicago, WA 17685",17685,(895)-511-8122,caroline.miller@outlook.com
+281,Caroline Green,19,1/23/2006,M,Dr. Samuel Ortiz,Self-Pay,12826.11,1/13/2025,1/14/2025,"9275 Walnut Ave, Austin, WA 63264",63264,(231)-440-8073,caroline.green@example.org
+282,Victoria Johnson,66,9/13/1958,M,Dr. Laura Gomez,Commercial - BlueCross,22487.07,6/26/2024,6/30/2024,"6002 Sunset Blvd, Houston, WA 41029",41029,(886)-328-3200,
+283,Victoria Thompson,36,12/20/1989,M,Dr. Laura Gomez,Medicaid,4759.54,3/1/2025,3/14/2025,"7074 Pine Dr, Miami, GA 11934",11934,(660)-593-6821,victoria.thompson@example.org
+284,Uma Thompson,81,1/19/1944,F,Dr. Angela Chen,Commercial - BlueCross,37172.73,1/10/2025,,"8017 Walnut Ave, Austin, TN 88193",88193,(907)-281-3327,uma.thompson@outlook.com
+285,Peter Allen,28,10/10/1996,F,Dr. Robert Kim,Commercial - BlueCross,25780.52,3/20/2024,3/29/2024,"964 Walnut Ave, Atlanta, TX 84847",84847,(664)-724-8687,peter.allen@outlook.com
+286,Olivia Hernandez,55,5/2/1969,M,Dr. Samuel Ortiz,Medicare,28259.47,11/7/2024,11/17/2024,"7852 Pine Dr, Nashville, TX 20745",20745,(498)-955-1447,olivia.hernandez@gmail.com
+287,Elena Allen,27,12/4/1997,M,Dr. Angela Chen,Medicaid,25208.21,10/8/2024,10/9/2024,"9993 Pine Dr, Nashville, CO 64948",64948,(657)-578-3873,elena.allen@yahoo.com
+288,Quinn Brooks,85,7/25/1939,F,Dr. David Patel,Medicare,38742.81,6/6/2024,6/19/2024,"6377 Cedar Ln, Miami, CO 75435",75435,(791)-951-6653,
+289,Isabella Collins,32,9/8/1992,F,Dr. Samuel Ortiz,Commercial - BlueCross,16851.67,11/4/2024,11/17/2024,"6322 Sunset Blvd, Miami, WA 56566",56566,(743)-645-1194,isabella.collins@example.org
+290,Noah King,58,5/11/1967,F,Dr. Priya Shah,Commercial - Aetna,26040.83,3/18/2025,3/29/2025,"4529 Birch St, Austin, WA 91183",91183,(798)-600-8554,noah.king@yahoo.com
+291,Yasmin King,42,7/4/1982,M,Dr. Samuel Ortiz,Medicare Advantage,22583.08,1/9/2024,1/10/2024,"8705 Maple Ave, Miami, FL 44718",44718,(942)-490-5127,
+292,Ava Patel,29,10/5/1995,F,Dr. Robert Kim,Commercial - Aetna,26066.19,5/2/2024,,"6259 Pine Dr, Austin, CO 24371",24371,(501)-678-2240,ava.patel@outlook.com
+293,Zoe Brown,59,1/9/1965,M,Dr. Samuel Ortiz,Self-Pay,4348.89,3/4/2024,3/10/2024,"4436 Pine Dr, Miami, AZ 56438",56438,(405)-824-7432,
+294,Quinn Rodriguez,36,1/3/1989,M,Dr. Robert Kim,Commercial - Aetna,26268.52,3/28/2025,3/30/2025,"1253 Birch St, Miami, TX 60140",60140,(709)-352-1014,quinn.rodriguez@example.org
+295,Isabella Garcia,60,12/25/1965,M,Dr. Michael Lee,Commercial - Aetna,28742.82,5/17/2025,5/24/2025,"1248 Cedar Ln, Dallas, GA 86099",86099,(905)-998-8898,
+296,Sophia Hernandez,60,6/3/1964,M,Dr. Laura Gomez,Medicare,25842.49,4/2/2024,4/16/2024,"7630 Birch St, Phoenix, CO 22224",22224,(240)-593-4129,sophia.hernandez@example.org
+297,Diana Rodriguez,63,1/24/1961,M,Dr. Priya Shah,Commercial - Cigna,18362.37,7/13/2024,7/17/2024,"9814 Cedar Ln, Miami, GA 65392",65392,(753)-858-6041,diana.rodriguez@example.org
+298,Ava Carter,61,11/22/1964,F,Dr. David Patel,Self-Pay,29258.96,2/19/2025,3/4/2025,"8670 Ridge Rd, Atlanta, CO 79329",79329,(793)-438-2180,
+299,Elena Davis,20,11/2/2004,M,Dr. Michael Lee,Medicaid,28499.93,5/13/2024,,"5135 Maple Ave, Miami, CO 82420",82420,(805)-265-2742,
+300,Uma Rivera,46,10/18/1979,F,Dr. Robert Kim,Commercial - BlueCross,14487.71,2/15/2025,2/26/2025,"2350 Walnut Ave, Phoenix, TX 30289",30289,(377)-543-2035,
+301,Elena Collins,71,3/4/1953,F,Dr. David Patel,Commercial - Aetna,7852.74,9/6/2024,9/7/2024,"6262 Pine Dr, Dallas, TN 22676",22676,(206)-207-3939,elena.collins@outlook.com
+302,Olivia Adams,78,3/20/1947,F,Dr. Robert Kim,Medicaid,26133.29,6/19/2025,6/23/2025,"716 Pine Dr, Miami, AZ 20500",20500,(508)-556-7861,
+303,Henry Miller,33,11/22/1992,F,Dr. David Patel,Self-Pay,30803.44,6/3/2025,6/16/2025,"3509 Birch St, Dallas, IL 85674",85674,(352)-901-8772,henry.miller@yahoo.com
+304,William Carter,24,8/2/2000,M,Dr. Angela Chen,Medicaid,18234.86,12/8/2024,12/21/2024,"1810 Oak St, Atlanta, CO 19358",19358,(229)-696-9436,
+305,Diana Wilson,74,6/8/1950,M,Dr. Laura Gomez,Medicaid,30262.84,11/29/2024,12/1/2024,"1706 Cedar Ln, Seattle, IL 26828",26828,(425)-275-8716,diana.wilson@gmail.com
+306,Diana Brown,36,11/12/1988,F,Dr. Jason Miller,Medicaid,16412.22,5/19/2024,5/23/2024,"4518 Cedar Ln, Chicago, CO 38657",38657,(908)-782-1977,diana.brown@gmail.com
+307,Caleb Scott,76,11/20/1948,M,Dr. Samuel Ortiz,Self-Pay,14727.68,10/29/2024,11/11/2024,"2884 Cedar Ln, Austin, GA 42706",42706,(734)-700-4546,caleb.scott@example.org
+308,Isabella Thompson,72,3/19/1952,F,Dr. Robert Kim,Medicare Advantage,18218.58,8/15/2024,8/25/2024,"183 Sunset Blvd, Dallas, TX 84847",84847,(951)-987-9261,
+309,Ruby Perez,79,4/5/1945,F,Dr. Jason Miller,Commercial - BlueCross,10759.69,1/13/2024,1/20/2024,"5972 Birch St, Phoenix, AZ 98696",98696,(691)-885-5994,
+310,Peter Barnes,21,6/21/2004,M,Dr. Jason Miller,Self-Pay,6837.02,2/19/2025,3/5/2025,"7707 Oak St, Austin, GA 30866",30866,(907)-540-9698,
+311,Olivia Collins,52,6/2/1972,F,Dr. Priya Shah,Commercial - Aetna,35412.62,2/26/2024,3/8/2024,"1918 Sunset Blvd, Chicago, TN 75909",75909,(241)-574-7003,
+312,Sophia Adams,26,10/28/1998,F,Dr. Samuel Ortiz,Medicare Advantage,10687.36,4/26/2024,5/8/2024,"3537 Cedar Ln, Chicago, FL 60140",60140,(473)-715-7929,sophia.adams@gmail.com
+313,Mia Hernandez,75,10/12/1950,M,Dr. Priya Shah,Commercial - BlueCross,28828.27,6/29/2025,6/30/2025,"1175 Cedar Ln, Miami, AZ 22676",22676,(600)-383-5724,mia.hernandez@gmail.com
+314,Daniel Brooks,53,1/10/1971,F,Dr. Samuel Ortiz,Commercial - BlueCross,7294.18,7/28/2024,8/8/2024,"6924 Pine Dr, Miami, FL 18392",18392,(654)-955-1351,daniel.brooks@gmail.com
+315,Ava Barnes,47,12/17/1977,M,Dr. Laura Gomez,Commercial - Aetna,14697.51,11/30/2024,12/11/2024,"9086 Ridge Rd, Miami, WA 62565",62565,(335)-513-3813,ava.barnes@yahoo.com
+316,Quinn Hernandez,54,12/18/1970,F,Dr. Samuel Ortiz,Medicare Advantage,12448.71,6/19/2024,6/22/2024,"4773 Pine Dr, Houston, CO 93227",93227,(443)-319-1674,quinn.hernandez@yahoo.com
+317,Peter Flores,65,6/15/1959,F,Dr. Robert Kim,Commercial - Aetna,28724.67,11/20/2024,11/23/2024,"8945 Pine Dr, Atlanta, WA 39871",39871,(225)-614-9182,peter.flores@example.org
+318,Ethan Johnson,37,10/22/1988,F,Dr. David Patel,Commercial - Cigna,28659.88,4/30/2025,5/13/2025,"2509 Ridge Rd, Chicago, AZ 67433",67433,(690)-241-3284,ethan.johnson@gmail.com
+319,Jacob Thompson,69,10/17/1955,F,Dr. Jason Miller,Medicare Advantage,5060.52,2/26/2024,3/1/2024,"3739 Birch St, Phoenix, TX 57052",57052,(751)-656-2431,jacob.thompson@example.org
+320,Grace Davis,58,1/10/1967,F,Dr. David Patel,Commercial - BlueCross,7195.92,3/13/2025,3/19/2025,"5751 Walnut Ave, Denver, TN 31299",31299,(774)-289-4533,grace.davis@example.org
+321,Yasmin Brown,74,3/27/1951,M,Dr. Samuel Ortiz,Self-Pay,29528.03,3/10/2025,3/17/2025,"9720 Maple Ave, Houston, IL 30730",30730,(686)-737-6495,
+322,Thomas Collins,66,8/23/1958,F,Dr. Michael Lee,Commercial - BlueCross,26094.03,10/6/2024,10/15/2024,"9404 Pine Dr, Phoenix, CO 86350",86350,(590)-496-9037,
+323,Bianca Morgan,56,11/27/1968,M,Dr. Jason Miller,Medicaid,2533.34,1/3/2024,1/8/2024,"7842 Maple Ave, Denver, GA 83000",83000,(703)-904-5009,
+324,Zoe Flores,81,11/16/1944,F,Dr. David Patel,Commercial - Aetna,19998.71,3/22/2025,4/2/2025,"2059 Walnut Ave, Atlanta, TX 50404",50404,(465)-366-1958,
+325,Peter Adams,35,1/10/1990,M,Dr. Samuel Ortiz,Medicare,11997.81,3/5/2025,3/11/2025,"4878 Maple Ave, Atlanta, IL 45697",45697,(843)-387-2548,peter.adams@yahoo.com
+326,Sophia Johnson,58,10/12/1967,M,Dr. Angela Chen,Commercial - Cigna,28371.75,1/6/2025,,"2454 Oak St, Houston, WA 79822",79822,(997)-696-7750,sophia.johnson@yahoo.com
+327,Daniel Miller,37,9/23/1988,F,Dr. Robert Kim,Self-Pay,36036.68,6/22/2025,6/30/2025,"1967 Sunset Blvd, Miami, AZ 19116",19116,(334)-217-8856,daniel.miller@outlook.com
+328,Elena Stewart,74,12/5/1950,M,Dr. Samuel Ortiz,Commercial - Cigna,13230.34,5/1/2024,5/15/2024,"3812 Birch St, Houston, IL 23238",23238,(280)-635-2830,
+329,Zoe Davis,73,2/9/1952,F,Dr. Robert Kim,Medicare,2762.52,6/9/2025,6/17/2025,"809 Maple Ave, Denver, TX 27601",27601,(298)-326-4365,zoe.davis@yahoo.com
+330,Franklin King,62,6/6/1962,F,Dr. Priya Shah,Medicaid,34065.67,10/11/2024,10/17/2024,"8302 Cedar Ln, Atlanta, AZ 59615",59615,(792)-981-1229,franklin.king@yahoo.com
+331,Jacob Brooks,86,3/15/1939,F,Dr. Priya Shah,Medicaid,36938.37,5/1/2025,5/11/2025,"1858 Pine Dr, Chicago, GA 12757",12757,(419)-726-4728,jacob.brooks@outlook.com
+332,Daniel Scott,32,2/11/1992,F,Dr. Jason Miller,Self-Pay,15408.14,10/22/2024,10/23/2024,"8188 Maple Ave, Seattle, WA 41195",41195,(814)-953-6111,daniel.scott@example.org
+333,Henry Martinez,70,3/1/1955,M,Dr. Laura Gomez,Medicaid,34485.79,5/2/2025,5/8/2025,"8155 Maple Ave, Seattle, TN 80292",80292,(874)-892-2392,
+334,Noah Perez,31,7/4/1993,F,Dr. Priya Shah,Medicare Advantage,39045.49,12/12/2024,12/26/2024,"3915 Sunset Blvd, Miami, WA 30374",30374,(930)-984-5472,noah.perez@example.org
+335,Mia Davis,69,8/8/1955,M,Dr. Angela Chen,Medicaid,31067.98,4/20/2024,4/28/2024,"2305 Oak St, Austin, TX 58393",58393,(269)-710-1438,mia.davis@example.org
+336,Uma King,59,8/26/1965,F,Dr. Angela Chen,Commercial - Aetna,25494.46,3/19/2024,3/28/2024,"7735 Cedar Ln, Denver, TN 56438",56438,(716)-467-9887,uma.king@gmail.com
+337,Zoe Carter,73,1/6/1952,F,Dr. Laura Gomez,Commercial - BlueCross,13610.53,1/20/2025,1/21/2025,"9220 Birch St, Houston, TN 40161",40161,(337)-519-7374,zoe.carter@gmail.com
+338,Thomas King,80,5/16/1945,M,Dr. Jason Miller,Commercial - Aetna,34392.53,6/2/2025,,"9783 Sunset Blvd, Nashville, FL 45697",45697,(491)-528-2006,
+339,Benjamin Garcia,64,6/12/1960,M,Dr. Michael Lee,Self-Pay,35816.7,12/15/2024,12/22/2024,"6849 Walnut Ave, Dallas, IL 74686",74686,(440)-863-6113,benjamin.garcia@gmail.com
+340,Caleb Morgan,32,7/19/1992,M,Dr. Samuel Ortiz,Medicare,22229.05,2/8/2024,2/22/2024,"8533 Sunset Blvd, Denver, TX 19508",19508,(680)-802-1364,caleb.morgan@example.org
+341,Thomas Perez,59,11/11/1965,F,Dr. Jason Miller,Medicare,28098.26,7/29/2024,8/7/2024,"2830 Birch St, Chicago, GA 84341",84341,(708)-850-2234,thomas.perez@yahoo.com
+342,Jacob Flores,24,2/19/2000,M,Dr. Laura Gomez,Self-Pay,10196.61,4/4/2024,4/14/2024,"5618 Birch St, Austin, TN 87110",87110,(414)-555-2256,jacob.flores@outlook.com
+343,Ruby Rivera,56,11/25/1968,M,Dr. David Patel,Medicaid,17451.1,9/14/2024,9/22/2024,"9071 Pine Dr, Dallas, CO 61173",61173,(711)-418-8656,ruby.rivera@example.org
+344,Ethan Green,25,5/28/1999,F,Dr. David Patel,Commercial - BlueCross,7188.13,6/3/2024,6/16/2024,"7233 Sunset Blvd, Chicago, AZ 87992",87992,(408)-622-5373,ethan.green@yahoo.com
+345,Isabella King,48,5/15/1976,M,Dr. Robert Kim,Medicare,7273.55,1/29/2024,2/12/2024,"8052 Sunset Blvd, Seattle, TX 84341",84341,(363)-479-3235,
+346,Anthony Rivera,53,2/11/1971,F,Dr. Michael Lee,Commercial - Cigna,20204.92,1/21/2024,,"9956 Birch St, Austin, GA 60140",60140,(572)-887-2479,anthony.rivera@yahoo.com
+347,Henry Rodriguez,82,6/11/1942,F,Dr. Angela Chen,Commercial - BlueCross,35555.75,8/31/2024,9/13/2024,"9673 Sunset Blvd, Phoenix, GA 28726",28726,(347)-309-3869,henry.rodriguez@outlook.com
+348,Peter Brown,50,8/22/1974,F,Dr. Jason Miller,Commercial - Aetna,15926.14,4/25/2024,5/2/2024,"4136 Birch St, Houston, FL 41850",41850,(932)-576-6049,
+349,Diana Patel,22,6/26/2002,F,Dr. Robert Kim,Medicare Advantage,22780.02,11/12/2024,11/24/2024,"2099 Cedar Ln, Miami, GA 42098",42098,(602)-461-5929,
+350,Bianca Collins,48,11/14/1977,M,Dr. Robert Kim,Self-Pay,35774.5,3/25/2025,4/7/2025,"655 Birch St, Austin, TN 85525",85525,(954)-622-6451,bianca.collins@gmail.com
+351,Bianca Brooks,51,1/21/1973,F,Dr. David Patel,Commercial - BlueCross,24681.46,11/30/2024,12/1/2024,"3110 Ridge Rd, Houston, TX 62296",62296,(404)-843-6006,bianca.brooks@gmail.com
+352,Daniel Brooks,49,3/9/1976,F,Dr. Laura Gomez,Self-Pay,37667.6,4/7/2025,4/19/2025,"2942 Walnut Ave, Denver, IL 55082",55082,(624)-576-3980,daniel.brooks@example.org
+353,Bianca Green,46,4/9/1978,F,Dr. Michael Lee,Commercial - Aetna,26413.61,8/22/2024,8/30/2024,"2864 Oak St, Seattle, GA 17665",17665,(466)-352-2459,bianca.green@yahoo.com
+354,Thomas Rodriguez,19,4/28/2005,M,Dr. Jason Miller,Self-Pay,27433.99,5/1/2024,5/5/2024,"4461 Birch St, Miami, GA 23238",23238,(641)-411-4531,thomas.rodriguez@outlook.com
+355,Yasmin King,42,4/20/1982,M,Dr. Samuel Ortiz,Commercial - BlueCross,32009.85,1/30/2024,2/4/2024,"7488 Cedar Ln, Chicago, TN 55082",55082,(210)-680-3182,yasmin.king@example.org
+356,William Miller,67,4/16/1957,M,Dr. Angela Chen,Medicare,5168.26,3/1/2024,,"5904 Oak St, Dallas, WA 94696",94696,(834)-590-5956,william.miller@outlook.com
+357,Elena Martinez,23,2/11/2001,F,Dr. Angela Chen,Medicaid,20894.25,12/13/2024,12/16/2024,"8790 Sunset Blvd, Houston, WA 19116",19116,(520)-245-3095,elena.martinez@outlook.com
+358,Yasmin Hernandez,73,3/11/1951,M,Dr. Angela Chen,Commercial - Aetna,33439.18,9/27/2024,10/4/2024,"8149 Pine Dr, Atlanta, TN 68878",68878,(393)-352-1894,yasmin.hernandez@gmail.com
+359,Quinn Flores,38,6/23/1987,M,Dr. Laura Gomez,Medicare,39815.27,5/21/2025,,"9289 Ridge Rd, Miami, TN 85674",85674,(937)-351-3025,quinn.flores@yahoo.com
+360,Caleb Morgan,41,9/25/1983,F,Dr. Angela Chen,Commercial - Aetna,35799.44,8/5/2024,8/6/2024,"9451 Pine Dr, Seattle, AZ 74686",74686,(986)-710-2545,caleb.morgan@gmail.com
+361,Jacob King,33,1/3/1991,M,Dr. David Patel,Commercial - Aetna,37272.22,4/18/2024,4/21/2024,"7640 Ridge Rd, Miami, WA 34890",34890,(873)-205-6397,jacob.king@example.org
+362,Liam Baker,90,12/3/1934,F,Dr. Robert Kim,Self-Pay,3374.27,10/16/2024,10/17/2024,"9064 Sunset Blvd, Austin, GA 30033",30033,(382)-445-7535,
+363,Caleb Miller,38,7/24/1986,M,Dr. Laura Gomez,Medicare Advantage,26415.97,6/6/2024,6/14/2024,"5180 Pine Dr, Chicago, AZ 86350",86350,(576)-724-4274,caleb.miller@example.org
+364,Quinn Flores,90,11/14/1935,M,Dr. Priya Shah,Self-Pay,17767.65,1/12/2025,1/19/2025,"1622 Oak St, Atlanta, FL 77033",77033,(674)-892-4673,quinn.flores@yahoo.com
+365,Ethan Davis,85,11/10/1940,F,Dr. Angela Chen,Commercial - BlueCross,18338.19,5/4/2025,5/7/2025,"4173 Sunset Blvd, Denver, TX 11934",11934,(278)-246-9411,
+366,Olivia Brown,30,2/24/1994,M,Dr. Angela Chen,Medicare Advantage,11312.12,3/24/2024,3/25/2024,"7683 Pine Dr, Houston, GA 95181",95181,(285)-626-5876,olivia.brown@example.org
+367,Zoe King,75,10/9/1949,M,Dr. David Patel,Self-Pay,32685.23,8/4/2024,8/16/2024,"1842 Sunset Blvd, Atlanta, TX 13278",13278,(604)-319-1217,
+368,Quinn Scott,69,11/13/1956,M,Dr. Angela Chen,Commercial - Aetna,32805.6,1/4/2025,1/16/2025,"5058 Maple Ave, Houston, CO 23434",23434,(395)-314-1260,quinn.scott@yahoo.com
+369,Caleb Thompson,44,8/5/1980,M,Dr. Samuel Ortiz,Commercial - Cigna,10808.54,7/14/2024,,"7865 Sunset Blvd, Dallas, AZ 42087",42087,(356)-956-8295,caleb.thompson@example.org
+370,Ava Barnes,75,1/4/1950,F,Dr. Robert Kim,Medicare Advantage,23423.07,2/5/2025,,"7174 Sunset Blvd, Miami, WA 76237",76237,(699)-609-8964,ava.barnes@example.org
+371,Henry Adams,25,7/16/1999,F,Dr. Laura Gomez,Commercial - Aetna,13660.23,3/6/2024,3/17/2024,"2015 Ridge Rd, Nashville, FL 14117",14117,(914)-646-1340,
+372,Yasmin Miller,78,12/22/1946,M,Dr. Jason Miller,Medicaid,21043.98,12/13/2024,12/27/2024,"7775 Pine Dr, Denver, GA 24208",24208,(626)-889-6902,yasmin.miller@yahoo.com
+373,Uma Miller,54,7/16/1970,F,Dr. Jason Miller,Medicaid,8171.71,6/9/2024,6/11/2024,"5075 Cedar Ln, Phoenix, TX 81482",81482,(567)-467-6849,uma.miller@yahoo.com
+374,Bianca Barnes,82,8/9/1942,F,Dr. Priya Shah,Medicare Advantage,18078.89,8/20/2024,8/24/2024,"5675 Walnut Ave, Dallas, WA 24168",24168,(354)-906-9444,bianca.barnes@gmail.com
+375,Xavier Carter,74,9/4/1950,M,Dr. Priya Shah,Medicare,31593.62,4/14/2024,4/15/2024,"2836 Maple Ave, Phoenix, FL 19358",19358,(945)-499-8233,xavier.carter@example.org
+376,Yasmin Barnes,30,7/25/1994,F,Dr. David Patel,Medicare Advantage,33037.69,5/5/2024,5/13/2024,"207 Cedar Ln, Miami, FL 25014",25014,(717)-375-2396,yasmin.barnes@example.org
+377,Mia Lopez,49,8/28/1976,F,Dr. Laura Gomez,Self-Pay,10285.01,3/15/2025,3/22/2025,"8556 Walnut Ave, Dallas, TN 56566",56566,(988)-210-9476,mia.lopez@gmail.com
+378,Liam Johnson,69,3/19/1955,F,Dr. Laura Gomez,Medicare,16640.75,2/7/2024,2/18/2024,"1047 Birch St, Seattle, GA 63964",63964,(897)-917-5986,liam.johnson@outlook.com
+379,Ethan Hernandez,19,10/21/2005,M,Dr. Samuel Ortiz,Commercial - Cigna,17051.62,7/29/2024,8/8/2024,"7344 Walnut Ave, Seattle, IL 33509",33509,(508)-286-1605,ethan.hernandez@example.org
+380,Yasmin Baker,34,11/6/1990,M,Dr. Robert Kim,Medicare,21199.36,11/15/2024,11/28/2024,"483 Oak St, Atlanta, WA 38746",38746,(992)-511-7926,yasmin.baker@gmail.com
+381,Yasmin Carter,65,12/1/1959,M,Dr. David Patel,Medicare,3337.72,5/7/2024,5/17/2024,"7524 Walnut Ave, Phoenix, IL 24662",24662,(506)-491-3293,yasmin.carter@yahoo.com
+382,Daniel Johnson,84,2/2/1941,F,Dr. David Patel,Commercial - BlueCross,5272.53,3/11/2025,3/13/2025,"7061 Pine Dr, Miami, IL 18834",18834,(279)-578-9622,daniel.johnson@example.org
+383,Caleb Flores,81,3/5/1944,M,Dr. Jason Miller,Commercial - Cigna,37344.87,5/16/2025,5/23/2025,"8386 Pine Dr, Miami, TN 23238",23238,(921)-725-9669,
+384,Grace Scott,78,2/4/1946,F,Dr. Samuel Ortiz,Commercial - Aetna,15719.28,5/1/2024,5/8/2024,"6155 Birch St, Dallas, CO 16006",16006,(580)-512-7135,grace.scott@example.org
+385,Ava Rivera,36,3/27/1988,F,Dr. Laura Gomez,Medicare,37567.6,11/8/2024,11/12/2024,"8108 Oak St, Austin, FL 46421",46421,(245)-627-8883,ava.rivera@example.org
+386,Diana Johnson,66,8/5/1959,M,Dr. Samuel Ortiz,Self-Pay,6833.11,4/16/2025,4/27/2025,"5428 Maple Ave, Nashville, GA 79163",79163,(438)-604-6554,diana.johnson@example.org
+387,Yasmin Flores,29,11/18/1995,F,Dr. Michael Lee,Commercial - Aetna,25759.2,11/12/2024,11/14/2024,"1495 Cedar Ln, Nashville, TX 15014",15014,(783)-734-4103,yasmin.flores@gmail.com
+388,Daniel King,86,10/15/1938,F,Dr. Michael Lee,Medicare Advantage,31790.15,9/8/2024,9/22/2024,"1486 Walnut Ave, Seattle, TX 56438",56438,(223)-548-8160,
+389,Ava Barnes,85,3/6/1939,M,Dr. Laura Gomez,Medicare Advantage,5004.47,4/11/2024,4/16/2024,"4287 Maple Ave, Houston, WA 33405",33405,(617)-894-3772,
+390,Liam Brooks,21,5/13/2003,F,Dr. Angela Chen,Commercial - BlueCross,5301.65,5/25/2024,5/31/2024,"2081 Oak St, Phoenix, IL 23577",23577,(811)-800-4874,liam.brooks@example.org
+391,Daniel Flores,25,11/8/2000,M,Dr. Jason Miller,Commercial - Aetna,17172.44,5/10/2025,,"405 Birch St, Atlanta, AZ 74686",74686,(981)-768-3057,daniel.flores@example.org
+392,Peter Nguyen,82,7/18/1942,F,Dr. Samuel Ortiz,Medicare Advantage,22306.93,6/21/2024,6/30/2024,"7501 Oak St, Dallas, TN 88193",88193,(835)-496-3742,
+393,Ethan Davis,52,5/2/1972,M,Dr. Laura Gomez,Medicare Advantage,33933.89,8/5/2024,8/14/2024,"2744 Maple Ave, Denver, AZ 80686",80686,(915)-325-3288,ethan.davis@outlook.com
+394,Diana Brown,44,6/11/1981,M,Dr. David Patel,Commercial - Cigna,11562.38,4/8/2025,4/19/2025,"3550 Ridge Rd, Nashville, FL 98696",98696,(908)-336-1033,diana.brown@gmail.com
+395,Diana Thompson,40,11/3/1984,M,Dr. Jason Miller,Self-Pay,16622.46,3/24/2024,4/4/2024,"8925 Oak St, Miami, AZ 57576",57576,(585)-815-6864,diana.thompson@gmail.com
+396,Daniel Scott,65,12/12/1959,F,Dr. Jason Miller,Medicare,10028.55,1/21/2024,2/1/2024,"3237 Maple Ave, Nashville, WA 44335",44335,(935)-426-4838,daniel.scott@outlook.com
+397,Benjamin Flores,81,10/17/1944,F,Dr. Michael Lee,Medicaid,39394.15,2/9/2025,2/14/2025,"8193 Pine Dr, Atlanta, IL 64948",64948,(956)-779-3875,
+398,Elena Baker,26,4/28/1999,F,Dr. Angela Chen,Commercial - Aetna,34435.94,6/19/2025,6/24/2025,"478 Birch St, Atlanta, TN 24592",24592,(637)-856-1849,elena.baker@outlook.com
+399,Olivia Barnes,70,1/24/1955,M,Dr. Priya Shah,Commercial - Cigna,21454.37,5/22/2025,6/4/2025,"3778 Oak St, Denver, GA 46509",46509,(659)-523-1084,olivia.barnes@outlook.com
+400,Caroline Green,21,2/21/2003,F,Dr. Laura Gomez,Medicare,36804.32,7/20/2024,7/25/2024,"1684 Oak St, Miami, GA 44335",44335,(224)-806-6477,caroline.green@yahoo.com
+401,Daniel Davis,48,10/20/1976,M,Dr. Michael Lee,Self-Pay,14343.16,8/30/2024,9/12/2024,"7284 Maple Ave, Miami, AZ 55082",55082,(262)-234-7183,daniel.davis@gmail.com
+402,Anthony Garcia,25,11/2/2000,M,Dr. Michael Lee,Medicare Advantage,25013.44,3/18/2025,,"9262 Oak St, Denver, GA 62296",62296,(298)-832-7735,anthony.garcia@gmail.com
+403,Peter Perez,77,10/7/1947,M,Dr. Priya Shah,Medicare Advantage,26560.47,1/27/2024,2/2/2024,"1869 Maple Ave, Dallas, AZ 30289",30289,(398)-786-3064,peter.perez@outlook.com
+404,Mia Brown,79,5/19/1945,M,Dr. Samuel Ortiz,Medicaid,6800.4,2/15/2024,,"7240 Walnut Ave, Denver, CO 37460",37460,(680)-516-6618,mia.brown@gmail.com
+405,Ruby Green,36,4/21/1988,F,Dr. Robert Kim,Commercial - Aetna,33038.58,2/25/2024,2/29/2024,"3397 Maple Ave, Chicago, IL 78522",78522,(687)-911-8657,ruby.green@outlook.com
+406,Caleb Green,90,1/16/1934,M,Dr. Angela Chen,Commercial - BlueCross,14151.83,4/17/2024,4/30/2024,"3694 Oak St, Phoenix, IL 80678",80678,(838)-418-4916,caleb.green@outlook.com
+407,Anthony Baker,66,6/1/1958,F,Dr. Laura Gomez,Medicaid,33304.25,1/7/2024,1/9/2024,"9188 Maple Ave, Houston, WA 92719",92719,(399)-846-6896,
+408,Ava Miller,43,4/6/1981,M,Dr. Samuel Ortiz,Medicaid,35587.22,6/27/2024,7/6/2024,"3311 Oak St, Houston, WA 50001",50001,(303)-221-3248,ava.miller@gmail.com
+409,Liam Miller,57,10/14/1967,M,Dr. Robert Kim,Medicare Advantage,32665.28,6/24/2024,7/7/2024,"1171 Maple Ave, Houston, CO 65518",65518,(394)-396-9725,liam.miller@outlook.com
+410,Liam Patel,72,3/11/1952,F,Dr. Michael Lee,Self-Pay,25217.08,7/12/2024,7/17/2024,"4149 Oak St, Denver, CO 56898",56898,(720)-798-9011,liam.patel@gmail.com
+411,Anthony Davis,26,8/6/1999,F,Dr. Laura Gomez,Self-Pay,35473.25,6/5/2025,6/14/2025,"5372 Walnut Ave, Atlanta, TN 44760",44760,(706)-685-5396,anthony.davis@gmail.com
+412,Grace Wilson,43,3/27/1982,M,Dr. Robert Kim,Commercial - BlueCross,9915.86,3/11/2025,3/21/2025,"6229 Birch St, Atlanta, AZ 46434",46434,(969)-286-5834,grace.wilson@outlook.com
+413,Henry Green,23,8/11/2002,M,Dr. David Patel,Commercial - BlueCross,18869.32,3/18/2025,3/31/2025,"4573 Sunset Blvd, Dallas, CO 17716",17716,(439)-471-2243,henry.green@gmail.com
+414,Jacob Stewart,82,4/11/1942,F,Dr. Angela Chen,Medicaid,5288.75,3/14/2024,3/23/2024,"3321 Walnut Ave, Denver, WA 97538",97538,(986)-899-5496,
+415,Uma Garcia,87,7/27/1937,M,Dr. Michael Lee,Self-Pay,13029.75,12/20/2024,12/27/2024,"9601 Oak St, Miami, CO 63264",63264,(607)-433-4717,uma.garcia@yahoo.com
+416,Quinn Wilson,84,12/14/1940,M,Dr. Jason Miller,Medicare Advantage,31988.72,11/16/2024,11/23/2024,"3533 Ridge Rd, Miami, TX 26483",26483,(342)-791-3102,quinn.wilson@gmail.com
+417,Quinn Rivera,63,9/10/1962,M,Dr. Robert Kim,Commercial - BlueCross,17890.19,2/17/2025,3/1/2025,"5442 Oak St, Nashville, TX 62227",62227,(342)-357-6410,quinn.rivera@example.org
+418,Noah Miller,68,11/10/1956,F,Dr. Laura Gomez,Medicaid,19778.94,12/2/2024,12/10/2024,"1627 Pine Dr, Austin, CO 38657",38657,(905)-817-9005,
+419,Grace Nguyen,67,1/12/1958,M,Dr. Robert Kim,Medicaid,12707.56,6/20/2025,,"8595 Oak St, Houston, FL 23473",23473,(620)-600-3572,grace.nguyen@yahoo.com
+420,Sophia Brown,79,12/22/1945,F,Dr. Laura Gomez,Self-Pay,9449.47,7/29/2024,8/12/2024,"7878 Pine Dr, Nashville, WA 82845",82845,(407)-714-8519,sophia.brown@gmail.com
+421,Elena Scott,26,1/24/1999,M,Dr. Robert Kim,Commercial - Aetna,14162.32,5/17/2025,5/27/2025,"1592 Birch St, Miami, FL 70068",70068,(928)-504-7407,elena.scott@yahoo.com
+422,Olivia Wilson,40,7/23/1984,M,Dr. Jason Miller,Commercial - BlueCross,36567.07,7/6/2024,7/8/2024,"815 Cedar Ln, Houston, WA 33509",33509,(843)-750-5782,olivia.wilson@gmail.com
+423,Xavier Baker,45,2/17/1980,M,Dr. Laura Gomez,Self-Pay,22783.72,1/12/2025,,"5441 Sunset Blvd, Miami, CO 24371",24371,(412)-718-1731,xavier.baker@gmail.com
+424,Victoria Adams,77,5/4/1947,M,Dr. David Patel,Commercial - Cigna,16874.66,7/18/2024,7/19/2024,"2336 Walnut Ave, Miami, TN 73624",73624,(269)-284-9985,victoria.adams@example.org
+425,Elena Davis,53,9/24/1971,F,Dr. Samuel Ortiz,Self-Pay,2195.55,4/12/2024,4/14/2024,"6503 Pine Dr, Austin, TX 51180",51180,(479)-357-8219,elena.davis@yahoo.com
+426,Xavier Carter,86,11/4/1939,F,Dr. Jason Miller,Commercial - Cigna,3338.61,6/19/2025,6/30/2025,"6499 Birch St, Miami, TX 38534",38534,(204)-249-7183,xavier.carter@yahoo.com
+427,Mia Wilson,43,11/22/1981,F,Dr. Michael Lee,Commercial - BlueCross,2575.85,1/15/2024,1/19/2024,"1135 Cedar Ln, Austin, CO 42018",42018,(371)-245-7810,mia.wilson@outlook.com
+428,Liam Martinez,42,3/1/1982,F,Dr. Laura Gomez,Commercial - BlueCross,6150.95,8/6/2024,8/12/2024,"6688 Walnut Ave, Dallas, GA 61856",61856,(669)-425-2081,liam.martinez@outlook.com
+429,Victoria Patel,65,12/18/1960,F,Dr. Priya Shah,Medicaid,17327.23,5/26/2025,5/28/2025,"9425 Pine Dr, Denver, AZ 17665",17665,(532)-846-7366,victoria.patel@yahoo.com
+430,Liam Brooks,58,12/8/1967,M,Dr. Priya Shah,Medicare Advantage,2179.48,4/4/2025,4/15/2025,"8348 Oak St, Phoenix, TX 72493",72493,(977)-327-6060,liam.brooks@example.org
+431,Zoe Wilson,28,11/2/1996,F,Dr. Samuel Ortiz,Medicare Advantage,20700.97,7/25/2024,7/29/2024,"4000 Ridge Rd, Chicago, CO 42953",42953,(525)-859-1648,zoe.wilson@example.org
+432,Victoria Stewart,54,1/22/1970,F,Dr. Robert Kim,Self-Pay,29715.62,12/16/2024,12/25/2024,"4168 Cedar Ln, Nashville, GA 34931",34931,(529)-387-8247,victoria.stewart@gmail.com
+433,Caleb Davis,26,10/18/1998,F,Dr. Michael Lee,Commercial - Cigna,39692.48,7/28/2024,7/31/2024,"3448 Cedar Ln, Atlanta, AZ 87110",87110,(942)-678-6103,
+434,Grace Wilson,72,5/28/1953,F,Dr. Robert Kim,Medicare Advantage,12486.09,4/4/2025,4/8/2025,"7983 Maple Ave, Chicago, GA 96474",96474,(371)-682-8231,grace.wilson@example.org
+435,Zoe Garcia,79,9/24/1945,F,Dr. Laura Gomez,Commercial - BlueCross,34380.63,11/3/2024,11/6/2024,"2978 Birch St, Seattle, TN 69470",69470,(664)-490-7146,zoe.garcia@example.org
+436,Caroline Johnson,35,9/24/1989,M,Dr. Robert Kim,Medicaid,36771.08,1/5/2024,,"6231 Ridge Rd, Seattle, GA 99065",99065,(604)-960-7113,caroline.johnson@outlook.com
+437,Victoria Green,27,5/25/1997,M,Dr. Michael Lee,Medicare,16315.8,6/15/2024,6/22/2024,"5811 Ridge Rd, Chicago, TX 87924",87924,(594)-634-5043,victoria.green@gmail.com
+438,Ethan Stewart,64,10/22/1960,F,Dr. Samuel Ortiz,Medicare Advantage,24809.27,5/30/2024,6/9/2024,"2744 Oak St, Austin, AZ 25713",25713,(928)-593-7515,ethan.stewart@gmail.com
+439,Ruby Miller,72,7/19/1953,F,Dr. Laura Gomez,Medicare Advantage,28135.72,5/27/2025,6/7/2025,"5145 Sunset Blvd, Austin, AZ 18907",18907,(786)-995-6642,ruby.miller@outlook.com
+440,Yasmin Miller,68,12/14/1956,M,Dr. Michael Lee,Medicaid,32930.99,1/2/2024,,"8700 Sunset Blvd, Denver, GA 70589",70589,(380)-583-4053,yasmin.miller@yahoo.com
+441,Quinn Brooks,82,3/26/1942,F,Dr. Jason Miller,Commercial - Aetna,32853.26,7/9/2024,7/21/2024,"3243 Birch St, Seattle, TN 76562",76562,(839)-311-3721,
+442,Caroline Perez,33,2/1/1991,M,Dr. Priya Shah,Medicare Advantage,2642.17,8/28/2024,9/8/2024,"1100 Birch St, Dallas, TX 26361",26361,(416)-734-1118,caroline.perez@outlook.com
+443,Ethan Davis,78,4/12/1946,M,Dr. Laura Gomez,Medicare Advantage,15775.23,12/17/2024,12/31/2024,"6628 Sunset Blvd, Nashville, TX 25157",25157,(564)-538-2641,
+444,Caleb Adams,69,4/12/1956,F,Dr. Michael Lee,Commercial - Aetna,6231.44,6/27/2025,6/30/2025,"7504 Ridge Rd, Atlanta, GA 96163",96163,(392)-203-6278,
+445,Mia Barnes,23,2/12/2002,M,Dr. Jason Miller,Medicaid,24860.38,2/13/2025,2/26/2025,"7110 Ridge Rd, Austin, GA 94012",94012,(821)-399-3345,mia.barnes@gmail.com
+446,Elena Davis,29,4/8/1995,M,Dr. Jason Miller,Medicaid,36011.73,4/28/2024,5/7/2024,"3567 Pine Dr, Austin, AZ 38864",38864,(932)-229-3625,elena.davis@outlook.com
+447,Diana Perez,53,11/24/1971,F,Dr. Angela Chen,Commercial - Cigna,19837.64,5/6/2024,5/15/2024,"8160 Maple Ave, Chicago, IL 56025",56025,(789)-984-2059,diana.perez@example.org
+448,Ethan Adams,66,2/11/1958,M,Dr. Robert Kim,Medicaid,11475.12,10/24/2024,,"9802 Cedar Ln, Austin, FL 40512",40512,(520)-589-1027,ethan.adams@yahoo.com
+449,Caleb Perez,72,10/8/1952,M,Dr. David Patel,Self-Pay,27653.13,5/9/2024,5/19/2024,"1846 Sunset Blvd, Dallas, TN 76542",76542,(348)-503-4586,caleb.perez@example.org
+450,Elena Patel,54,5/28/1971,F,Dr. Michael Lee,Commercial - Aetna,13825.37,5/29/2025,5/31/2025,"9503 Ridge Rd, Phoenix, TN 44973",44973,(921)-585-1963,elena.patel@outlook.com
+451,Elena Stewart,44,11/28/1981,F,Dr. Michael Lee,Self-Pay,31377.49,5/14/2025,5/19/2025,"2708 Oak St, Atlanta, GA 80697",80697,(632)-894-8756,elena.stewart@example.org
+452,Noah Nguyen,85,6/25/1940,M,Dr. Angela Chen,Commercial - Cigna,37037.96,2/7/2025,,"9609 Oak St, Denver, TN 91183",91183,(367)-791-3253,noah.nguyen@example.org
+453,Jacob Garcia,44,2/22/1981,F,Dr. Robert Kim,Commercial - Cigna,26572.66,1/5/2025,1/15/2025,"2518 Sunset Blvd, Seattle, CO 46517",46517,(257)-298-6825,jacob.garcia@yahoo.com
+454,Benjamin Rodriguez,83,4/13/1942,M,Dr. Laura Gomez,Medicaid,25638.44,2/17/2025,2/19/2025,"8105 Birch St, Nashville, CO 15209",15209,(963)-584-2468,benjamin.rodriguez@example.org
+455,Isabella Lopez,74,9/8/1950,M,Dr. Michael Lee,Medicare,5990.16,5/4/2024,5/15/2024,"477 Ridge Rd, Denver, AZ 65518",65518,(807)-385-7290,isabella.lopez@example.org
+456,Jacob Green,34,1/13/1990,F,Dr. David Patel,Medicare,28980.07,7/8/2024,7/20/2024,"9210 Ridge Rd, Austin, AZ 23577",23577,(971)-412-2922,
+457,Uma Adams,41,11/6/1983,F,Dr. Jason Miller,Self-Pay,13600.4,2/10/2024,2/14/2024,"1538 Birch St, Dallas, AZ 47930",47930,(718)-505-6956,uma.adams@yahoo.com
+458,Olivia King,18,11/18/2007,F,Dr. Angela Chen,Medicare,37929.26,6/15/2025,6/20/2025,"7389 Pine Dr, Nashville, TN 51441",51441,(520)-735-6769,olivia.king@yahoo.com
+459,Xavier Rodriguez,23,9/7/2001,F,Dr. Michael Lee,Medicaid,6954.19,8/8/2024,8/18/2024,"9795 Walnut Ave, Denver, CO 30676",30676,(837)-632-2218,xavier.rodriguez@outlook.com
+460,Noah Lopez,38,9/7/1987,M,Dr. Jason Miller,Medicare,37872.51,3/11/2025,3/14/2025,"1256 Birch St, Phoenix, FL 73092",73092,(873)-863-9379,noah.lopez@example.org
+461,Bianca Garcia,58,2/18/1966,M,Dr. Laura Gomez,Medicare,38614.68,9/10/2024,,"1902 Sunset Blvd, Austin, FL 40828",40828,(291)-571-6464,bianca.garcia@yahoo.com
+462,Caleb Rivera,46,2/6/1978,M,Dr. Michael Lee,Medicare,16020.51,8/15/2024,8/17/2024,"8725 Birch St, Nashville, TN 80284",80284,(741)-557-5620,caleb.rivera@gmail.com
+463,Diana Carter,39,7/16/1986,M,Dr. Laura Gomez,Medicaid,14789.16,6/28/2025,6/30/2025,"9804 Pine Dr, Denver, TX 98039",98039,(725)-930-3547,diana.carter@yahoo.com
+464,Noah Green,52,8/12/1973,F,Dr. David Patel,Commercial - Cigna,31434.83,3/4/2025,3/7/2025,"7778 Birch St, Denver, GA 34931",34931,(935)-434-6000,noah.green@gmail.com
+465,Jacob Brown,58,2/24/1966,F,Dr. Priya Shah,Medicare,29603.19,4/5/2024,4/6/2024,"4783 Ridge Rd, Dallas, GA 51180",51180,(720)-948-3235,jacob.brown@gmail.com
+466,Noah Thompson,42,11/27/1982,F,Dr. Laura Gomez,Commercial - Cigna,22071.51,12/19/2024,12/31/2024,"8752 Oak St, Nashville, TN 66959",66959,(372)-890-9577,noah.thompson@yahoo.com
+467,Caroline Hernandez,35,6/22/1989,M,Dr. Michael Lee,Commercial - BlueCross,20577.05,6/23/2024,6/25/2024,"4192 Maple Ave, Denver, WA 22363",22363,(500)-471-4490,
+468,Victoria Green,68,8/2/1956,F,Dr. Angela Chen,Commercial - Cigna,21347.87,2/6/2024,2/16/2024,"5928 Oak St, Nashville, TN 36071",36071,(505)-562-2755,
+469,Diana Baker,41,9/5/1984,M,Dr. David Patel,Medicare,5401.5,5/18/2025,5/27/2025,"6829 Maple Ave, Miami, TX 94939",94939,(987)-872-5098,diana.baker@example.org
+470,Mia Morgan,64,8/6/1960,M,Dr. Samuel Ortiz,Commercial - Aetna,32744.44,4/21/2024,5/2/2024,"2391 Walnut Ave, Seattle, TX 17592",17592,(926)-403-2813,
+471,Benjamin Garcia,68,5/4/1956,M,Dr. David Patel,Medicare,7672.03,7/22/2024,8/2/2024,"6999 Ridge Rd, Atlanta, TN 10464",10464,(898)-931-3087,benjamin.garcia@example.org
+472,Ruby Baker,67,1/25/1957,F,Dr. Priya Shah,Medicare,32019.45,5/9/2024,5/18/2024,"3974 Oak St, Chicago, GA 25157",25157,(811)-955-1131,ruby.baker@outlook.com
+473,Jacob Davis,28,2/28/1997,M,Dr. Robert Kim,Commercial - Aetna,7371.09,6/7/2025,6/12/2025,"4417 Cedar Ln, Seattle, IL 71953",71953,(923)-305-9230,jacob.davis@yahoo.com
+474,Caleb Green,37,7/1/1987,F,Dr. Priya Shah,Medicaid,16949.4,10/7/2024,10/10/2024,"3370 Maple Ave, Dallas, GA 58944",58944,(737)-513-4791,caleb.green@example.org
+475,Quinn Carter,83,12/14/1942,M,Dr. Michael Lee,Medicare Advantage,5737.12,1/7/2025,1/13/2025,"4146 Walnut Ave, Dallas, CO 13478",13478,(200)-253-6269,quinn.carter@example.org
+476,Isabella Patel,30,2/22/1995,M,Dr. Samuel Ortiz,Medicare Advantage,38010.64,1/7/2025,1/9/2025,"323 Pine Dr, Chicago, FL 79329",79329,(570)-960-9664,isabella.patel@yahoo.com
+477,Victoria Flores,44,11/27/1980,M,Dr. Priya Shah,Medicare,6523.69,5/3/2024,,"3220 Cedar Ln, Miami, AZ 23396",23396,(759)-833-6618,victoria.flores@example.org
+478,Zoe Miller,86,9/12/1938,F,Dr. Michael Lee,Medicaid,8880.71,9/15/2024,9/28/2024,"6096 Ridge Rd, Austin, GA 46421",46421,(694)-629-9581,zoe.miller@gmail.com
+479,Franklin Patel,53,4/24/1971,F,Dr. Angela Chen,Medicare,38298.41,3/3/2024,3/15/2024,"6612 Ridge Rd, Atlanta, AZ 80010",80010,(648)-968-9344,franklin.patel@example.org
+480,Noah Patel,52,9/15/1972,F,Dr. Samuel Ortiz,Medicare,7660.12,8/11/2024,8/12/2024,"8354 Birch St, Denver, IL 54587",54587,(925)-474-2951,
+481,Benjamin Martinez,48,1/21/1976,M,Dr. Michael Lee,Commercial - Cigna,7203.37,10/11/2024,10/16/2024,"4179 Cedar Ln, Atlanta, AZ 93810",93810,(864)-555-7047,benjamin.martinez@outlook.com
+482,Yasmin Garcia,70,12/9/1954,M,Dr. David Patel,Medicare,25599.28,1/11/2024,1/15/2024,"2995 Birch St, Dallas, AZ 19016",19016,(963)-904-7258,yasmin.garcia@outlook.com
+483,Caleb Lopez,88,7/5/1936,F,Dr. Jason Miller,Medicaid,13984.13,7/27/2024,8/9/2024,"7408 Cedar Ln, Seattle, FL 37460",37460,(690)-295-9125,
+484,Franklin Stewart,40,3/6/1984,F,Dr. Jason Miller,Commercial - Cigna,8445.66,10/15/2024,,"6558 Cedar Ln, Austin, CO 38221",38221,(636)-451-8455,franklin.stewart@example.org
+485,Daniel Baker,85,1/25/1940,F,Dr. Michael Lee,Commercial - Aetna,5339.6,1/28/2025,,"816 Pine Dr, Phoenix, AZ 60432",60432,(346)-842-1221,daniel.baker@gmail.com
+486,Anthony Rodriguez,87,6/16/1938,M,Dr. Priya Shah,Medicaid,6860.36,3/30/2025,4/4/2025,"2631 Cedar Ln, Dallas, WA 20500",20500,(756)-326-1347,anthony.rodriguez@gmail.com
+487,Sophia Morgan,31,3/12/1993,M,Dr. Samuel Ortiz,Medicare,36618.43,1/25/2024,2/1/2024,"4799 Cedar Ln, Seattle, AZ 56438",56438,(373)-312-4678,
+488,Jacob Hernandez,27,3/6/1997,M,Dr. Priya Shah,Medicare Advantage,37047.8,3/27/2024,4/6/2024,"7122 Walnut Ave, Nashville, CO 41285",41285,(635)-353-5940,jacob.hernandez@outlook.com
+489,Mia Rodriguez,52,3/25/1972,M,Dr. David Patel,Medicare Advantage,32712.7,3/19/2024,4/2/2024,"2501 Walnut Ave, Houston, GA 18834",18834,(938)-689-2102,
+490,Olivia Baker,53,6/16/1971,F,Dr. Priya Shah,Medicare Advantage,39798.71,7/5/2024,7/11/2024,"7044 Ridge Rd, Seattle, FL 93320",93320,(869)-451-7278,olivia.baker@example.org
+491,Sophia Martinez,81,12/26/1944,F,Dr. Laura Gomez,Medicare,23867.11,3/7/2025,3/20/2025,"3693 Maple Ave, Phoenix, FL 24592",24592,(408)-217-6937,sophia.martinez@yahoo.com
+492,Ethan Rodriguez,25,9/14/1999,M,Dr. David Patel,Self-Pay,34199.17,5/22/2024,5/25/2024,"4073 Cedar Ln, Phoenix, TX 82692",82692,(341)-320-3344,ethan.rodriguez@gmail.com
+493,Xavier Brown,65,3/1/1960,F,Dr. Priya Shah,Commercial - Cigna,23891.87,5/3/2025,5/17/2025,"2506 Walnut Ave, Houston, AZ 76784",76784,(278)-212-7823,
+494,Franklin Davis,35,1/10/1990,M,Dr. Jason Miller,Commercial - BlueCross,29318.46,3/30/2025,4/11/2025,"1922 Pine Dr, Dallas, TX 81066",81066,(969)-377-9245,
+495,Noah Stewart,72,5/3/1952,M,Dr. Angela Chen,Commercial - Aetna,20822.09,8/20/2024,8/23/2024,"8644 Sunset Blvd, Houston, IL 62296",62296,(833)-257-4586,noah.stewart@gmail.com
+496,Bianca Adams,77,6/21/1948,M,Dr. David Patel,Commercial - Cigna,26212.8,1/24/2025,2/6/2025,"7050 Cedar Ln, Denver, AZ 48427",48427,(279)-571-6496,
+497,Jacob Brooks,87,11/2/1937,F,Dr. Priya Shah,Medicaid,24488.76,11/12/2024,11/16/2024,"4037 Birch St, Austin, TX 73092",73092,(695)-246-1787,jacob.brooks@outlook.com
+498,Ava Hernandez,54,11/4/1970,M,Dr. Robert Kim,Medicare Advantage,30445.93,12/30/2024,1/11/2025,"5528 Sunset Blvd, Atlanta, AZ 95649",95649,(993)-353-1388,ava.hernandez@example.org
+499,Quinn Green,22,12/8/2002,M,Dr. Samuel Ortiz,Medicaid,27771.4,3/21/2024,3/23/2024,"3633 Pine Dr, Houston, FL 14117",14117,(334)-547-5765,quinn.green@example.org
+500,Benjamin Adams,67,2/26/1957,F,Dr. Robert Kim,Commercial - Aetna,24864.77,6/5/2024,6/13/2024,"344 Pine Dr, Denver, AZ 17100",17100,(296)-665-6139,
+501,Jacob Brooks,26,5/16/1998,M,Dr. David Patel,Medicare Advantage,4935.33,7/2/2024,7/10/2024,"4294 Ridge Rd, Houston, AZ 89457",89457,(782)-699-1648,jacob.brooks@outlook.com
+502,Noah Brown,34,7/17/1990,M,Dr. David Patel,Commercial - Aetna,34026.17,11/17/2024,11/28/2024,"7474 Birch St, Dallas, TX 79329",79329,(450)-916-1130,
+503,Daniel Morgan,66,2/12/1959,F,Dr. Laura Gomez,Self-Pay,4309.68,2/1/2025,2/12/2025,"7732 Ridge Rd, Atlanta, TN 91070",91070,(287)-384-2775,daniel.morgan@example.org
+504,Zoe Brown,43,8/4/1982,M,Dr. David Patel,Medicare,13715.47,5/12/2025,5/24/2025,"4660 Ridge Rd, Dallas, CO 25118",25118,(681)-349-4497,zoe.brown@gmail.com
+505,Uma Collins,66,1/25/1959,F,Dr. David Patel,Self-Pay,18059.22,4/29/2025,5/3/2025,"7029 Birch St, Denver, CO 57052",57052,(345)-270-5487,uma.collins@outlook.com
+506,Caleb Adams,75,7/11/1949,M,Dr. Robert Kim,Commercial - Cigna,35883.33,7/7/2024,7/9/2024,"4964 Pine Dr, Phoenix, FL 80282",80282,(629)-693-8790,caleb.adams@yahoo.com
+507,Xavier Brown,63,11/19/1961,M,Dr. Michael Lee,Commercial - Aetna,31648.29,7/22/2024,,"2469 Walnut Ave, Chicago, TX 44993",44993,(669)-351-9182,xavier.brown@gmail.com
+508,Anthony King,70,10/4/1954,M,Dr. Michael Lee,Commercial - BlueCross,37817.96,5/8/2024,5/19/2024,"697 Cedar Ln, Phoenix, GA 19508",19508,(759)-992-3721,anthony.king@yahoo.com
+509,Mia Miller,42,2/23/1982,F,Dr. David Patel,Self-Pay,15506.09,11/5/2024,11/14/2024,"8277 Ridge Rd, Seattle, GA 57576",57576,(560)-755-7977,mia.miller@outlook.com
+510,Daniel Brooks,76,5/28/1948,M,Dr. David Patel,Medicaid,22781.01,6/15/2024,6/22/2024,"7267 Birch St, Nashville, AZ 89131",89131,(306)-291-1269,daniel.brooks@example.org
+511,Daniel Davis,87,7/7/1937,F,Dr. Jason Miller,Commercial - Aetna,23877.49,2/3/2024,2/17/2024,"3751 Ridge Rd, Atlanta, GA 35203",35203,(400)-680-3038,daniel.davis@example.org
+512,Olivia Stewart,68,5/10/1956,F,Dr. David Patel,Self-Pay,10121.56,10/17/2024,10/28/2024,"6894 Cedar Ln, Dallas, GA 38657",38657,(215)-226-3512,olivia.stewart@outlook.com
+513,Liam Brooks,73,10/14/1952,F,Dr. Laura Gomez,Medicaid,25226.31,2/6/2025,2/19/2025,"2211 Sunset Blvd, Houston, GA 39154",39154,(525)-729-3595,liam.brooks@gmail.com
+514,Xavier Rivera,34,6/7/1990,F,Dr. Laura Gomez,Self-Pay,30843.62,9/23/2024,9/26/2024,"1627 Maple Ave, Dallas, GA 39256",39256,(843)-988-3507,
+515,Xavier Martinez,28,6/6/1997,M,Dr. Michael Lee,Commercial - Cigna,29765.51,4/9/2025,4/22/2025,"4027 Cedar Ln, Denver, IL 42742",42742,(451)-943-7194,xavier.martinez@gmail.com
+516,Isabella Nguyen,36,5/6/1988,F,Dr. Priya Shah,Medicare,19176.42,5/5/2024,5/10/2024,"1620 Maple Ave, Miami, FL 39831",39831,(412)-600-2649,isabella.nguyen@gmail.com
+517,Olivia Nguyen,80,3/6/1944,F,Dr. Robert Kim,Commercial - Cigna,17666.42,11/17/2024,11/25/2024,"4994 Oak St, Houston, TX 16006",16006,(551)-555-8928,olivia.nguyen@gmail.com
+518,Franklin Allen,50,3/7/1974,F,Dr. Robert Kim,Commercial - Aetna,2637.88,1/24/2024,2/6/2024,"6078 Maple Ave, Phoenix, TX 89818",89818,(341)-425-2367,franklin.allen@yahoo.com
+519,Isabella Flores,79,8/14/1945,F,Dr. Priya Shah,Medicare Advantage,28761.22,10/28/2024,11/10/2024,"8499 Sunset Blvd, Phoenix, WA 59735",59735,(402)-903-5605,isabella.flores@gmail.com
+520,Thomas Rivera,57,5/27/1968,F,Dr. Robert Kim,Commercial - Cigna,20281.52,4/1/2025,4/13/2025,"5322 Maple Ave, Nashville, GA 82603",82603,(404)-780-6782,thomas.rivera@gmail.com
+521,Peter Brooks,22,2/6/2003,M,Dr. Laura Gomez,Medicare Advantage,24749.46,6/27/2025,6/28/2025,"5386 Sunset Blvd, Houston, FL 76784",76784,(274)-420-7089,peter.brooks@outlook.com
+522,Daniel Thompson,58,2/13/1966,F,Dr. David Patel,Medicaid,19417,11/25/2024,12/4/2024,"4746 Cedar Ln, Atlanta, IL 82357",82357,(774)-484-2225,daniel.thompson@example.org
+523,William Collins,73,7/4/1952,M,Dr. David Patel,Medicaid,9089.25,5/20/2025,5/25/2025,"2133 Ridge Rd, Houston, FL 73788",73788,(592)-442-1348,william.collins@gmail.com
+524,Ethan Scott,54,11/1/1971,F,Dr. Laura Gomez,Medicare,35989.44,6/24/2025,,"1237 Ridge Rd, Austin, GA 42018",42018,(508)-481-6196,ethan.scott@example.org
+525,Caroline Martinez,58,2/27/1967,M,Dr. Michael Lee,Commercial - BlueCross,12990.09,4/10/2025,4/21/2025,"6226 Maple Ave, Dallas, IL 81426",81426,(210)-342-2722,caroline.martinez@example.org
+526,Henry Brooks,29,1/9/1995,F,Dr. David Patel,Self-Pay,36260.9,1/6/2024,1/20/2024,"805 Maple Ave, Dallas, WA 23396",23396,(470)-537-7218,henry.brooks@yahoo.com
+527,Ethan Garcia,76,2/17/1949,F,Dr. Samuel Ortiz,Medicare Advantage,34682.95,2/27/2025,3/10/2025,"8744 Cedar Ln, Nashville, TN 96163",96163,(701)-487-6274,ethan.garcia@example.org
+528,Henry Nguyen,51,4/23/1973,M,Dr. Priya Shah,Medicare Advantage,23002.84,9/5/2024,9/17/2024,"1378 Maple Ave, Miami, TX 61856",61856,(213)-886-4541,henry.nguyen@example.org
+529,Grace Davis,31,5/23/1994,M,Dr. Robert Kim,Self-Pay,24235.14,6/24/2025,6/30/2025,"7538 Pine Dr, Atlanta, AZ 39219",39219,(333)-424-6957,grace.davis@example.org
+530,Caleb Patel,83,10/21/1942,F,Dr. Laura Gomez,Medicaid,4142.61,3/9/2025,3/14/2025,"1772 Pine Dr, Miami, AZ 97538",97538,(312)-446-1271,caleb.patel@yahoo.com
+531,Isabella Thompson,78,3/13/1946,M,Dr. David Patel,Medicare Advantage,6055.56,3/27/2024,3/31/2024,"8327 Sunset Blvd, Atlanta, FL 68878",68878,(651)-479-7058,
+532,Victoria Perez,72,9/14/1952,F,Dr. Angela Chen,Medicaid,17003.65,10/9/2024,10/17/2024,"1888 Oak St, Phoenix, AZ 44718",44718,(317)-254-1584,victoria.perez@yahoo.com
+533,Caroline Martinez,30,4/24/1995,M,Dr. Robert Kim,Commercial - Aetna,28431.22,2/18/2025,2/20/2025,"4495 Ridge Rd, Phoenix, CO 42914",42914,(408)-555-5718,caroline.martinez@outlook.com
+534,Yasmin Thompson,30,2/6/1994,F,Dr. Jason Miller,Commercial - Cigna,13254.98,9/1/2024,9/12/2024,"3169 Walnut Ave, Miami, CO 88193",88193,(213)-882-8775,yasmin.thompson@gmail.com
+535,Franklin Flores,27,4/16/1998,F,Dr. Michael Lee,Commercial - Aetna,15057.53,4/30/2025,5/8/2025,"1892 Oak St, Dallas, WA 82420",82420,(433)-737-9243,
+536,Elena Collins,30,9/9/1995,F,Dr. Angela Chen,Self-Pay,29843.18,4/8/2025,4/14/2025,"8070 Birch St, Chicago, TN 28289",28289,(561)-508-6467,elena.collins@example.org
+537,Daniel Flores,84,4/19/1940,F,Dr. Samuel Ortiz,Commercial - BlueCross,34466.22,5/25/2024,5/26/2024,"7156 Walnut Ave, Phoenix, AZ 62581",62581,(586)-854-2768,daniel.flores@example.org
+538,Diana Allen,40,5/7/1985,M,Dr. David Patel,Medicare Advantage,16554.51,3/3/2025,3/8/2025,"773 Walnut Ave, Nashville, AZ 87128",87128,(665)-780-6685,diana.allen@gmail.com
+539,Quinn King,36,2/26/1988,M,Dr. Samuel Ortiz,Commercial - Aetna,38716.85,6/15/2024,6/20/2024,"4928 Oak St, Miami, TX 28726",28726,(489)-807-3022,
+540,Jacob Thompson,73,9/22/1951,M,Dr. Michael Lee,Medicare,11180.19,12/24/2024,1/6/2025,"9287 Pine Dr, Austin, WA 58520",58520,(950)-401-8078,jacob.thompson@gmail.com
+541,Jacob Wilson,22,5/10/2003,M,Dr. David Patel,Medicaid,32750.8,1/30/2025,2/1/2025,"9881 Birch St, Houston, GA 41285",41285,(530)-792-3280,jacob.wilson@yahoo.com
+542,Isabella Garcia,71,7/4/1954,F,Dr. Angela Chen,Medicare Advantage,4795.52,4/17/2025,4/24/2025,"2370 Ridge Rd, Chicago, FL 27342",27342,(562)-637-8643,isabella.garcia@example.org
+543,Peter Thompson,89,9/12/1935,F,Dr. Laura Gomez,Medicare,30600.47,11/5/2024,11/15/2024,"2185 Birch St, Dallas, GA 20458",20458,(612)-886-1097,peter.thompson@example.org
+544,Bianca Carter,28,5/19/1996,F,Dr. Angela Chen,Self-Pay,39467.68,4/19/2024,4/21/2024,"7988 Walnut Ave, Dallas, AZ 79329",79329,(798)-890-9369,bianca.carter@gmail.com
+545,Xavier Miller,84,12/1/1940,F,Dr. Jason Miller,Medicaid,10106.43,6/7/2024,6/12/2024,"8045 Cedar Ln, Austin, AZ 93810",93810,(356)-818-2983,xavier.miller@yahoo.com
+546,Grace Rodriguez,78,3/27/1946,F,Dr. Jason Miller,Commercial - BlueCross,3642.65,5/4/2024,5/12/2024,"3949 Birch St, Nashville, TN 97416",97416,(873)-831-3018,grace.rodriguez@gmail.com
+547,Franklin Garcia,48,8/12/1976,F,Dr. Robert Kim,Commercial - BlueCross,19997.96,10/23/2024,11/2/2024,"4608 Sunset Blvd, Seattle, AZ 38080",38080,(626)-635-3427,
+548,Peter Rodriguez,90,6/5/1935,M,Dr. Michael Lee,Commercial - Aetna,13156.32,3/31/2025,,"7766 Ridge Rd, Denver, TX 89840",89840,(566)-712-9244,peter.rodriguez@example.org
+549,Ruby Nguyen,40,3/9/1984,F,Dr. David Patel,Commercial - Cigna,29189.55,12/13/2024,12/27/2024,"5063 Sunset Blvd, Austin, TN 26828",26828,(683)-820-3955,ruby.nguyen@outlook.com
+550,Elena Adams,59,2/16/1965,M,Dr. Laura Gomez,Medicare,3229.77,6/11/2024,6/22/2024,"7905 Walnut Ave, Phoenix, IL 48427",48427,(378)-945-7292,elena.adams@example.org
+551,Ethan Nguyen,25,10/21/1999,M,Dr. Priya Shah,Medicare,34101.87,3/15/2024,3/21/2024,"582 Pine Dr, Chicago, AZ 11220",11220,(660)-586-3182,ethan.nguyen@yahoo.com
+552,Grace Flores,80,4/3/1944,M,Dr. Angela Chen,Medicaid,9245.92,6/14/2024,6/23/2024,"9637 Oak St, Austin, IL 40495",40495,(343)-205-6891,grace.flores@gmail.com
+553,Liam Brooks,85,10/18/1940,M,Dr. Robert Kim,Self-Pay,9487.78,4/30/2025,5/6/2025,"2358 Maple Ave, Miami, GA 76562",76562,(585)-272-2280,
+554,Ruby Morgan,30,5/27/1994,F,Dr. Jason Miller,Medicaid,3481.94,12/4/2024,,"4218 Sunset Blvd, Chicago, AZ 41029",41029,(361)-494-2225,ruby.morgan@yahoo.com
+555,Caleb Allen,82,11/1/1942,M,Dr. Laura Gomez,Commercial - Aetna,3680.96,4/23/2024,4/28/2024,"628 Walnut Ave, Seattle, WA 37653",37653,(542)-983-1973,
+556,Sophia Stewart,60,7/20/1964,F,Dr. Robert Kim,Commercial - BlueCross,4307.11,2/6/2024,2/8/2024,"1420 Ridge Rd, Houston, WA 42018",42018,(242)-306-1583,sophia.stewart@yahoo.com
+557,Victoria Hernandez,73,1/1/1951,M,Dr. Angela Chen,Self-Pay,34218.59,8/21/2024,,"3314 Sunset Blvd, Dallas, TN 38893",38893,(596)-984-7180,victoria.hernandez@example.org
+558,Xavier Brown,88,7/2/1937,F,Dr. Priya Shah,Commercial - BlueCross,6042.71,1/11/2025,1/17/2025,"4002 Cedar Ln, Austin, TX 80644",80644,(622)-965-9785,xavier.brown@gmail.com
+559,Caleb Baker,49,6/20/1975,F,Dr. Priya Shah,Medicare,6378.56,7/3/2024,7/9/2024,"4101 Birch St, Houston, GA 63354",63354,(873)-325-2258,
+560,Sophia Miller,81,11/8/1944,M,Dr. Robert Kim,Commercial - BlueCross,28955.65,1/10/2025,1/15/2025,"8731 Birch St, Chicago, AZ 68878",68878,(554)-620-8966,sophia.miller@yahoo.com
+561,Ethan Garcia,84,3/2/1940,F,Dr. Angela Chen,Commercial - Cigna,22789.18,5/5/2024,5/19/2024,"3951 Ridge Rd, Miami, AZ 21395",21395,(710)-234-5428,ethan.garcia@example.org
+562,Jacob Stewart,28,7/13/1997,F,Dr. Angela Chen,Self-Pay,24975.29,5/22/2025,,"7374 Oak St, Phoenix, IL 72296",72296,(388)-875-8062,jacob.stewart@outlook.com
+563,Benjamin Martinez,62,12/27/1962,F,Dr. David Patel,Self-Pay,36436.81,8/9/2024,8/15/2024,"7211 Sunset Blvd, Dallas, AZ 22224",22224,(597)-938-5709,benjamin.martinez@example.org
+564,Olivia Green,90,5/26/1934,M,Dr. Samuel Ortiz,Commercial - BlueCross,19492.3,8/31/2024,9/1/2024,"4595 Maple Ave, Phoenix, WA 80697",80697,(784)-604-1632,olivia.green@outlook.com
+565,Isabella King,50,3/15/1974,F,Dr. Priya Shah,Medicare Advantage,23384.98,11/24/2024,12/8/2024,"7681 Oak St, Miami, TX 80678",80678,(237)-567-8867,isabella.king@yahoo.com
+566,Olivia Carter,28,5/28/1996,M,Dr. David Patel,Medicare,18456.92,9/21/2024,9/26/2024,"8208 Pine Dr, Phoenix, CO 37460",37460,(832)-871-1812,olivia.carter@gmail.com
+567,Franklin King,82,12/9/1942,M,Dr. David Patel,Medicare,22806.2,8/21/2024,,"4317 Oak St, Chicago, TX 17665",17665,(440)-558-2788,
+568,Peter Rodriguez,83,7/3/1942,F,Dr. Robert Kim,Medicaid,14042.88,1/15/2025,1/26/2025,"7087 Birch St, Houston, TX 89818",89818,(821)-568-6488,peter.rodriguez@outlook.com
+569,Quinn Morgan,21,2/20/2003,F,Dr. David Patel,Medicare,12698.6,6/2/2024,6/3/2024,"3564 Walnut Ave, Atlanta, FL 99065",99065,(420)-587-1534,quinn.morgan@yahoo.com
+570,Noah Collins,28,9/26/1997,F,Dr. Robert Kim,Commercial - Aetna,20884.59,3/4/2025,3/6/2025,"942 Ridge Rd, Atlanta, TN 23947",23947,(475)-399-5801,noah.collins@outlook.com
+571,Henry Rivera,64,12/14/1960,F,Dr. Jason Miller,Medicare Advantage,30305.25,4/28/2024,5/6/2024,"6029 Maple Ave, Chicago, AZ 39219",39219,(570)-869-8932,henry.rivera@example.org
+572,Anthony Brown,47,5/11/1977,F,Dr. Robert Kim,Self-Pay,36506.73,5/21/2024,6/3/2024,"5242 Maple Ave, Austin, GA 18392",18392,(717)-351-9096,anthony.brown@yahoo.com
+573,Diana Brooks,76,1/27/1949,F,Dr. Samuel Ortiz,Medicare,17617.09,4/26/2025,4/29/2025,"7168 Oak St, Houston, AZ 59823",59823,(727)-742-7358,diana.brooks@outlook.com
+574,Elena Perez,89,2/24/1935,F,Dr. Angela Chen,Medicare,14467.12,12/10/2024,12/20/2024,"841 Maple Ave, Chicago, TN 50001",50001,(618)-845-8368,elena.perez@example.org
+575,Jacob Collins,79,1/19/1946,F,Dr. Samuel Ortiz,Commercial - Cigna,30989.29,6/5/2025,,"9816 Walnut Ave, Miami, GA 49117",49117,(649)-380-9334,jacob.collins@outlook.com
+576,Zoe Rodriguez,47,9/28/1978,M,Dr. Jason Miller,Medicare Advantage,3359.09,6/14/2025,6/24/2025,"7090 Birch St, Chicago, GA 91959",91959,(975)-382-3346,
+577,Yasmin Baker,44,5/6/1980,M,Dr. Angela Chen,Commercial - Aetna,35363.97,11/17/2024,,"2042 Birch St, Denver, TN 19305",19305,(429)-373-5726,yasmin.baker@outlook.com
+578,Uma Collins,31,10/2/1994,F,Dr. Angela Chen,Medicaid,5195.08,6/4/2025,6/5/2025,"8944 Cedar Ln, Dallas, TN 86350",86350,(226)-578-4328,uma.collins@example.org
+579,Yasmin Scott,84,8/9/1940,F,Dr. Jason Miller,Medicare Advantage,36842.81,5/2/2024,5/9/2024,"1523 Pine Dr, Denver, AZ 51114",51114,(562)-280-4644,yasmin.scott@outlook.com
+580,Franklin Allen,60,1/14/1964,M,Dr. Jason Miller,Commercial - Cigna,29817.59,3/16/2024,3/22/2024,"1745 Walnut Ave, Phoenix, TX 25118",25118,(849)-842-1130,franklin.allen@example.org
+581,Caleb Wilson,43,3/7/1981,M,Dr. Jason Miller,Medicaid,20153.53,7/10/2024,7/15/2024,"1553 Cedar Ln, Dallas, GA 46421",46421,(702)-771-4416,caleb.wilson@gmail.com
+582,Olivia Adams,51,5/27/1974,M,Dr. Robert Kim,Commercial - Cigna,14925.1,6/27/2025,6/30/2025,"3899 Birch St, Miami, TN 46265",46265,(845)-601-6851,olivia.adams@outlook.com
+583,Daniel Wilson,32,6/22/1993,M,Dr. Laura Gomez,Commercial - BlueCross,14027.79,3/11/2025,3/19/2025,"1960 Walnut Ave, Seattle, CO 54942",54942,(695)-700-7750,daniel.wilson@gmail.com
+584,Jacob Flores,82,7/13/1942,F,Dr. Laura Gomez,Medicare,23146.91,11/26/2024,12/2/2024,"7340 Sunset Blvd, Seattle, WA 39831",39831,(255)-474-8954,jacob.flores@outlook.com
+585,Victoria Stewart,23,11/4/2001,M,Dr. Jason Miller,Commercial - BlueCross,10020.44,6/19/2024,7/2/2024,"5501 Pine Dr, Nashville, TX 44237",44237,(939)-221-7212,
+586,Xavier Johnson,63,9/13/1961,F,Dr. Michael Lee,Commercial - Aetna,9602.84,7/22/2024,8/5/2024,"3857 Birch St, Houston, FL 30032",30032,(623)-420-5074,xavier.johnson@gmail.com
+587,Caleb Thompson,85,4/21/1939,F,Dr. Laura Gomez,Self-Pay,20168.65,6/9/2024,6/10/2024,"4151 Oak St, Denver, AZ 82309",82309,(586)-871-7565,
+588,Yasmin Flores,28,12/27/1997,F,Dr. Priya Shah,Commercial - Aetna,29301.35,3/1/2025,,"8975 Pine Dr, Austin, GA 62581",62581,(820)-519-6303,yasmin.flores@gmail.com
+589,Jacob Flores,76,2/8/1949,F,Dr. Priya Shah,Medicare Advantage,38816.6,4/27/2025,5/4/2025,"6757 Birch St, Miami, WA 70332",70332,(919)-746-9300,jacob.flores@gmail.com
+590,Quinn Baker,68,8/12/1956,M,Dr. Priya Shah,Commercial - BlueCross,10126.34,1/26/2024,1/30/2024,"7911 Maple Ave, Denver, FL 58520",58520,(845)-285-2562,quinn.baker@yahoo.com
+591,Caleb Davis,49,10/25/1976,F,Dr. Samuel Ortiz,Commercial - BlueCross,25234.81,4/29/2025,5/13/2025,"3908 Oak St, Miami, WA 77839",77839,(518)-958-6535,caleb.davis@gmail.com
+592,Liam Adams,90,11/8/1935,M,Dr. Michael Lee,Medicare Advantage,28080.3,5/15/2025,5/21/2025,"5372 Ridge Rd, Miami, AZ 35313",35313,(307)-635-2269,liam.adams@gmail.com
+593,Franklin Allen,33,7/16/1991,F,Dr. Robert Kim,Commercial - BlueCross,34985.34,4/26/2024,,"2897 Ridge Rd, Houston, GA 50857",50857,(209)-503-2926,franklin.allen@outlook.com
+594,Yasmin King,52,4/26/1972,M,Dr. David Patel,Commercial - Aetna,26533.5,5/24/2024,6/4/2024,"6182 Birch St, Miami, TN 75435",75435,(538)-964-3217,
+595,Xavier Stewart,78,1/10/1947,F,Dr. David Patel,Commercial - BlueCross,8400.19,4/26/2025,,"3174 Cedar Ln, Austin, TN 30032",30032,(296)-262-8679,xavier.stewart@gmail.com
+596,Mia Lopez,89,7/19/1935,F,Dr. David Patel,Commercial - Cigna,2043.99,7/16/2024,7/30/2024,"5109 Walnut Ave, Nashville, GA 94080",94080,(460)-774-9864,mia.lopez@yahoo.com
+597,Caroline Green,37,10/21/1987,F,Dr. Robert Kim,Medicare Advantage,8365.52,4/14/2024,4/23/2024,"6374 Walnut Ave, Nashville, WA 55309",55309,(954)-830-8756,caroline.green@gmail.com
+598,Anthony Wilson,45,3/17/1979,F,Dr. Samuel Ortiz,Medicaid,7845.51,1/1/2024,1/2/2024,"7303 Sunset Blvd, Miami, FL 66985",66985,(712)-978-2921,anthony.wilson@example.org
+599,Noah Collins,67,4/6/1957,M,Dr. David Patel,Medicare Advantage,33788,11/20/2024,11/30/2024,"4650 Pine Dr, Seattle, TN 66498",66498,(911)-456-2970,noah.collins@example.org
+600,Victoria Hernandez,40,10/18/1984,F,Dr. David Patel,Self-Pay,19443.92,12/20/2024,12/24/2024,"3229 Sunset Blvd, Chicago, CO 56025",56025,(965)-210-4208,victoria.hernandez@yahoo.com
+601,Ava Green,57,5/2/1968,M,Dr. Priya Shah,Medicare Advantage,36758.57,5/29/2025,6/8/2025,"4604 Ridge Rd, Seattle, TX 19508",19508,(921)-459-5492,ava.green@gmail.com
+602,Caleb Adams,78,1/20/1946,M,Dr. Jason Miller,Medicaid,19727.76,4/16/2024,,"2609 Pine Dr, Houston, AZ 39451",39451,(322)-257-8264,caleb.adams@gmail.com
+603,Liam Rodriguez,87,6/23/1937,M,Dr. Robert Kim,Commercial - Cigna,25139.15,1/18/2024,1/29/2024,"2872 Walnut Ave, Atlanta, TX 99065",99065,(880)-612-7821,liam.rodriguez@gmail.com
+604,Caroline Miller,82,12/17/1942,F,Dr. Angela Chen,Medicare,8144.53,2/15/2024,2/19/2024,"6805 Pine Dr, Dallas, WA 71348",71348,(774)-559-2928,caroline.miller@gmail.com
+605,Thomas Scott,29,1/25/1995,F,Dr. Priya Shah,Medicaid,29587.69,7/9/2024,7/20/2024,"2874 Oak St, Phoenix, FL 97684",97684,(283)-941-5042,thomas.scott@yahoo.com
+606,Yasmin Collins,34,6/14/1990,M,Dr. Michael Lee,Commercial - BlueCross,28677.69,7/1/2024,7/11/2024,"3802 Cedar Ln, Denver, IL 93886",93886,(502)-465-8202,yasmin.collins@example.org
+607,Mia Green,64,10/13/1960,M,Dr. Jason Miller,Self-Pay,25794.52,6/23/2024,,"2651 Cedar Ln, Seattle, FL 84668",84668,(898)-495-4398,mia.green@outlook.com
+608,Caroline Allen,44,3/16/1980,M,Dr. Robert Kim,Commercial - BlueCross,11542.57,4/28/2024,5/9/2024,"2390 Ridge Rd, Nashville, FL 79822",79822,(777)-586-1554,caroline.allen@gmail.com
+609,Victoria Hernandez,19,5/6/2005,F,Dr. Laura Gomez,Commercial - BlueCross,14386.43,4/12/2024,4/18/2024,"7748 Pine Dr, Dallas, TN 31178",31178,(831)-667-8126,victoria.hernandez@example.org
+610,Bianca Wilson,50,4/25/1974,M,Dr. David Patel,Commercial - BlueCross,27624.4,11/3/2024,,"8406 Maple Ave, Seattle, GA 54942",54942,(475)-791-7565,bianca.wilson@yahoo.com
+611,Ruby Brooks,56,3/26/1968,F,Dr. Samuel Ortiz,Medicaid,27041.15,2/25/2024,3/1/2024,"5770 Ridge Rd, Seattle, CO 97684",97684,(200)-874-3416,ruby.brooks@yahoo.com
+612,Jacob Morgan,28,11/18/1996,F,Dr. Robert Kim,Self-Pay,9327.9,4/2/2024,4/5/2024,"6231 Oak St, Miami, CO 52487",52487,(302)-682-7456,jacob.morgan@example.org
+613,William Perez,77,5/27/1947,F,Dr. Priya Shah,Commercial - BlueCross,6447.34,5/16/2024,5/22/2024,"7056 Sunset Blvd, Atlanta, AZ 74042",74042,(700)-885-1440,william.perez@yahoo.com
+614,Zoe Wilson,65,4/5/1960,M,Dr. David Patel,Commercial - Aetna,33194.67,2/11/2025,2/22/2025,"8291 Cedar Ln, Dallas, IL 66985",66985,(645)-295-6563,zoe.wilson@yahoo.com
+615,Olivia Garcia,54,3/6/1970,M,Dr. Laura Gomez,Commercial - Cigna,33119.09,2/5/2024,2/12/2024,"6624 Maple Ave, Miami, AZ 74042",74042,(902)-950-2661,olivia.garcia@example.org
+616,Anthony Rivera,19,8/21/2006,F,Dr. David Patel,Medicaid,23625.27,1/28/2025,1/29/2025,"6681 Sunset Blvd, Dallas, WA 12757",12757,(464)-959-2899,anthony.rivera@example.org
+617,Ruby Hernandez,78,11/3/1947,M,Dr. David Patel,Medicare,31741.55,3/10/2025,3/17/2025,"2563 Oak St, Chicago, WA 18675",18675,(727)-829-8454,ruby.hernandez@example.org
+618,Jacob Carter,33,11/10/1992,M,Dr. Jason Miller,Medicare Advantage,3427.83,1/13/2025,1/19/2025,"485 Birch St, Houston, WA 41385",41385,(627)-217-8319,jacob.carter@gmail.com
+619,Uma Rodriguez,63,11/16/1961,F,Dr. Laura Gomez,Medicaid,8246.5,4/6/2024,4/9/2024,"7163 Birch St, Chicago, TN 94607",94607,(832)-449-9577,uma.rodriguez@gmail.com
+620,Caroline Johnson,65,2/11/1959,F,Dr. Samuel Ortiz,Commercial - Aetna,39108.47,4/13/2024,4/25/2024,"5047 Sunset Blvd, Seattle, TX 52504",52504,(964)-463-2298,caroline.johnson@example.org
+621,Daniel Rivera,42,6/19/1982,M,Dr. Angela Chen,Commercial - Aetna,21290.52,9/6/2024,9/7/2024,"7848 Cedar Ln, Seattle, WA 82692",82692,(905)-996-4042,daniel.rivera@gmail.com
+622,Uma Perez,41,3/9/1983,M,Dr. Angela Chen,Medicare,17176.54,1/20/2024,1/31/2024,"4475 Ridge Rd, Nashville, FL 26361",26361,(426)-430-1296,uma.perez@yahoo.com
+623,Caroline Patel,54,1/11/1971,M,Dr. Laura Gomez,Commercial - Cigna,24416.38,2/2/2025,2/11/2025,"5680 Walnut Ave, Chicago, TN 44993",44993,(673)-960-9175,caroline.patel@yahoo.com
+624,William Perez,50,6/3/1974,M,Dr. Michael Lee,Commercial - Cigna,34313.23,3/21/2024,3/30/2024,"3500 Walnut Ave, Denver, WA 96951",96951,(522)-662-8657,
+625,Uma Green,39,9/24/1985,M,Dr. Laura Gomez,Commercial - BlueCross,39839.29,1/24/2024,1/29/2024,"8140 Cedar Ln, Seattle, CO 96474",96474,(821)-326-2588,uma.green@yahoo.com
+626,Daniel Green,55,4/14/1970,F,Dr. Samuel Ortiz,Self-Pay,31434.7,2/14/2025,2/20/2025,"9918 Birch St, Chicago, FL 34356",34356,(308)-880-6206,daniel.green@example.org
+627,Henry Barnes,69,3/13/1956,M,Dr. Jason Miller,Medicare Advantage,33306.33,4/5/2025,4/19/2025,"4825 Oak St, Atlanta, FL 82512",82512,(675)-871-3822,henry.barnes@gmail.com
+628,Noah Green,71,9/3/1953,M,Dr. Laura Gomez,Medicaid,26002.05,8/17/2024,8/27/2024,"9923 Sunset Blvd, Dallas, FL 17492",17492,(455)-370-8731,noah.green@outlook.com
+629,Ava Baker,67,4/11/1957,F,Dr. Samuel Ortiz,Commercial - BlueCross,15708.98,9/2/2024,9/14/2024,"2273 Birch St, Austin, TX 37869",37869,(791)-672-8523,ava.baker@example.org
+630,Henry Rivera,40,4/15/1984,M,Dr. Priya Shah,Self-Pay,24754.26,12/5/2024,12/8/2024,"1244 Oak St, Dallas, GA 63264",63264,(732)-681-7313,
+631,Olivia Flores,86,12/25/1938,F,Dr. Michael Lee,Commercial - BlueCross,20011.09,3/2/2024,3/9/2024,"753 Walnut Ave, Seattle, TN 82603",82603,(327)-306-3391,olivia.flores@gmail.com
+632,Yasmin Brooks,64,6/21/1961,M,Dr. David Patel,Medicaid,36649.52,5/9/2025,5/11/2025,"1313 Ridge Rd, Miami, IL 44664",44664,(466)-550-5838,yasmin.brooks@outlook.com
+633,Anthony Scott,51,6/19/1974,M,Dr. Michael Lee,Self-Pay,6890.81,6/18/2025,6/22/2025,"6042 Birch St, Denver, CO 62565",62565,(849)-512-8787,anthony.scott@outlook.com
+634,Elena Baker,34,4/19/1990,F,Dr. Angela Chen,Self-Pay,16292.73,8/21/2024,,"5063 Pine Dr, Nashville, TX 30969",30969,(572)-938-9332,elena.baker@example.org
+635,Quinn Patel,39,8/21/1985,M,Dr. Samuel Ortiz,Commercial - Aetna,34325.5,11/17/2024,11/24/2024,"2870 Ridge Rd, Houston, TN 60140",60140,(588)-214-2060,quinn.patel@outlook.com
+636,Grace Wilson,37,1/27/1988,M,Dr. Priya Shah,Commercial - Cigna,9082.27,5/25/2025,6/5/2025,"8687 Cedar Ln, Phoenix, FL 84085",84085,(233)-608-2619,grace.wilson@gmail.com
+637,Isabella Martinez,86,12/6/1938,F,Dr. Michael Lee,Commercial - BlueCross,23318.03,9/10/2024,9/23/2024,"4115 Cedar Ln, Miami, CO 13478",13478,(823)-472-5546,
+638,Grace Baker,26,8/15/1998,F,Dr. Angela Chen,Medicare,9497.68,9/6/2024,9/16/2024,"1710 Oak St, Chicago, AZ 45093",45093,(689)-319-8240,
+639,Grace Rodriguez,87,12/15/1938,F,Dr. Jason Miller,Medicare Advantage,23419.18,3/16/2025,3/18/2025,"3291 Ridge Rd, Dallas, WA 27601",27601,(616)-815-5435,grace.rodriguez@yahoo.com
+640,Liam Allen,79,9/17/1945,M,Dr. Angela Chen,Medicare Advantage,34889.55,9/11/2024,9/22/2024,"5159 Ridge Rd, Austin, CO 96374",96374,(206)-526-9348,liam.allen@yahoo.com
+641,Franklin Nguyen,73,4/7/1951,M,Dr. Priya Shah,Self-Pay,18563.14,7/6/2024,7/8/2024,"5133 Birch St, Chicago, TN 82357",82357,(901)-507-4445,franklin.nguyen@yahoo.com
+642,Liam Brooks,42,8/21/1982,M,Dr. Samuel Ortiz,Self-Pay,7580.81,6/9/2024,6/18/2024,"9852 Sunset Blvd, Denver, IL 56025",56025,(469)-683-5974,liam.brooks@outlook.com
+643,Liam Baker,63,7/2/1962,M,Dr. Jason Miller,Medicare Advantage,17873.97,2/6/2025,2/7/2025,"6797 Walnut Ave, Houston, TN 45697",45697,(480)-219-4313,liam.baker@outlook.com
+644,Jacob Stewart,65,4/26/1959,F,Dr. David Patel,Commercial - BlueCross,31950.42,11/29/2024,12/11/2024,"3622 Ridge Rd, Denver, AZ 23396",23396,(448)-364-6332,jacob.stewart@example.org
+645,Benjamin Collins,67,1/21/1958,M,Dr. Robert Kim,Medicare Advantage,39496.77,1/19/2025,,"5714 Birch St, Atlanta, FL 19305",19305,(491)-313-8730,
+646,Yasmin Nguyen,59,2/15/1965,M,Dr. Samuel Ortiz,Self-Pay,7291.15,11/2/2024,11/11/2024,"4117 Walnut Ave, Nashville, WA 31798",31798,(743)-498-1358,
+647,Zoe Nguyen,58,8/12/1966,M,Dr. Jason Miller,Commercial - Cigna,35556.53,7/7/2024,7/11/2024,"5556 Cedar Ln, Denver, WA 81066",81066,(965)-223-3298,
+648,Olivia Brown,68,7/2/1957,M,Dr. Michael Lee,Self-Pay,21843.3,6/8/2025,6/18/2025,"8361 Walnut Ave, Atlanta, TN 11504",11504,(788)-541-2099,olivia.brown@gmail.com
+649,Sophia Collins,32,11/14/1992,F,Dr. Priya Shah,Commercial - Aetna,37016.13,7/14/2024,7/27/2024,"4636 Ridge Rd, Miami, CO 87924",87924,(538)-274-3976,sophia.collins@outlook.com
+650,Peter Allen,73,4/11/1952,F,Dr. Laura Gomez,Commercial - Aetna,12811.83,2/3/2025,,"7098 Pine Dr, Denver, IL 65444",65444,(890)-986-6351,peter.allen@yahoo.com
+651,Zoe Stewart,63,9/20/1961,F,Dr. Robert Kim,Self-Pay,7208.93,11/11/2024,11/12/2024,"746 Pine Dr, Atlanta, FL 86099",86099,(270)-535-6166,zoe.stewart@yahoo.com
+652,Grace Morgan,38,3/15/1986,M,Dr. Angela Chen,Medicaid,37547.64,8/10/2024,8/11/2024,"2117 Sunset Blvd, Dallas, TN 91351",91351,(961)-957-4417,grace.morgan@example.org
+653,Peter Perez,43,10/24/1981,F,Dr. Laura Gomez,Commercial - Aetna,32858.23,4/5/2024,4/14/2024,"8562 Maple Ave, Houston, IL 96673",96673,(700)-958-6871,peter.perez@outlook.com
+654,Olivia Miller,44,1/13/1980,F,Dr. David Patel,Commercial - BlueCross,11328.45,4/24/2024,4/25/2024,"6981 Sunset Blvd, Austin, FL 41571",41571,(517)-266-8113,olivia.miller@outlook.com
+655,Henry Adams,28,1/5/1996,M,Dr. Jason Miller,Medicare,38125.4,10/8/2024,10/14/2024,"4179 Pine Dr, Nashville, TX 40512",40512,(731)-359-3297,henry.adams@gmail.com
+656,Benjamin Patel,44,9/5/1980,M,Dr. David Patel,Commercial - Aetna,17472.74,6/10/2024,6/13/2024,"3075 Walnut Ave, Austin, CO 22280",22280,(709)-408-6014,benjamin.patel@outlook.com
+657,Ethan Stewart,51,12/28/1973,M,Dr. Michael Lee,Self-Pay,2494.46,1/30/2024,1/31/2024,"2464 Sunset Blvd, Dallas, GA 82512",82512,(812)-939-9604,
+658,Daniel Thompson,62,7/28/1962,F,Dr. Priya Shah,Commercial - BlueCross,39545.37,4/25/2024,5/3/2024,"8893 Ridge Rd, Houston, TX 75612",75612,(687)-680-5208,
+659,William Martinez,64,3/26/1960,F,Dr. Jason Miller,Commercial - BlueCross,30325.68,7/19/2024,7/28/2024,"2436 Cedar Ln, Austin, AZ 27361",27361,(613)-489-2724,william.martinez@outlook.com
+660,Franklin Baker,56,3/11/1969,M,Dr. Jason Miller,Commercial - Cigna,24245.21,6/13/2025,6/18/2025,"7014 Walnut Ave, Houston, TX 82692",82692,(594)-847-1786,franklin.baker@yahoo.com
+661,Ava Garcia,22,4/21/2003,F,Dr. Samuel Ortiz,Commercial - BlueCross,13917.5,5/7/2025,5/13/2025,"9556 Sunset Blvd, Miami, IL 77391",77391,(836)-469-9943,ava.garcia@outlook.com
+662,Victoria Collins,83,11/4/1942,M,Dr. David Patel,Medicaid,11328.45,5/14/2025,5/22/2025,"5709 Birch St, Austin, FL 87110",87110,(857)-226-9901,
+663,Henry Scott,32,2/28/1992,F,Dr. Angela Chen,Medicaid,35122.31,11/10/2024,11/19/2024,"8369 Pine Dr, Seattle, IL 31319",31319,(896)-427-1273,
+664,Yasmin Hernandez,85,3/12/1939,F,Dr. Michael Lee,Self-Pay,22026.52,8/23/2024,9/1/2024,"2700 Maple Ave, Houston, IL 15482",15482,(969)-933-3491,yasmin.hernandez@example.org
+665,Caleb Miller,53,8/11/1972,F,Dr. Laura Gomez,Medicare Advantage,16506.24,6/18/2025,6/26/2025,"2330 Birch St, Dallas, AZ 16175",16175,(925)-769-6105,caleb.miller@gmail.com
+666,Benjamin Collins,70,11/14/1954,F,Dr. Samuel Ortiz,Commercial - BlueCross,33163.99,9/5/2024,9/8/2024,"6506 Cedar Ln, Phoenix, FL 38221",38221,(431)-482-3300,benjamin.collins@gmail.com
+667,Yasmin Baker,37,2/17/1987,F,Dr. Jason Miller,Medicaid,27381.17,12/1/2024,,"5198 Maple Ave, Nashville, TN 86622",86622,(876)-648-5895,yasmin.baker@example.org
+668,Elena Nguyen,61,7/19/1963,M,Dr. Michael Lee,Commercial - BlueCross,33762.13,9/18/2024,9/26/2024,"2859 Ridge Rd, Denver, IL 80292",80292,(305)-290-6940,elena.nguyen@example.org
+669,Bianca Adams,73,5/9/1951,M,Dr. Michael Lee,Commercial - Cigna,5549.82,10/13/2024,10/25/2024,"8420 Walnut Ave, Seattle, WA 41385",41385,(285)-213-2656,bianca.adams@example.org
+670,Henry Green,81,10/13/1944,F,Dr. Laura Gomez,Commercial - Cigna,11731.54,5/14/2025,5/28/2025,"8602 Sunset Blvd, Dallas, AZ 73788",73788,(858)-300-2555,
+671,Zoe Wilson,64,8/19/1960,M,Dr. Laura Gomez,Commercial - Cigna,30155.93,12/21/2024,12/29/2024,"8664 Oak St, Seattle, GA 51467",51467,(226)-421-3961,
+672,Liam Rodriguez,55,6/12/1969,M,Dr. Michael Lee,Commercial - Cigna,19079.99,9/16/2024,9/27/2024,"4174 Birch St, Miami, TX 76540",76540,(669)-915-5311,liam.rodriguez@yahoo.com
+673,Grace Martinez,88,2/11/1936,M,Dr. Laura Gomez,Self-Pay,14918.76,6/25/2024,7/9/2024,"5863 Cedar Ln, Chicago, WA 20328",20328,(939)-292-7652,grace.martinez@example.org
+674,Victoria Brooks,66,6/25/1958,F,Dr. Angela Chen,Self-Pay,28734.75,12/25/2024,1/2/2025,"2708 Pine Dr, Chicago, TX 85674",85674,(394)-795-6087,victoria.brooks@outlook.com
+675,Zoe Martinez,86,12/20/1938,F,Dr. Laura Gomez,Commercial - Aetna,28281.99,7/22/2024,,"6729 Birch St, Houston, FL 46509",46509,(562)-606-3179,zoe.martinez@gmail.com
+676,Caleb Baker,55,11/9/1969,F,Dr. David Patel,Medicaid,18537.64,2/11/2024,2/14/2024,"531 Ridge Rd, Phoenix, IL 76784",76784,(431)-650-4538,
+677,Jacob Wilson,20,9/19/2004,M,Dr. Jason Miller,Commercial - BlueCross,22918.41,7/15/2024,7/29/2024,"6647 Sunset Blvd, Denver, FL 27146",27146,(469)-641-7065,jacob.wilson@yahoo.com
+678,Liam Martinez,63,3/4/1961,F,Dr. Samuel Ortiz,Medicare Advantage,34607.87,9/9/2024,9/19/2024,"8414 Ridge Rd, Atlanta, FL 48427",48427,(818)-433-6707,liam.martinez@yahoo.com
+679,Peter Flores,24,1/18/2000,M,Dr. Jason Miller,Commercial - BlueCross,24255.92,3/7/2024,3/10/2024,"7447 Oak St, Chicago, TN 91351",91351,(923)-351-2044,peter.flores@gmail.com
+680,Yasmin Flores,90,7/7/1935,M,Dr. Michael Lee,Commercial - Cigna,24512.93,3/17/2025,3/20/2025,"7507 Birch St, Atlanta, WA 30032",30032,(438)-783-9322,yasmin.flores@yahoo.com
+681,Zoe Martinez,58,10/3/1966,F,Dr. Michael Lee,Commercial - Cigna,30546.95,5/2/2024,5/4/2024,"8779 Sunset Blvd, Houston, IL 21915",21915,(815)-992-3938,zoe.martinez@gmail.com
+682,Victoria Davis,33,12/16/1992,M,Dr. Priya Shah,Medicare,37926.66,1/31/2025,2/7/2025,"2369 Walnut Ave, Houston, AZ 75612",75612,(563)-381-8051,victoria.davis@example.org
+683,Caroline Brooks,51,2/17/1973,M,Dr. Robert Kim,Medicaid,15021.23,3/24/2024,4/6/2024,"4323 Oak St, Nashville, TX 31798",31798,(260)-899-7113,
+684,Ava Allen,19,4/21/2006,F,Dr. David Patel,Commercial - BlueCross,13291.16,1/18/2025,1/21/2025,"8262 Pine Dr, Atlanta, IL 25157",25157,(553)-299-3534,ava.allen@yahoo.com
+685,Diana Scott,40,5/4/1984,F,Dr. Jason Miller,Medicare,25450.18,5/3/2024,5/8/2024,"5818 Pine Dr, Nashville, CO 15075",15075,(302)-709-4164,diana.scott@outlook.com
+686,Peter King,88,3/8/1936,M,Dr. Jason Miller,Medicare,27245.15,3/8/2024,3/14/2024,"8140 Cedar Ln, Seattle, TX 17592",17592,(260)-691-2618,peter.king@gmail.com
+687,William Lopez,59,11/14/1966,M,Dr. Robert Kim,Medicare Advantage,13832.18,4/3/2025,4/8/2025,"6723 Sunset Blvd, Seattle, AZ 56438",56438,(224)-703-2709,william.lopez@example.org
+688,Uma Perez,57,4/3/1967,M,Dr. Angela Chen,Self-Pay,27836.02,2/26/2024,2/27/2024,"5131 Pine Dr, Chicago, TX 70637",70637,(228)-248-5963,uma.perez@outlook.com
+689,Sophia Carter,73,3/8/1951,F,Dr. David Patel,Commercial - Cigna,28418.55,8/7/2024,,"5347 Maple Ave, Phoenix, TN 37869",37869,(784)-855-1255,
+690,Noah Miller,32,4/12/1992,M,Dr. Michael Lee,Medicaid,26894.38,12/4/2024,12/11/2024,"6685 Oak St, Houston, CO 38534",38534,(452)-836-5230,noah.miller@example.org
+691,William Green,57,5/27/1968,F,Dr. Angela Chen,Commercial - BlueCross,28075.83,3/1/2025,3/8/2025,"3204 Ridge Rd, Denver, TX 76562",76562,(909)-604-1684,william.green@example.org
+692,Elena King,46,9/11/1979,F,Dr. Priya Shah,Medicare,7618.57,5/15/2025,,"2842 Birch St, Seattle, WA 42742",42742,(493)-491-5284,
+693,Daniel Perez,43,2/8/1981,F,Dr. Jason Miller,Medicaid,6393.93,2/6/2024,2/8/2024,"723 Sunset Blvd, Houston, AZ 82512",82512,(910)-269-4960,daniel.perez@outlook.com
+694,Peter Baker,36,6/2/1988,M,Dr. Michael Lee,Commercial - Cigna,37444.2,7/12/2024,7/24/2024,"9419 Oak St, Houston, FL 23473",23473,(456)-379-6736,peter.baker@gmail.com
+695,Noah Perez,37,8/1/1987,M,Dr. Priya Shah,Medicaid,8582.58,7/18/2024,7/30/2024,"7317 Maple Ave, Phoenix, WA 31798",31798,(364)-346-9964,noah.perez@gmail.com
+696,Daniel King,26,2/22/1998,M,Dr. Michael Lee,Commercial - Aetna,29238.57,11/25/2024,11/28/2024,"3928 Oak St, Seattle, TX 73092",73092,(259)-596-2960,daniel.king@gmail.com
+697,Thomas Martinez,27,8/24/1997,F,Dr. Jason Miller,Commercial - Aetna,26324.42,10/16/2024,10/23/2024,"3993 Ridge Rd, Nashville, WA 52487",52487,(851)-665-8850,thomas.martinez@yahoo.com
+698,Peter Martinez,64,5/6/1960,F,Dr. Samuel Ortiz,Medicare Advantage,26028.09,6/27/2024,7/4/2024,"6130 Oak St, Seattle, WA 58520",58520,(243)-670-7723,peter.martinez@yahoo.com
+699,Noah Garcia,63,7/15/1962,F,Dr. Laura Gomez,Commercial - BlueCross,35519.44,4/16/2025,4/24/2025,"6056 Walnut Ave, Chicago, GA 46434",46434,(940)-742-4373,noah.garcia@yahoo.com
+700,Thomas Miller,64,2/18/1960,M,Dr. Laura Gomez,Medicare Advantage,26294,8/6/2024,8/14/2024,"7510 Birch St, Nashville, GA 38893",38893,(404)-422-6532,thomas.miller@yahoo.com
+701,William Perez,84,3/9/1940,M,Dr. Samuel Ortiz,Commercial - BlueCross,2417.66,7/30/2024,8/10/2024,"9330 Pine Dr, Seattle, IL 44993",44993,(621)-524-8677,william.perez@yahoo.com
+702,Zoe Davis,58,1/11/1966,F,Dr. Priya Shah,Self-Pay,4016.32,1/22/2024,,"1573 Walnut Ave, Chicago, IL 11025",11025,(354)-418-6039,zoe.davis@outlook.com
+703,Uma Johnson,75,3/5/1949,M,Dr. David Patel,Commercial - Cigna,8245.89,11/6/2024,11/15/2024,"2774 Sunset Blvd, Austin, GA 89840",89840,(775)-765-8693,uma.johnson@outlook.com
+704,Xavier Barnes,49,8/13/1975,F,Dr. Samuel Ortiz,Commercial - BlueCross,5237.15,2/10/2024,2/17/2024,"7913 Pine Dr, Dallas, FL 46585",46585,(651)-798-3979,xavier.barnes@gmail.com
+705,Quinn King,90,5/22/1934,M,Dr. David Patel,Medicare,35629.89,3/11/2024,3/21/2024,"6549 Pine Dr, Austin, IL 88193",88193,(849)-528-5789,quinn.king@gmail.com
+706,Mia Patel,81,9/1/1943,F,Dr. Laura Gomez,Medicaid,15560.82,9/15/2024,9/20/2024,"8121 Walnut Ave, Houston, TX 85880",85880,(444)-917-6023,mia.patel@example.org
+707,Liam Carter,52,1/24/1972,M,Dr. Priya Shah,Medicare Advantage,22724.05,5/13/2024,5/23/2024,"9498 Oak St, Denver, GA 37653",37653,(681)-589-7363,
+708,William Flores,66,3/12/1959,M,Dr. David Patel,Self-Pay,21234.49,3/10/2025,3/16/2025,"4385 Cedar Ln, Miami, WA 18326",18326,(285)-660-2389,william.flores@outlook.com
+709,Caleb Allen,32,6/3/1992,F,Dr. Samuel Ortiz,Self-Pay,30839.44,9/5/2024,,"2623 Cedar Ln, Austin, AZ 42098",42098,(940)-213-6589,caleb.allen@gmail.com
+710,Elena Green,76,2/6/1948,M,Dr. Priya Shah,Commercial - Aetna,6196.17,5/22/2024,6/3/2024,"1602 Maple Ave, Dallas, GA 93136",93136,(902)-438-4444,
+711,Caroline Perez,59,8/10/1966,F,Dr. Jason Miller,Self-Pay,9096.04,5/22/2025,5/25/2025,"9796 Oak St, Miami, CO 22899",22899,(206)-281-3881,caroline.perez@outlook.com
+712,Elena Martinez,42,3/13/1982,F,Dr. Priya Shah,Medicaid,8701.35,11/25/2024,11/29/2024,"9804 Birch St, Nashville, GA 22899",22899,(855)-492-4575,elena.martinez@outlook.com
+713,Yasmin Wilson,85,8/12/1939,F,Dr. Angela Chen,Medicare Advantage,30540.44,3/7/2024,,"1089 Sunset Blvd, Austin, TN 28289",28289,(962)-890-2445,yasmin.wilson@outlook.com
+714,Xavier King,26,8/11/1999,M,Dr. David Patel,Commercial - BlueCross,15287.33,5/6/2025,5/11/2025,"9044 Cedar Ln, Phoenix, CO 83563",83563,(907)-561-7713,xavier.king@example.org
+715,Liam Rivera,69,3/26/1956,M,Dr. Jason Miller,Commercial - BlueCross,7378.37,1/29/2025,1/30/2025,"5289 Sunset Blvd, Houston, GA 21226",21226,(214)-644-3830,
+716,Franklin Miller,30,7/6/1994,F,Dr. Laura Gomez,Commercial - BlueCross,7271.14,12/11/2024,12/19/2024,"5072 Birch St, Phoenix, IL 96374",96374,(821)-941-9177,franklin.miller@yahoo.com
+717,Quinn King,25,4/17/2000,M,Dr. Priya Shah,Medicare,38188.59,5/3/2025,5/6/2025,"8197 Cedar Ln, Seattle, TN 28289",28289,(515)-846-3598,quinn.king@outlook.com
+718,William Patel,72,3/12/1953,F,Dr. Samuel Ortiz,Commercial - Aetna,12353.04,1/17/2025,1/31/2025,"9362 Ridge Rd, Austin, TX 18834",18834,(578)-627-5032,william.patel@outlook.com
+719,Xavier Wilson,58,6/26/1966,M,Dr. Angela Chen,Commercial - Aetna,14619.16,12/5/2024,12/8/2024,"9476 Cedar Ln, Nashville, IL 82309",82309,(455)-700-8696,xavier.wilson@outlook.com
+720,Ruby Rodriguez,67,5/3/1958,F,Dr. David Patel,Medicare,21875.57,4/18/2025,4/30/2025,"7464 Sunset Blvd, Phoenix, WA 37938",37938,(346)-572-1967,ruby.rodriguez@yahoo.com
+721,Victoria Thompson,59,6/20/1965,M,Dr. Jason Miller,Commercial - Aetna,7125.63,10/6/2024,10/14/2024,"8886 Cedar Ln, Phoenix, AZ 54587",54587,(951)-262-4193,victoria.thompson@outlook.com
+722,Henry Rivera,66,11/21/1958,M,Dr. Michael Lee,Medicare Advantage,11548.03,5/27/2024,5/28/2024,"7004 Maple Ave, Chicago, TN 36685",36685,(351)-657-7259,henry.rivera@example.org
+723,Zoe Johnson,31,3/11/1994,M,Dr. Jason Miller,Medicare Advantage,9114.56,4/9/2025,4/19/2025,"377 Maple Ave, Dallas, FL 11934",11934,(688)-577-3322,zoe.johnson@example.org
+724,Sophia Thompson,73,10/25/1951,M,Dr. Laura Gomez,Medicaid,14074.5,2/5/2024,2/11/2024,"9414 Oak St, Atlanta, TX 42018",42018,(934)-930-3160,sophia.thompson@gmail.com
+725,Elena Garcia,31,6/25/1993,F,Dr. Robert Kim,Medicare,30554.39,12/31/2024,1/7/2025,"1239 Ridge Rd, Seattle, TX 68800",68800,(626)-857-7487,elena.garcia@gmail.com
+726,Bianca Miller,75,11/22/1949,F,Dr. Priya Shah,Self-Pay,36589.84,9/24/2024,9/25/2024,"9237 Oak St, Dallas, IL 63354",63354,(243)-243-4588,bianca.miller@yahoo.com
+727,Caleb Garcia,82,5/16/1943,M,Dr. David Patel,Commercial - BlueCross,30604.58,2/9/2025,,"485 Sunset Blvd, Atlanta, AZ 13478",13478,(404)-803-1589,caleb.garcia@example.org
+728,Ava Hernandez,28,10/10/1996,M,Dr. Samuel Ortiz,Commercial - BlueCross,9691.97,1/8/2024,1/20/2024,"4452 Walnut Ave, Atlanta, GA 89840",89840,(406)-972-5198,ava.hernandez@outlook.com
+729,Diana Flores,68,3/4/1957,F,Dr. Angela Chen,Commercial - BlueCross,2609.47,6/8/2025,6/12/2025,"782 Sunset Blvd, Austin, IL 37653",37653,(977)-783-5892,diana.flores@yahoo.com
+730,Diana Green,56,5/7/1968,M,Dr. Jason Miller,Medicare,26441.46,8/23/2024,9/6/2024,"8473 Oak St, Denver, TX 70142",70142,(385)-541-4380,diana.green@example.org
+731,Yasmin Johnson,76,4/3/1948,M,Dr. Samuel Ortiz,Commercial - BlueCross,19986.76,10/19/2024,10/30/2024,"1857 Oak St, Dallas, TX 42706",42706,(211)-480-1000,yasmin.johnson@example.org
+732,Yasmin Green,38,6/3/1986,F,Dr. Michael Lee,Medicare Advantage,9789.38,7/14/2024,7/26/2024,"4687 Sunset Blvd, Dallas, WA 89276",89276,(235)-322-5948,
+733,Peter Rivera,44,4/15/1980,F,Dr. Michael Lee,Commercial - BlueCross,8221.38,4/25/2024,,"9599 Birch St, Denver, TX 91416",91416,(776)-691-2036,peter.rivera@yahoo.com
+734,Grace Nguyen,68,10/2/1957,M,Dr. Michael Lee,Medicare,20650.8,4/21/2025,4/22/2025,"1132 Birch St, Denver, TN 84341",84341,(473)-224-5455,grace.nguyen@yahoo.com
+735,Henry Adams,75,8/26/1950,F,Dr. Michael Lee,Self-Pay,23183.66,3/21/2025,4/2/2025,"3893 Oak St, Denver, FL 44671",44671,(812)-576-8475,henry.adams@yahoo.com
+736,Mia King,65,6/15/1960,F,Dr. David Patel,Commercial - Cigna,26113.6,2/20/2025,2/27/2025,"5792 Birch St, Houston, TN 97782",97782,(755)-617-6903,mia.king@gmail.com
+737,Uma Flores,35,9/28/1989,M,Dr. David Patel,Commercial - Cigna,19462.37,6/17/2024,6/23/2024,"2476 Walnut Ave, Atlanta, CO 56898",56898,(787)-342-4372,uma.flores@example.org
+738,Caroline Stewart,71,11/6/1953,F,Dr. Michael Lee,Commercial - Aetna,5496.89,1/5/2024,1/14/2024,"3815 Walnut Ave, Miami, AZ 76540",76540,(949)-582-9985,caroline.stewart@example.org
+739,Henry Green,62,4/23/1963,M,Dr. Priya Shah,Medicaid,26158.07,4/9/2025,4/21/2025,"109 Maple Ave, Miami, CO 39219",39219,(273)-911-6022,henry.green@example.org
+740,Jacob Stewart,44,11/3/1980,F,Dr. Robert Kim,Medicare,2124.47,10/29/2024,11/1/2024,"1198 Birch St, Miami, AZ 54313",54313,(566)-877-7602,
+741,Uma Morgan,61,1/22/1964,M,Dr. David Patel,Medicaid,13195.78,5/4/2025,5/14/2025,"8150 Oak St, Miami, FL 24662",24662,(231)-461-8759,uma.morgan@example.org
+742,Zoe Martinez,30,2/16/1994,M,Dr. David Patel,Commercial - Cigna,20376.88,1/28/2024,2/5/2024,"4231 Maple Ave, Austin, IL 42018",42018,(932)-846-2540,zoe.martinez@outlook.com
+743,Henry Patel,78,2/1/1947,F,Dr. David Patel,Medicare Advantage,22776.09,4/7/2025,4/14/2025,"2203 Oak St, Atlanta, TN 30379",30379,(714)-385-8588,henry.patel@example.org
+744,Anthony Martinez,24,3/2/2000,M,Dr. Priya Shah,Commercial - Cigna,21394.35,6/27/2024,7/2/2024,"4856 Walnut Ave, Seattle, AZ 98039",98039,(358)-278-4262,anthony.martinez@yahoo.com
+745,Ava Perez,40,8/8/1984,M,Dr. Michael Lee,Medicare Advantage,8533.1,12/14/2024,12/24/2024,"7385 Maple Ave, Austin, CO 57819",57819,(335)-958-1387,ava.perez@outlook.com
+746,Anthony Adams,73,7/18/1952,F,Dr. David Patel,Commercial - Cigna,22424.16,3/4/2025,3/9/2025,"7018 Maple Ave, Austin, AZ 65333",65333,(880)-566-8776,anthony.adams@yahoo.com
+747,Ethan Garcia,33,6/18/1991,F,Dr. Samuel Ortiz,Medicare,23461.19,7/20/2024,7/29/2024,"4409 Ridge Rd, Austin, CO 47388",47388,(623)-318-1651,ethan.garcia@yahoo.com
+748,Jacob Garcia,68,5/19/1956,F,Dr. David Patel,Medicare,21142.55,1/13/2024,1/24/2024,"8792 Oak St, Denver, CO 91959",91959,(449)-691-4498,
+749,Quinn Davis,79,9/5/1945,F,Dr. Priya Shah,Medicaid,16432.52,3/13/2024,3/16/2024,"1214 Ridge Rd, Atlanta, AZ 38016",38016,(368)-452-7774,quinn.davis@outlook.com
+750,Henry Stewart,51,4/22/1973,M,Dr. Michael Lee,Self-Pay,18127.03,11/24/2024,11/25/2024,"6222 Sunset Blvd, Miami, IL 49240",49240,(330)-690-9348,henry.stewart@yahoo.com
+751,Henry Patel,84,2/23/1940,M,Dr. Jason Miller,Self-Pay,4389.63,2/1/2024,2/10/2024,"2484 Oak St, Chicago, WA 37760",37760,(487)-675-6594,henry.patel@outlook.com
+752,Ethan Morgan,78,12/16/1946,M,Dr. Laura Gomez,Self-Pay,35039.62,5/20/2024,5/22/2024,"5710 Maple Ave, Denver, WA 94080",94080,(477)-495-9413,ethan.morgan@outlook.com
+753,Ethan Wilson,90,5/9/1934,F,Dr. David Patel,Medicare Advantage,8886.09,12/9/2024,12/16/2024,"9893 Sunset Blvd, Phoenix, CO 53719",53719,(988)-904-5833,
+754,William Hernandez,87,12/10/1938,M,Dr. Robert Kim,Self-Pay,19313.58,6/16/2025,6/28/2025,"4147 Cedar Ln, Nashville, FL 99733",99733,(863)-708-7143,william.hernandez@example.org
+755,Xavier Flores,90,9/13/1934,M,Dr. David Patel,Medicaid,11306.94,3/14/2024,3/21/2024,"153 Maple Ave, Phoenix, WA 19099",19099,(706)-665-5539,xavier.flores@example.org
+756,Grace Flores,24,3/6/2001,M,Dr. Jason Miller,Commercial - Aetna,5661.05,3/23/2025,3/25/2025,"2113 Walnut Ave, Dallas, TX 57795",57795,(271)-484-2760,grace.flores@outlook.com
+757,Elena Rivera,30,6/20/1994,M,Dr. Robert Kim,Medicare,35815.49,3/2/2024,,"4641 Birch St, Seattle, IL 86622",86622,(425)-833-5370,elena.rivera@outlook.com
+758,Bianca Wilson,37,1/6/1988,F,Dr. David Patel,Self-Pay,9965.08,1/27/2025,2/6/2025,"1593 Birch St, Miami, AZ 80284",80284,(452)-616-4620,bianca.wilson@yahoo.com
+759,Diana Brooks,46,10/28/1978,M,Dr. Priya Shah,Medicare,10692.67,11/11/2024,11/25/2024,"6435 Ridge Rd, Phoenix, IL 20328",20328,(283)-618-8276,diana.brooks@example.org
+760,Caleb Patel,66,6/11/1959,F,Dr. Angela Chen,Medicaid,35449.54,5/18/2025,5/27/2025,"439 Ridge Rd, Atlanta, GA 66333",66333,(652)-821-4366,caleb.patel@gmail.com
+761,Uma Stewart,66,12/10/1958,F,Dr. Laura Gomez,Medicaid,9890.24,12/27/2024,12/31/2024,"3882 Sunset Blvd, Nashville, TN 24208",24208,(224)-902-4998,uma.stewart@gmail.com
+762,Peter Adams,20,7/3/2005,M,Dr. David Patel,Medicare Advantage,16167.38,5/17/2025,5/25/2025,"7265 Birch St, Chicago, IL 60432",60432,(575)-466-8840,
+763,Henry Barnes,84,3/3/1940,F,Dr. Michael Lee,Commercial - BlueCross,15536.02,8/22/2024,,"9157 Oak St, Denver, AZ 68800",68800,(461)-663-3441,henry.barnes@example.org
+764,Isabella Barnes,41,10/2/1983,F,Dr. Laura Gomez,Medicare Advantage,7915.21,3/9/2024,3/11/2024,"9481 Pine Dr, Denver, TN 80282",80282,(633)-371-4870,
+765,Grace Patel,27,8/18/1997,F,Dr. Priya Shah,Medicare Advantage,32965.66,7/2/2024,7/15/2024,"6144 Pine Dr, Houston, CO 76784",76784,(208)-533-3814,grace.patel@gmail.com
+766,Ruby Allen,25,10/27/1999,M,Dr. Samuel Ortiz,Medicaid,3361.26,6/8/2024,6/12/2024,"6116 Birch St, Miami, IL 77391",77391,(379)-927-2800,ruby.allen@yahoo.com
+767,Victoria Patel,23,11/25/2002,F,Dr. Laura Gomez,Medicaid,1522.08,4/16/2025,4/24/2025,"6571 Sunset Blvd, Atlanta, TN 88193",88193,(862)-732-6798,victoria.patel@example.org
+768,Zoe Flores,85,2/20/1939,M,Dr. Samuel Ortiz,Commercial - Aetna,34530.18,5/9/2024,5/13/2024,"6121 Birch St, Austin, GA 82063",82063,(584)-506-7121,
+769,Quinn Miller,20,12/5/2004,F,Dr. Laura Gomez,Self-Pay,26080.47,5/30/2024,6/9/2024,"5047 Sunset Blvd, Phoenix, CO 98696",98696,(432)-649-5143,quinn.miller@example.org
+770,Xavier Scott,65,11/4/1959,F,Dr. Jason Miller,Medicaid,17508.3,2/22/2024,2/25/2024,"4940 Walnut Ave, Dallas, FL 80678",80678,(595)-869-8100,
+771,Jacob Hernandez,83,5/17/1941,M,Dr. Michael Lee,Self-Pay,34116.22,3/10/2024,3/14/2024,"2818 Oak St, Austin, CO 97538",97538,(928)-775-5417,
+772,Ruby Miller,84,5/12/1941,M,Dr. Michael Lee,Commercial - BlueCross,17031.36,4/16/2025,4/22/2025,"934 Maple Ave, Miami, TN 87128",87128,(981)-726-1592,ruby.miller@gmail.com
+773,Elena Stewart,66,4/3/1958,M,Dr. Jason Miller,Commercial - Cigna,29317.93,9/30/2024,10/13/2024,"6389 Birch St, Seattle, IL 83563",83563,(245)-510-1198,elena.stewart@yahoo.com
+774,Olivia Green,42,1/3/1982,M,Dr. Samuel Ortiz,Commercial - BlueCross,22561.65,9/18/2024,9/22/2024,"2777 Oak St, Denver, TN 42914",42914,(267)-424-8672,olivia.green@yahoo.com
+775,Ethan King,81,8/9/1943,F,Dr. Priya Shah,Commercial - Cigna,19194.84,12/16/2024,12/22/2024,"9554 Walnut Ave, Chicago, CO 78522",78522,(898)-933-9520,ethan.king@yahoo.com
+776,Henry Stewart,20,7/2/2005,M,Dr. Jason Miller,Medicare Advantage,14133.91,6/5/2025,6/17/2025,"9794 Birch St, Denver, AZ 19862",19862,(351)-768-4663,henry.stewart@yahoo.com
+777,Diana Wilson,77,7/19/1948,F,Dr. Priya Shah,Commercial - Cigna,22375.06,1/6/2025,1/13/2025,"5526 Birch St, Austin, IL 32431",32431,(838)-692-2086,diana.wilson@gmail.com
+778,Olivia Perez,73,5/8/1951,F,Dr. Laura Gomez,Commercial - BlueCross,39166.81,12/7/2024,12/9/2024,"8071 Ridge Rd, Seattle, IL 95180",95180,(640)-440-5693,olivia.perez@yahoo.com
+779,Liam Brooks,59,8/3/1965,M,Dr. Priya Shah,Medicare,4660.65,1/9/2024,1/16/2024,"2588 Oak St, Dallas, TN 93886",93886,(233)-336-5774,liam.brooks@outlook.com
+780,William King,63,10/3/1961,F,Dr. Michael Lee,Medicaid,35875.87,12/4/2024,,"747 Oak St, Phoenix, CO 60140",60140,(600)-702-2761,william.king@outlook.com
+781,Uma Stewart,85,12/17/1939,F,Dr. Angela Chen,Medicaid,4000.29,9/23/2024,10/6/2024,"1674 Ridge Rd, Nashville, IL 94607",94607,(490)-232-7445,uma.stewart@yahoo.com
+782,Xavier Davis,75,5/22/1950,M,Dr. Angela Chen,Medicare Advantage,26659.34,2/14/2025,2/18/2025,"5451 Cedar Ln, Phoenix, TN 97841",97841,(920)-358-1602,
+783,Thomas Rodriguez,36,12/11/1988,F,Dr. Jason Miller,Medicaid,7249.08,3/16/2024,3/22/2024,"9590 Cedar Ln, Miami, GA 67422",67422,(325)-859-5956,thomas.rodriguez@yahoo.com
+784,Diana Davis,22,5/13/2002,M,Dr. Samuel Ortiz,Commercial - BlueCross,8872.31,3/8/2024,,"3156 Ridge Rd, Miami, GA 74032",74032,(926)-531-8366,
+785,Liam Baker,72,2/16/1952,M,Dr. Samuel Ortiz,Medicare,34963.21,6/17/2024,6/24/2024,"5581 Pine Dr, Dallas, CO 57447",57447,(725)-818-9115,liam.baker@yahoo.com
+786,Yasmin Brooks,71,6/1/1953,F,Dr. Michael Lee,Commercial - Cigna,15388.01,12/17/2024,12/23/2024,"1813 Ridge Rd, Atlanta, IL 61856",61856,(351)-540-9273,yasmin.brooks@example.org
+787,Diana Allen,43,8/2/1981,M,Dr. Michael Lee,Commercial - BlueCross,38619.49,10/24/2024,11/6/2024,"4761 Walnut Ave, Dallas, GA 96752",96752,(842)-264-8774,diana.allen@example.org
+788,Ethan Scott,47,10/9/1977,M,Dr. Robert Kim,Commercial - BlueCross,11690.97,2/9/2024,2/20/2024,"6568 Birch St, Dallas, IL 13478",13478,(427)-660-4915,ethan.scott@example.org
+789,Benjamin Nguyen,53,1/16/1971,M,Dr. Michael Lee,Commercial - Aetna,34939.02,11/9/2024,11/20/2024,"9605 Cedar Ln, Atlanta, WA 44600",44600,(318)-440-7373,benjamin.nguyen@outlook.com
+790,Franklin Martinez,43,2/5/1981,F,Dr. Laura Gomez,Medicare,14157.83,9/8/2024,9/9/2024,"4330 Pine Dr, Denver, WA 25860",25860,(365)-636-4343,franklin.martinez@outlook.com
+791,Daniel Collins,54,4/3/1970,M,Dr. Priya Shah,Medicare,39338.32,5/4/2024,5/5/2024,"4524 Pine Dr, Austin, TN 80697",80697,(324)-712-9758,daniel.collins@gmail.com
+792,Quinn King,53,9/9/1971,F,Dr. David Patel,Self-Pay,5043.16,6/29/2024,7/3/2024,"398 Maple Ave, Austin, CO 56566",56566,(550)-364-9553,quinn.king@yahoo.com
+793,Quinn Collins,62,7/7/1963,F,Dr. David Patel,Self-Pay,16487.21,3/18/2025,3/27/2025,"2844 Cedar Ln, Nashville, TN 54942",54942,(800)-965-2096,quinn.collins@yahoo.com
+794,Bianca King,81,8/7/1943,M,Dr. Laura Gomez,Medicare Advantage,26237.3,7/22/2024,7/23/2024,"160 Walnut Ave, Dallas, FL 85880",85880,(546)-625-1121,bianca.king@example.org
+795,Caroline Garcia,30,1/26/1994,F,Dr. Samuel Ortiz,Commercial - BlueCross,20532.3,12/14/2024,12/27/2024,"5294 Cedar Ln, Denver, GA 94012",94012,(239)-309-1899,caroline.garcia@yahoo.com
+796,Xavier Flores,66,2/16/1958,F,Dr. Angela Chen,Medicare Advantage,34214.87,3/17/2024,3/23/2024,"5152 Birch St, Seattle, TX 14165",14165,(491)-535-4027,xavier.flores@yahoo.com
+797,Ethan Allen,30,3/19/1994,M,Dr. Priya Shah,Medicare,39023.6,12/7/2024,12/9/2024,"3578 Maple Ave, Phoenix, TX 79352",79352,(518)-978-9868,ethan.allen@gmail.com
+798,Anthony Adams,88,2/22/1936,M,Dr. Angela Chen,Medicare,35970.04,2/11/2024,2/18/2024,"5560 Birch St, Dallas, CO 30379",30379,(296)-802-1065,
+799,Quinn Carter,78,4/3/1946,M,Dr. Laura Gomez,Commercial - Aetna,5615.3,6/11/2024,6/20/2024,"5573 Pine Dr, Houston, AZ 34356",34356,(217)-681-4578,quinn.carter@yahoo.com
+800,Franklin Baker,83,4/16/1941,F,Dr. Laura Gomez,Medicare,27734.33,10/6/2024,10/18/2024,"9071 Cedar Ln, Dallas, GA 61856",61856,(827)-882-7364,
+801,Ruby Morgan,62,2/23/1962,F,Dr. Laura Gomez,Commercial - Aetna,17344.41,10/21/2024,10/31/2024,"6984 Birch St, Nashville, TN 93810",93810,(317)-615-4132,ruby.morgan@yahoo.com
+802,Thomas Brooks,33,2/22/1991,F,Dr. Samuel Ortiz,Commercial - Cigna,3047.94,9/12/2024,9/24/2024,"6567 Pine Dr, Phoenix, WA 24208",24208,(315)-788-1046,thomas.brooks@gmail.com
+803,Bianca Adams,19,2/28/2005,M,Dr. Priya Shah,Medicare Advantage,9443.84,5/27/2024,6/7/2024,"6141 Walnut Ave, Seattle, GA 64948",64948,(731)-896-5506,bianca.adams@yahoo.com
+804,Caleb Lopez,36,7/2/1988,F,Dr. Laura Gomez,Medicare Advantage,8738.03,9/5/2024,9/10/2024,"4230 Oak St, Seattle, TN 89840",89840,(262)-261-8516,caleb.lopez@yahoo.com
+805,Olivia Rodriguez,54,9/3/1970,F,Dr. Angela Chen,Medicare Advantage,8316.81,1/15/2024,1/28/2024,"9708 Ridge Rd, Chicago, WA 25713",25713,(429)-660-4291,olivia.rodriguez@outlook.com
+806,Bianca Davis,67,4/21/1957,M,Dr. Samuel Ortiz,Commercial - BlueCross,9991.78,5/16/2024,,"8061 Sunset Blvd, Phoenix, CO 57400",57400,(474)-938-7075,bianca.davis@gmail.com
+807,Isabella Barnes,84,5/26/1940,M,Dr. Laura Gomez,Medicare,3924.26,4/19/2024,4/24/2024,"4102 Pine Dr, Miami, TX 97841",97841,(220)-535-7876,isabella.barnes@gmail.com
+808,Quinn Miller,41,10/7/1983,F,Dr. Angela Chen,Commercial - Cigna,30920.25,9/14/2024,9/19/2024,"6685 Walnut Ave, Austin, GA 85525",85525,(839)-400-5012,quinn.miller@outlook.com
+809,Mia Davis,48,10/5/1976,M,Dr. Jason Miller,Medicaid,18086.69,1/17/2024,1/19/2024,"3889 Sunset Blvd, Dallas, IL 27342",27342,(622)-747-2189,
+810,Sophia Scott,35,7/4/1989,F,Dr. Robert Kim,Medicaid,15778.76,2/7/2024,2/17/2024,"4694 Ridge Rd, Phoenix, AZ 10074",10074,(442)-826-2946,
+811,Isabella Rivera,86,12/1/1938,F,Dr. Michael Lee,Commercial - BlueCross,28026.37,6/20/2024,7/2/2024,"8120 Cedar Ln, Seattle, FL 20328",20328,(290)-715-4757,isabella.rivera@outlook.com
+812,Ava Brown,62,10/1/1962,M,Dr. Jason Miller,Commercial - Aetna,28293.65,1/28/2024,2/8/2024,"4609 Cedar Ln, Houston, CO 66155",66155,(955)-246-3939,
+813,Grace Miller,34,2/24/1990,M,Dr. Jason Miller,Medicare,26973.96,8/19/2024,8/20/2024,"3445 Walnut Ave, Denver, GA 99593",99593,(904)-264-3606,grace.miller@gmail.com
+814,Franklin Hernandez,22,7/4/2002,F,Dr. Laura Gomez,Medicare,4765.85,6/10/2024,6/13/2024,"7220 Cedar Ln, Houston, WA 76307",76307,(732)-930-9697,franklin.hernandez@outlook.com
+815,Diana Scott,38,10/7/1987,F,Dr. Jason Miller,Commercial - BlueCross,8127.2,3/31/2025,4/5/2025,"428 Cedar Ln, Seattle, WA 26828",26828,(991)-748-8616,diana.scott@gmail.com
+816,Anthony Adams,34,11/19/1990,F,Dr. Robert Kim,Commercial - Cigna,28460.38,4/25/2024,5/2/2024,"2315 Oak St, Atlanta, CO 19880",19880,(437)-329-4940,anthony.adams@gmail.com
+817,Henry Martinez,88,3/27/1936,F,Dr. David Patel,Commercial - Aetna,22196.31,9/22/2024,10/1/2024,"3021 Oak St, Seattle, TN 56898",56898,(410)-343-4612,henry.martinez@gmail.com
+818,Ruby Garcia,74,8/6/1950,F,Dr. Laura Gomez,Commercial - Cigna,25903.4,3/23/2024,3/29/2024,"4627 Walnut Ave, Dallas, TX 30374",30374,(211)-998-1447,ruby.garcia@gmail.com
+819,Caleb Rivera,21,4/16/2003,F,Dr. David Patel,Medicaid,30666,3/24/2024,,"1709 Ridge Rd, Atlanta, FL 46463",46463,(845)-966-1423,caleb.rivera@outlook.com
+820,Liam Perez,32,9/16/1992,M,Dr. Angela Chen,Medicare Advantage,7632.07,5/31/2024,6/10/2024,"4805 Ridge Rd, Atlanta, AZ 44993",44993,(379)-981-5734,liam.perez@gmail.com
+821,Liam Perez,78,5/8/1946,F,Dr. Laura Gomez,Commercial - BlueCross,2510.68,2/20/2024,,"6291 Walnut Ave, Chicago, AZ 84364",84364,(941)-728-5506,liam.perez@example.org
+822,Noah Green,33,6/22/1992,F,Dr. Laura Gomez,Medicaid,32211.46,6/7/2025,6/13/2025,"902 Walnut Ave, Denver, CO 74032",74032,(790)-584-1686,noah.green@gmail.com
+823,Victoria Davis,24,1/25/2001,M,Dr. Robert Kim,Medicaid,17292.06,4/16/2025,4/29/2025,"8715 Pine Dr, Houston, AZ 30926",30926,(474)-248-3005,victoria.davis@outlook.com
+824,Bianca Allen,33,8/8/1991,F,Dr. Angela Chen,Commercial - Cigna,29731.47,6/30/2024,7/8/2024,"8548 Cedar Ln, Seattle, IL 65296",65296,(863)-265-7548,bianca.allen@yahoo.com
+825,William Nguyen,36,1/8/1988,M,Dr. Angela Chen,Commercial - Cigna,8078.54,11/10/2024,11/13/2024,"6977 Pine Dr, Chicago, GA 94259",94259,(306)-517-5126,
+826,Caleb Carter,67,1/6/1958,M,Dr. Laura Gomez,Medicaid,15155.03,1/17/2025,1/31/2025,"6707 Cedar Ln, Chicago, FL 22833",22833,(899)-391-5814,
+827,Caleb Baker,20,10/27/2004,F,Dr. Jason Miller,Commercial - BlueCross,13347.58,10/13/2024,10/22/2024,"8789 Oak St, Phoenix, AZ 73699",73699,(447)-769-9207,caleb.baker@outlook.com
+828,Liam Baker,35,1/28/1989,M,Dr. Michael Lee,Commercial - Cigna,27997.91,2/8/2024,2/19/2024,"4873 Cedar Ln, Phoenix, IL 95909",95909,(983)-563-4183,liam.baker@outlook.com
+829,Thomas Johnson,33,12/20/1991,M,Dr. Robert Kim,Self-Pay,6944.52,4/14/2024,,"7550 Ridge Rd, Austin, TX 17989",17989,(403)-446-2497,thomas.johnson@yahoo.com
+830,Quinn Miller,35,2/3/1990,M,Dr. David Patel,Medicaid,3009.63,2/20/2025,3/4/2025,"8372 Ridge Rd, Chicago, GA 80284",80284,(672)-712-7671,quinn.miller@gmail.com
+831,Ava Brooks,44,10/17/1981,F,Dr. Michael Lee,Commercial - Aetna,5609.71,2/28/2025,3/3/2025,"314 Cedar Ln, Seattle, FL 85525",85525,(852)-919-9148,ava.brooks@outlook.com
+832,Bianca Patel,33,6/5/1992,M,Dr. Michael Lee,Commercial - Aetna,27684.65,2/5/2025,2/18/2025,"1049 Maple Ave, Denver, AZ 44335",44335,(326)-738-5699,
+833,Jacob Wilson,47,4/6/1977,M,Dr. Jason Miller,Medicare Advantage,33765.51,5/22/2024,5/29/2024,"2683 Cedar Ln, Nashville, CO 54118",54118,(445)-662-5505,jacob.wilson@example.org
+834,Caroline Nguyen,50,6/21/1975,F,Dr. Angela Chen,Medicaid,21507.69,2/21/2025,2/22/2025,"448 Walnut Ave, Phoenix, TN 76768",76768,(604)-638-8133,caroline.nguyen@gmail.com
+835,Ruby Adams,30,1/17/1994,F,Dr. Samuel Ortiz,Commercial - BlueCross,31541.81,1/19/2024,1/23/2024,"3428 Walnut Ave, Seattle, GA 53540",53540,(822)-290-1446,ruby.adams@example.org
+836,Caroline Johnson,45,7/17/1979,F,Dr. Samuel Ortiz,Self-Pay,9916.26,12/14/2024,12/28/2024,"9115 Pine Dr, Seattle, AZ 22704",22704,(841)-696-7954,caroline.johnson@yahoo.com
+837,Uma Miller,85,1/26/1939,M,Dr. Angela Chen,Commercial - Cigna,38580.47,4/28/2024,5/7/2024,"8747 Ridge Rd, Phoenix, FL 24621",24621,(443)-688-9660,
+838,Benjamin Miller,47,1/20/1978,M,Dr. Priya Shah,Medicare,5445.28,1/14/2025,1/26/2025,"878 Walnut Ave, Nashville, AZ 27146",27146,(496)-492-3978,benjamin.miller@example.org
+839,Isabella Green,39,5/27/1986,M,Dr. Laura Gomez,Self-Pay,25542.63,1/19/2025,1/30/2025,"9155 Ridge Rd, Austin, WA 56566",56566,(748)-574-7293,isabella.green@yahoo.com
+840,Elena Johnson,90,4/6/1934,F,Dr. Angela Chen,Medicare,31233.53,11/13/2024,11/26/2024,"3219 Maple Ave, Houston, IL 94012",94012,(999)-344-8043,elena.johnson@gmail.com
+841,Olivia Patel,20,11/15/2005,M,Dr. Samuel Ortiz,Commercial - BlueCross,26149.22,4/13/2025,4/14/2025,"2949 Cedar Ln, Denver, IL 34931",34931,(821)-425-6337,olivia.patel@outlook.com
+842,Victoria Wilson,84,7/22/1940,F,Dr. Michael Lee,Self-Pay,33022.76,10/18/2024,10/24/2024,"2030 Pine Dr, Nashville, GA 10074",10074,(230)-762-3412,victoria.wilson@outlook.com
+843,Sophia King,36,7/21/1989,M,Dr. Angela Chen,Medicare,31668.63,1/26/2025,2/1/2025,"1292 Cedar Ln, Dallas, TN 31178",31178,(636)-300-3387,sophia.king@outlook.com
+844,Thomas Johnson,33,5/28/1991,M,Dr. Robert Kim,Self-Pay,11781.31,6/1/2024,6/14/2024,"8439 Birch St, Dallas, TX 86350",86350,(368)-689-4665,
+845,William Barnes,83,7/17/1941,M,Dr. Laura Gomez,Commercial - BlueCross,3910.29,2/26/2024,3/10/2024,"3410 Maple Ave, Austin, IL 82309",82309,(826)-542-1417,
+846,Caroline Perez,85,1/15/1939,F,Dr. Angela Chen,Medicare,12781.83,3/15/2024,3/21/2024,"6781 Pine Dr, Atlanta, IL 41029",41029,(796)-653-7736,caroline.perez@gmail.com
+847,Yasmin Hernandez,46,7/6/1979,M,Dr. Angela Chen,Medicare,35985.16,3/27/2025,4/1/2025,"1053 Ridge Rd, Houston, GA 82512",82512,(621)-887-3130,yasmin.hernandez@outlook.com
+848,Ava Martinez,29,2/25/1995,M,Dr. Jason Miller,Commercial - BlueCross,37038.97,6/13/2024,6/23/2024,"4417 Oak St, Seattle, WA 46421",46421,(399)-403-4320,ava.martinez@gmail.com
+849,Ethan Garcia,58,2/15/1967,M,Dr. Samuel Ortiz,Medicaid,14772.53,2/14/2025,2/23/2025,"274 Cedar Ln, Houston, AZ 59797",59797,(817)-367-1007,ethan.garcia@yahoo.com
+850,Zoe Brown,48,4/15/1976,M,Dr. Samuel Ortiz,Commercial - BlueCross,20586.3,12/19/2024,12/23/2024,"1317 Birch St, Denver, WA 30289",30289,(250)-943-3763,zoe.brown@outlook.com
+851,Benjamin Garcia,68,4/15/1956,M,Dr. Michael Lee,Self-Pay,5138.88,10/9/2024,10/10/2024,"3456 Birch St, Austin, GA 84847",84847,(747)-310-3322,benjamin.garcia@example.org
+852,William Allen,39,10/18/1985,F,Dr. Priya Shah,Medicare,33607.38,4/4/2024,4/18/2024,"3088 Maple Ave, Phoenix, WA 35112",35112,(629)-375-9947,william.allen@example.org
+853,Anthony Baker,74,9/6/1950,F,Dr. Laura Gomez,Self-Pay,33313.85,9/5/2024,9/19/2024,"9004 Walnut Ave, Seattle, TX 79514",79514,(434)-786-8366,anthony.baker@gmail.com
+854,Quinn Rivera,87,1/13/1937,M,Dr. Laura Gomez,Commercial - Cigna,37193.56,5/1/2024,5/13/2024,"8234 Cedar Ln, Seattle, CO 23473",23473,(215)-573-1036,quinn.rivera@yahoo.com
+855,Caroline King,39,7/22/1985,F,Dr. Robert Kim,Commercial - Cigna,14948.2,6/12/2024,,"6097 Oak St, Chicago, TN 76768",76768,(307)-903-5340,caroline.king@yahoo.com
+856,Yasmin Nguyen,84,10/2/1941,F,Dr. Priya Shah,Commercial - Aetna,6841.65,2/11/2025,2/24/2025,"9234 Birch St, Phoenix, GA 17455",17455,(823)-754-5731,yasmin.nguyen@gmail.com
+857,Franklin Garcia,22,7/24/2002,M,Dr. Michael Lee,Commercial - Aetna,28134.04,8/23/2024,9/1/2024,"9901 Birch St, Atlanta, WA 42271",42271,(333)-505-6533,franklin.garcia@gmail.com
+858,Victoria Nguyen,54,1/23/1971,M,Dr. Jason Miller,Commercial - Cigna,22509.16,4/13/2025,4/26/2025,"7331 Maple Ave, Chicago, CO 86484",86484,(757)-611-8333,victoria.nguyen@yahoo.com
+859,Sophia Collins,41,12/21/1983,F,Dr. Jason Miller,Medicare Advantage,16147.26,3/20/2024,3/22/2024,"7659 Ridge Rd, Nashville, TN 31643",31643,(754)-353-8151,sophia.collins@yahoo.com
+860,Bianca Stewart,34,6/22/1990,M,Dr. Robert Kim,Commercial - BlueCross,39776.39,2/9/2024,2/18/2024,"8691 Oak St, Seattle, CO 61876",61876,(840)-443-7040,
+861,Isabella Thompson,64,11/4/1961,M,Dr. Laura Gomez,Commercial - Cigna,25352.26,4/12/2025,4/13/2025,"2851 Birch St, Atlanta, CO 93130",93130,(964)-550-7136,isabella.thompson@yahoo.com
+862,Ethan Allen,68,11/5/1956,M,Dr. Laura Gomez,Medicaid,6903.64,10/28/2024,11/1/2024,"8827 Birch St, Seattle, IL 63264",63264,(399)-759-2689,ethan.allen@yahoo.com
+863,Isabella Nguyen,59,7/6/1966,F,Dr. David Patel,Commercial - Cigna,39591.17,5/9/2025,5/15/2025,"9528 Pine Dr, Seattle, IL 91351",91351,(911)-427-6625,isabella.nguyen@outlook.com
+864,Daniel Wilson,82,9/11/1943,F,Dr. Laura Gomez,Medicare Advantage,15583.46,5/16/2025,5/23/2025,"356 Walnut Ave, Miami, WA 29536",29536,(467)-429-1124,
+865,Victoria Patel,33,9/27/1991,F,Dr. Priya Shah,Commercial - BlueCross,24561.54,6/17/2024,,"5565 Cedar Ln, Denver, TX 89131",89131,(572)-415-7463,victoria.patel@outlook.com
+866,Jacob Scott,31,7/16/1993,M,Dr. David Patel,Medicaid,5628.06,6/26/2024,6/30/2024,"8693 Maple Ave, Phoenix, GA 14117",14117,(524)-246-1263,jacob.scott@outlook.com
+867,Caleb Garcia,31,9/4/1993,M,Dr. Priya Shah,Medicare,31388.85,6/30/2024,7/10/2024,"9794 Ridge Rd, Atlanta, TX 81066",81066,(950)-334-8831,
+868,Mia Garcia,48,7/14/1976,M,Dr. Laura Gomez,Medicaid,35772.13,12/4/2024,12/17/2024,"1056 Walnut Ave, Nashville, GA 93136",93136,(972)-660-9829,mia.garcia@outlook.com
+869,Caleb Brooks,35,12/19/1989,M,Dr. David Patel,Commercial - Aetna,14485.49,10/13/2024,10/19/2024,"7013 Walnut Ave, Chicago, WA 83000",83000,(714)-331-5989,caleb.brooks@gmail.com
+870,Caroline Rivera,72,3/26/1952,M,Dr. Michael Lee,Medicaid,37404.12,1/7/2024,1/8/2024,"5127 Walnut Ave, Phoenix, IL 54118",54118,(442)-334-2896,caroline.rivera@outlook.com
+871,Caroline Miller,18,9/24/2006,M,Dr. David Patel,Commercial - BlueCross,2800.89,7/27/2024,8/3/2024,"3084 Maple Ave, Denver, WA 99166",99166,(732)-737-7276,caroline.miller@example.org
+872,Elena Davis,46,12/1/1978,M,Dr. Jason Miller,Commercial - Cigna,31869.86,10/26/2024,10/29/2024,"2225 Walnut Ave, Atlanta, CO 96511",96511,(577)-494-4426,elena.davis@gmail.com
+873,Ruby Miller,40,11/1/1984,F,Dr. Samuel Ortiz,Medicaid,33699.04,5/9/2024,5/12/2024,"5094 Maple Ave, Dallas, GA 95717",95717,(208)-292-9512,ruby.miller@outlook.com
+874,Quinn Brooks,44,2/22/1981,M,Dr. David Patel,Medicare,22001.75,4/27/2025,5/9/2025,"7571 Pine Dr, Houston, FL 63354",63354,(675)-528-5265,quinn.brooks@outlook.com
+875,Sophia Lopez,52,2/17/1972,M,Dr. Samuel Ortiz,Commercial - BlueCross,7458.07,2/3/2024,2/13/2024,"7531 Sunset Blvd, Atlanta, IL 30676",30676,(304)-601-1869,sophia.lopez@yahoo.com
+876,Xavier Scott,33,12/24/1991,M,Dr. Samuel Ortiz,Medicare,19100.92,8/8/2024,8/21/2024,"3659 Pine Dr, Dallas, FL 99733",99733,(376)-358-4507,xavier.scott@yahoo.com
+877,Daniel Baker,72,6/21/1952,M,Dr. Priya Shah,Commercial - Cigna,13173.14,5/27/2024,5/30/2024,"6058 Cedar Ln, Nashville, IL 91959",91959,(769)-515-5370,daniel.baker@example.org
+878,Yasmin Lopez,77,10/11/1947,M,Dr. Robert Kim,Medicaid,32617.31,10/23/2024,10/24/2024,"4376 Birch St, Nashville, TN 17492",17492,(932)-942-2908,
+879,Peter Patel,74,4/22/1950,F,Dr. Samuel Ortiz,Commercial - Aetna,8211.73,3/12/2024,3/18/2024,"9863 Ridge Rd, Atlanta, TN 55745",55745,(315)-419-9033,peter.patel@outlook.com
+880,Elena Green,89,7/24/1935,F,Dr. Samuel Ortiz,Medicaid,2581.02,4/10/2024,4/16/2024,"989 Cedar Ln, Houston, TX 53540",53540,(245)-471-9010,elena.green@example.org
+881,Ruby Allen,82,3/8/1943,M,Dr. David Patel,Commercial - Cigna,9607.55,1/16/2025,1/22/2025,"8865 Sunset Blvd, Dallas, TX 84341",84341,(217)-484-5949,ruby.allen@example.org
+882,Victoria Nguyen,59,12/19/1965,F,Dr. Jason Miller,Medicare,14855.17,6/15/2024,6/29/2024,"1633 Oak St, Houston, CO 93130",93130,(947)-800-6705,victoria.nguyen@gmail.com
+883,Jacob Miller,79,7/16/1945,M,Dr. Robert Kim,Medicare,25065.09,7/20/2024,7/30/2024,"1454 Cedar Ln, Nashville, TN 70217",70217,(823)-317-3378,jacob.miller@yahoo.com
+884,Yasmin Garcia,32,11/5/1993,F,Dr. Samuel Ortiz,Medicare,34869.14,4/16/2025,4/29/2025,"976 Maple Ave, Nashville, AZ 19116",19116,(315)-591-7597,
+885,Ethan Brooks,23,8/8/2001,F,Dr. Michael Lee,Commercial - BlueCross,6735.49,12/17/2024,12/26/2024,"3343 Cedar Ln, Dallas, WA 31579",31579,(397)-641-7230,ethan.brooks@gmail.com
+886,William Brooks,76,5/1/1948,M,Dr. Priya Shah,Medicaid,30927.86,10/15/2024,10/17/2024,"9248 Sunset Blvd, Atlanta, CO 62227",62227,(545)-208-6351,william.brooks@yahoo.com
+887,Uma Morgan,66,6/24/1958,F,Dr. Michael Lee,Self-Pay,33194.67,7/17/2024,7/23/2024,"6334 Maple Ave, Dallas, IL 44760",44760,(882)-782-6656,
+888,Xavier Green,81,7/12/1943,F,Dr. Priya Shah,Medicaid,38802.09,5/1/2024,5/5/2024,"9106 Walnut Ave, Atlanta, FL 79163",79163,(514)-980-3135,xavier.green@gmail.com
+889,Isabella Nguyen,37,3/16/1988,F,Dr. Samuel Ortiz,Commercial - BlueCross,37312.13,3/8/2025,3/18/2025,"3881 Ridge Rd, Denver, TX 42087",42087,(813)-834-2007,isabella.nguyen@gmail.com
+890,Olivia Brown,20,6/11/2004,M,Dr. Robert Kim,Medicaid,6369.59,10/15/2024,10/17/2024,"4377 Pine Dr, Dallas, IL 91416",91416,(927)-492-1530,olivia.brown@gmail.com
+891,Ava Patel,64,5/20/1961,M,Dr. Jason Miller,Commercial - Aetna,36696.95,4/7/2025,4/20/2025,"1163 Walnut Ave, Miami, FL 79822",79822,(491)-635-3825,ava.patel@outlook.com
+892,Quinn Stewart,31,1/25/1993,F,Dr. Angela Chen,Commercial - BlueCross,18216.12,4/23/2024,,"2041 Maple Ave, Dallas, IL 14165",14165,(954)-622-4765,
+893,Noah Flores,29,12/22/1995,M,Dr. Samuel Ortiz,Commercial - BlueCross,21376.78,1/14/2024,1/27/2024,"6100 Ridge Rd, Austin, CO 30289",30289,(231)-937-2772,noah.flores@gmail.com
+894,Peter Nguyen,43,6/3/1981,F,Dr. Laura Gomez,Commercial - BlueCross,5414.16,2/25/2024,2/29/2024,"883 Birch St, Chicago, WA 56438",56438,(507)-404-7563,
+895,Xavier Miller,21,7/23/2004,F,Dr. Laura Gomez,Medicaid,14933.94,6/24/2025,6/30/2025,"7136 Birch St, Miami, TX 51245",51245,(323)-774-1089,xavier.miller@yahoo.com
+896,Uma Perez,38,2/12/1987,M,Dr. Angela Chen,Self-Pay,18342.78,2/7/2025,2/10/2025,"9687 Maple Ave, Atlanta, IL 58393",58393,(341)-916-8782,
+897,Benjamin Flores,69,2/26/1955,M,Dr. Laura Gomez,Medicare,13458.15,12/4/2024,12/5/2024,"2008 Oak St, Miami, TN 78522",78522,(678)-327-5133,
+898,Yasmin Lopez,51,4/22/1973,F,Dr. Priya Shah,Self-Pay,29023.76,10/3/2024,10/9/2024,"1177 Walnut Ave, Houston, TX 30033",30033,(825)-823-9222,
+899,Thomas Morgan,81,8/22/1943,M,Dr. Jason Miller,Commercial - Cigna,10111.71,3/7/2024,3/17/2024,"2070 Sunset Blvd, Seattle, WA 82357",82357,(620)-591-2631,
+900,Quinn Morgan,24,6/14/2000,M,Dr. Jason Miller,Commercial - Aetna,11747.7,8/26/2024,9/8/2024,"3098 Cedar Ln, Atlanta, WA 47388",47388,(782)-316-8308,quinn.morgan@gmail.com
+901,Xavier Stewart,51,8/2/1973,F,Dr. Laura Gomez,Self-Pay,39539.74,5/22/2024,,"8547 Ridge Rd, Atlanta, CO 92397",92397,(291)-620-1899,xavier.stewart@gmail.com
+902,Victoria Rivera,51,10/15/1974,F,Dr. Priya Shah,Medicaid,15721.01,6/9/2025,6/22/2025,"2501 Maple Ave, Austin, TN 88193",88193,(222)-948-9806,victoria.rivera@outlook.com
+903,Ethan King,83,3/25/1941,F,Dr. Priya Shah,Commercial - Aetna,37230.92,9/23/2024,9/26/2024,"2070 Ridge Rd, Chicago, IL 31579",31579,(650)-719-7124,ethan.king@gmail.com
+904,Sophia Brooks,25,2/27/2000,F,Dr. Angela Chen,Commercial - Aetna,3302.66,4/30/2025,5/11/2025,"3046 Cedar Ln, Seattle, AZ 48469",48469,(809)-612-2499,sophia.brooks@gmail.com
+905,Ethan Brooks,83,3/15/1942,M,Dr. Angela Chen,Self-Pay,7865.95,3/9/2025,3/18/2025,"6524 Ridge Rd, Dallas, WA 36062",36062,(802)-563-4757,ethan.brooks@outlook.com
+906,Diana Rivera,29,4/6/1996,M,Dr. Priya Shah,Medicare Advantage,17945.26,5/21/2025,6/1/2025,"8087 Birch St, Atlanta, IL 59009",59009,(940)-586-6800,
+907,Ethan Scott,68,10/13/1957,F,Dr. Angela Chen,Commercial - Cigna,3238.95,3/7/2025,3/12/2025,"6387 Cedar Ln, Denver, GA 14165",14165,(472)-663-9383,ethan.scott@gmail.com
+908,Peter Thompson,37,11/14/1987,M,Dr. Priya Shah,Commercial - BlueCross,6980.08,12/30/2024,1/3/2025,"4609 Pine Dr, Dallas, IL 18326",18326,(747)-609-9727,peter.thompson@yahoo.com
+909,Uma Carter,73,2/14/1952,F,Dr. Angela Chen,Commercial - BlueCross,19961.66,6/23/2025,6/30/2025,"461 Maple Ave, Austin, WA 54118",54118,(419)-315-5067,uma.carter@yahoo.com
+910,Bianca Barnes,44,3/8/1981,M,Dr. Priya Shah,Medicaid,9713.74,2/21/2025,2/27/2025,"817 Birch St, Chicago, AZ 62296",62296,(540)-998-1359,bianca.barnes@outlook.com
+911,Ethan Flores,56,1/28/1968,M,Dr. Samuel Ortiz,Medicare Advantage,6295.92,4/9/2024,4/20/2024,"3266 Birch St, Denver, TX 16658",16658,(780)-626-7587,ethan.flores@example.org
+912,Zoe Baker,79,1/28/1945,F,Dr. Samuel Ortiz,Commercial - Cigna,11459.64,2/12/2024,2/24/2024,"6665 Ridge Rd, Atlanta, CO 26361",26361,(478)-281-8255,zoe.baker@gmail.com
+913,Anthony Wilson,59,11/18/1965,F,Dr. Laura Gomez,Commercial - Cigna,15996.47,9/28/2024,10/8/2024,"4179 Sunset Blvd, Nashville, TN 75612",75612,(718)-590-6117,anthony.wilson@gmail.com
+914,Liam Johnson,51,3/2/1973,M,Dr. Michael Lee,Medicare,6278.5,5/18/2024,5/29/2024,"7927 Walnut Ave, Phoenix, GA 42527",42527,(911)-245-6755,
+915,Quinn Nguyen,72,4/14/1953,F,Dr. Robert Kim,Self-Pay,24446.25,2/8/2025,2/14/2025,"2160 Maple Ave, Atlanta, WA 89818",89818,(581)-813-1914,quinn.nguyen@gmail.com
+916,Benjamin Thompson,56,7/13/1968,F,Dr. Angela Chen,Commercial - Aetna,38894.08,9/13/2024,9/18/2024,"4588 Sunset Blvd, Seattle, TN 77839",77839,(251)-534-8140,benjamin.thompson@gmail.com
+917,Bianca Rivera,57,10/15/1968,M,Dr. Laura Gomez,Self-Pay,15521.22,3/29/2025,3/30/2025,"5154 Walnut Ave, Phoenix, IL 76244",76244,(718)-823-1473,bianca.rivera@yahoo.com
+918,Caleb Rivera,65,12/10/1959,M,Dr. Laura Gomez,Commercial - BlueCross,31656.25,7/7/2024,7/13/2024,"987 Maple Ave, Seattle, FL 81066",81066,(822)-555-4750,caleb.rivera@gmail.com
+919,Xavier King,72,8/14/1952,F,Dr. Samuel Ortiz,Medicare,8233.95,10/28/2024,11/10/2024,"7937 Ridge Rd, Denver, GA 46434",46434,(982)-523-2103,xavier.king@gmail.com
+920,Caroline Brooks,53,9/26/1972,F,Dr. Priya Shah,Medicare Advantage,36562.68,5/30/2025,6/4/2025,"8571 Sunset Blvd, Dallas, TX 24029",24029,(749)-215-2775,caroline.brooks@example.org
+921,Quinn Adams,81,1/26/1944,F,Dr. Robert Kim,Self-Pay,4546.59,1/1/2025,1/14/2025,"4576 Ridge Rd, Houston, GA 93136",93136,(469)-368-7963,
+922,Yasmin Rodriguez,39,6/23/1986,F,Dr. Robert Kim,Commercial - Aetna,11172.3,5/5/2025,5/12/2025,"9745 Sunset Blvd, Atlanta, TX 73624",73624,(767)-558-3765,yasmin.rodriguez@outlook.com
+923,Ruby Brooks,57,6/26/1967,F,Dr. Priya Shah,Commercial - Cigna,22963.45,8/26/2024,8/31/2024,"4496 Oak St, Dallas, GA 30033",30033,(512)-868-7019,ruby.brooks@example.org
+924,Liam Baker,36,8/10/1988,F,Dr. Priya Shah,Medicare,6887.83,7/17/2024,7/29/2024,"8902 Ridge Rd, Nashville, AZ 53309",53309,(648)-992-7523,liam.baker@yahoo.com
+925,William Morgan,39,2/16/1986,M,Dr. Samuel Ortiz,Medicare,8877.68,1/23/2025,2/6/2025,"5893 Oak St, Atlanta, TX 53719",53719,(268)-821-7341,william.morgan@gmail.com
+926,Isabella Johnson,42,9/27/1982,F,Dr. Laura Gomez,Commercial - Aetna,39781.7,8/23/2024,9/1/2024,"2472 Birch St, Nashville, IL 30032",30032,(435)-512-1193,
+927,Ethan Barnes,31,7/12/1993,F,Dr. Laura Gomez,Commercial - BlueCross,19755.57,10/20/2024,10/22/2024,"2922 Birch St, Denver, WA 13101",13101,(886)-568-5286,ethan.barnes@gmail.com
+928,Bianca Martinez,44,9/4/1980,M,Dr. Priya Shah,Commercial - BlueCross,24706.55,8/10/2024,8/23/2024,"355 Walnut Ave, Phoenix, AZ 37460",37460,(749)-667-9230,bianca.martinez@outlook.com
+929,Caleb Martinez,67,8/19/1957,M,Dr. Samuel Ortiz,Self-Pay,28088.1,3/3/2024,3/9/2024,"2276 Ridge Rd, Austin, WA 66333",66333,(660)-897-3253,caleb.martinez@yahoo.com
+930,Benjamin Rivera,29,4/19/1995,M,Dr. Angela Chen,Medicaid,11810.29,7/27/2024,8/7/2024,"7465 Pine Dr, Atlanta, IL 62350",62350,(781)-305-3473,benjamin.rivera@example.org
+931,Ava Perez,38,4/6/1986,F,Dr. Samuel Ortiz,Commercial - Aetna,34876.96,2/20/2024,2/29/2024,"2487 Maple Ave, Dallas, AZ 23434",23434,(389)-435-3879,ava.perez@gmail.com
+932,Caroline Adams,84,11/20/1940,M,Dr. Jason Miller,Commercial - BlueCross,16106.99,2/16/2024,2/25/2024,"9244 Ridge Rd, Seattle, AZ 39256",39256,(760)-285-5841,
+933,Noah Rivera,29,4/21/1995,M,Dr. Michael Lee,Commercial - Cigna,10556.42,10/23/2024,11/3/2024,"1493 Oak St, Miami, WA 18392",18392,(969)-984-3265,
+934,Jacob Brown,58,7/6/1966,F,Dr. Michael Lee,Medicare,9144.4,1/18/2024,1/31/2024,"157 Walnut Ave, Denver, FL 33405",33405,(960)-802-7212,jacob.brown@gmail.com
+935,Liam Thompson,23,1/21/2001,M,Dr. Laura Gomez,Commercial - Cigna,16512.46,10/2/2024,,"6538 Walnut Ave, Denver, AZ 19602",19602,(292)-920-4683,liam.thompson@gmail.com
+936,Anthony Scott,87,1/17/1937,M,Dr. Priya Shah,Commercial - BlueCross,25143.56,10/2/2024,10/10/2024,"346 Walnut Ave, Atlanta, IL 40161",40161,(629)-761-4314,anthony.scott@yahoo.com
+937,Noah Martinez,90,7/18/1934,M,Dr. Samuel Ortiz,Commercial - BlueCross,24866.93,1/16/2024,1/25/2024,"9200 Maple Ave, Miami, TN 76244",76244,(829)-274-6965,
+938,Anthony Green,72,12/20/1953,F,Dr. David Patel,Commercial - BlueCross,33989.88,4/10/2025,4/11/2025,"3978 Pine Dr, Dallas, AZ 59823",59823,(641)-918-6873,anthony.green@yahoo.com
+939,Noah Thompson,56,8/12/1969,F,Dr. Michael Lee,Self-Pay,37828.91,1/12/2025,1/14/2025,"5598 Walnut Ave, Austin, TN 96374",96374,(667)-497-2478,noah.thompson@yahoo.com
+940,Quinn Morgan,67,12/19/1957,F,Dr. Priya Shah,Medicare,22359.71,5/28/2024,6/7/2024,"6699 Pine Dr, Seattle, WA 93886",93886,(366)-344-8823,quinn.morgan@gmail.com
+941,Peter Carter,51,8/27/1973,M,Dr. Angela Chen,Medicaid,5551.58,12/20/2024,12/26/2024,"843 Walnut Ave, Seattle, CO 24592",24592,(791)-344-3069,peter.carter@outlook.com
+942,Quinn Stewart,18,7/9/2006,F,Dr. Michael Lee,Medicare,25836.55,8/12/2024,8/18/2024,"965 Ridge Rd, Houston, IL 81511",81511,(339)-485-8700,quinn.stewart@yahoo.com
+943,Ethan Martinez,59,9/6/1966,M,Dr. Michael Lee,Medicare,4924.94,6/16/2025,6/30/2025,"2736 Birch St, Miami, IL 15695",15695,(339)-629-2187,ethan.martinez@outlook.com
+944,Ava Davis,26,10/12/1998,F,Dr. David Patel,Commercial - Aetna,26197,3/1/2024,,"116 Pine Dr, Miami, AZ 66057",66057,(872)-288-6160,
+945,Caroline Baker,23,10/5/2002,M,Dr. Robert Kim,Self-Pay,34694.49,3/27/2025,,"3370 Oak St, Dallas, TN 38221",38221,(640)-807-6143,caroline.baker@gmail.com
+946,Quinn Flores,29,8/14/1995,M,Dr. David Patel,Commercial - Cigna,12781.87,5/24/2024,6/2/2024,"9817 Cedar Ln, Seattle, FL 59823",59823,(809)-463-5571,quinn.flores@gmail.com
+947,Olivia Stewart,29,12/25/1995,F,Dr. Jason Miller,Medicaid,32483.78,3/25/2024,4/7/2024,"1258 Oak St, Denver, FL 95181",95181,(357)-560-7607,olivia.stewart@yahoo.com
+948,Caroline Scott,55,7/17/1969,F,Dr. David Patel,Commercial - BlueCross,11357.29,9/4/2024,9/7/2024,"1090 Sunset Blvd, Denver, GA 88907",88907,(963)-639-8336,
+949,Sophia Wilson,50,7/26/1974,M,Dr. Robert Kim,Commercial - Aetna,13190.13,6/30/2024,7/4/2024,"4981 Sunset Blvd, Houston, TX 30032",30032,(542)-254-8299,sophia.wilson@outlook.com
+950,Xavier Carter,68,3/7/1956,M,Dr. Jason Miller,Commercial - Aetna,14419.2,3/22/2024,3/29/2024,"9349 Pine Dr, Dallas, TX 68082",68082,(541)-984-6317,
+951,Quinn Lopez,57,9/13/1967,F,Dr. Priya Shah,Medicaid,5339.6,3/26/2024,4/3/2024,"1652 Oak St, Houston, FL 93507",93507,(502)-921-8293,quinn.lopez@gmail.com
+952,William Adams,40,5/23/1985,F,Dr. Michael Lee,Commercial - BlueCross,29107.84,1/14/2025,1/20/2025,"1462 Pine Dr, Dallas, AZ 78522",78522,(338)-386-8171,william.adams@outlook.com
+953,Caleb Carter,19,2/11/2005,F,Dr. Laura Gomez,Self-Pay,32779.56,2/21/2024,,"3615 Pine Dr, Chicago, WA 92719",92719,(848)-832-6567,
+954,Jacob Carter,81,1/12/1943,F,Dr. Jason Miller,Commercial - Cigna,8863.62,5/12/2024,5/21/2024,"9764 Walnut Ave, Dallas, IL 78522",78522,(969)-267-1788,
+955,Noah Morgan,45,6/5/1979,M,Dr. Michael Lee,Medicaid,28066.13,5/1/2024,,"614 Cedar Ln, Seattle, TX 22899",22899,(826)-915-5656,
+956,Sophia Morgan,30,6/25/1994,F,Dr. David Patel,Commercial - Aetna,25239.08,6/27/2024,7/3/2024,"4091 Walnut Ave, Nashville, FL 37460",37460,(246)-570-7355,
+957,Benjamin Brown,80,7/23/1944,F,Dr. Michael Lee,Commercial - BlueCross,23490.93,3/1/2024,,"7296 Ridge Rd, Denver, TX 93130",93130,(912)-447-8847,benjamin.brown@yahoo.com
+958,Xavier Miller,42,1/13/1983,M,Dr. Angela Chen,Commercial - Aetna,28407.24,1/18/2025,1/19/2025,"8140 Ridge Rd, Seattle, CO 31174",31174,(535)-208-4571,
+959,Mia Stewart,19,3/10/2005,F,Dr. Jason Miller,Medicaid,39436.68,11/16/2024,11/23/2024,"1832 Ridge Rd, Atlanta, WA 52504",52504,(796)-262-4060,mia.stewart@yahoo.com
+960,Henry Rivera,46,10/2/1978,M,Dr. David Patel,Self-Pay,5167.08,1/16/2024,1/17/2024,"7010 Oak St, Chicago, IL 13278",13278,(852)-982-9863,henry.rivera@example.org
+961,Ruby Flores,49,3/20/1976,F,Dr. Samuel Ortiz,Medicare,4902.87,2/6/2025,2/19/2025,"206 Birch St, Chicago, TN 31174",31174,(972)-776-9897,ruby.flores@yahoo.com
+962,Caroline Brooks,72,3/26/1952,M,Dr. Samuel Ortiz,Commercial - BlueCross,3287.41,9/3/2024,9/16/2024,"238 Pine Dr, Miami, FL 50306",50306,(733)-391-2273,caroline.brooks@example.org
+963,Diana Thompson,34,12/25/1990,F,Dr. Jason Miller,Medicare,4997.11,12/18/2024,12/22/2024,"9123 Oak St, Houston, IL 40161",40161,(917)-372-2621,diana.thompson@yahoo.com
+964,Caroline Hernandez,85,2/25/1940,F,Dr. Jason Miller,Commercial - Cigna,1664.62,1/9/2025,1/16/2025,"1936 Sunset Blvd, Phoenix, FL 59009",59009,(763)-763-2336,caroline.hernandez@outlook.com
+965,Thomas Baker,77,12/2/1948,M,Dr. Samuel Ortiz,Commercial - Cigna,28093.18,1/25/2025,1/26/2025,"5665 Cedar Ln, Miami, IL 46421",46421,(760)-584-3532,thomas.baker@example.org
+966,Diana Brooks,83,3/24/1941,M,Dr. David Patel,Medicare Advantage,34849.96,4/8/2024,4/11/2024,"7911 Pine Dr, Dallas, TX 93886",93886,(764)-418-5825,diana.brooks@yahoo.com
+967,Elena King,37,4/24/1988,F,Dr. Angela Chen,Medicare,12180.84,5/13/2025,5/24/2025,"2257 Maple Ave, Austin, GA 77033",77033,(568)-791-4215,elena.king@yahoo.com
+968,Yasmin Lopez,19,12/5/2005,F,Dr. Michael Lee,Commercial - Cigna,9502.52,2/21/2024,3/4/2024,"3688 Pine Dr, Houston, TN 71213",71213,(567)-330-2691,yasmin.lopez@yahoo.com
+969,Benjamin Collins,34,1/22/1991,F,Dr. Laura Gomez,Medicare Advantage,35623.93,2/20/2025,2/24/2025,"1041 Walnut Ave, Nashville, IL 94080",94080,(650)-667-8530,benjamin.collins@gmail.com
+970,Uma Martinez,46,7/22/1978,F,Dr. Priya Shah,Commercial - Cigna,2382.33,6/14/2024,6/16/2024,"1312 Ridge Rd, Denver, GA 83385",83385,(822)-241-3607,uma.martinez@yahoo.com
+971,Daniel Rivera,21,7/13/2003,M,Dr. Robert Kim,Self-Pay,38666.39,10/9/2024,,"2757 Pine Dr, Nashville, AZ 53719",53719,(407)-321-7877,daniel.rivera@gmail.com
+972,Mia Perez,89,1/13/1936,M,Dr. Laura Gomez,Self-Pay,38833.93,2/6/2025,2/19/2025,"3931 Sunset Blvd, Houston, AZ 31579",31579,(724)-603-6931,mia.perez@outlook.com
+973,Thomas Morgan,50,5/20/1975,M,Dr. Michael Lee,Commercial - BlueCross,38664.52,2/4/2025,2/15/2025,"3189 Cedar Ln, Nashville, GA 52487",52487,(208)-509-7175,
+974,Grace Garcia,39,3/9/1985,M,Dr. Samuel Ortiz,Commercial - BlueCross,35459.47,4/30/2024,,"3646 Sunset Blvd, Houston, FL 99065",99065,(870)-768-6252,grace.garcia@yahoo.com
+975,Daniel King,83,3/21/1941,F,Dr. Jason Miller,Commercial - Aetna,38089.28,4/10/2024,4/17/2024,"4033 Birch St, Austin, GA 65333",65333,(425)-405-6551,daniel.king@yahoo.com
+976,Yasmin Morgan,76,5/7/1949,F,Dr. David Patel,Commercial - Cigna,3717.72,6/28/2025,6/30/2025,"669 Cedar Ln, Austin, AZ 23104",23104,(574)-884-9667,yasmin.morgan@gmail.com
+977,Mia Baker,52,8/13/1972,M,Dr. Jason Miller,Self-Pay,29518.92,10/2/2024,10/15/2024,"9714 Birch St, Chicago, IL 41571",41571,(445)-647-7073,mia.baker@outlook.com
+978,Noah Perez,82,6/10/1942,M,Dr. Priya Shah,Commercial - BlueCross,9531.94,10/14/2024,10/17/2024,"6161 Oak St, Atlanta, TX 59672",59672,(540)-833-6019,noah.perez@outlook.com
+979,Franklin Collins,69,8/6/1956,F,Dr. David Patel,Self-Pay,37688.13,1/25/2025,2/8/2025,"1948 Cedar Ln, Dallas, TN 30257",30257,(482)-339-4925,franklin.collins@gmail.com
+980,Isabella Brooks,67,4/8/1957,F,Dr. Angela Chen,Medicare,39911.31,9/28/2024,10/8/2024,"2679 Sunset Blvd, Austin, WA 36685",36685,(524)-516-4497,isabella.brooks@gmail.com
+981,Peter Green,70,11/22/1954,F,Dr. Jason Miller,Medicaid,5513.62,1/19/2024,,"2098 Ridge Rd, Atlanta, FL 96511",96511,(371)-345-2970,
+982,Yasmin Martinez,75,5/24/1950,F,Dr. Angela Chen,Medicare Advantage,7522.11,1/6/2025,1/17/2025,"2987 Sunset Blvd, Atlanta, TN 30969",30969,(473)-896-9160,
+983,Quinn Miller,38,8/15/1986,F,Dr. Laura Gomez,Self-Pay,14645.33,5/31/2024,6/8/2024,"2263 Sunset Blvd, Seattle, FL 58944",58944,(392)-399-8668,
+984,Isabella Carter,23,6/11/2001,M,Dr. Samuel Ortiz,Self-Pay,18414.14,3/5/2024,,"8605 Oak St, Dallas, TX 35313",35313,(355)-695-3919,isabella.carter@gmail.com
+985,Jacob Brooks,58,12/26/1966,M,Dr. Robert Kim,Medicare,17878.77,11/4/2024,11/14/2024,"2122 Cedar Ln, Seattle, AZ 63883",63883,(368)-235-4251,
+986,Noah Patel,62,10/21/1962,M,Dr. Samuel Ortiz,Commercial - Aetna,31359.27,6/29/2024,6/30/2024,"3155 Ridge Rd, Phoenix, FL 40512",40512,(936)-582-6771,noah.patel@yahoo.com
+987,Ethan Wilson,36,4/17/1989,F,Dr. Samuel Ortiz,Commercial - Cigna,28189.16,3/29/2025,4/8/2025,"9985 Pine Dr, Dallas, WA 20322",20322,(685)-907-4638,ethan.wilson@yahoo.com
+988,Elena Wilson,72,1/18/1952,M,Dr. Priya Shah,Commercial - Aetna,14975.31,2/5/2024,2/7/2024,"7622 Oak St, Atlanta, CO 89507",89507,(821)-709-2979,elena.wilson@yahoo.com
+989,Bianca Barnes,43,6/21/1981,M,Dr. Michael Lee,Medicare,2045.14,5/7/2024,5/9/2024,"9170 Cedar Ln, Atlanta, CO 23104",23104,(291)-704-8122,bianca.barnes@outlook.com
+990,Sophia Barnes,51,4/23/1973,M,Dr. Jason Miller,Medicaid,13986.01,9/25/2024,9/29/2024,"2602 Pine Dr, Houston, TX 87992",87992,(308)-972-5784,sophia.barnes@yahoo.com
+991,Mia Martinez,90,3/27/1934,F,Dr. Samuel Ortiz,Medicaid,29768.72,12/28/2024,1/4/2025,"5630 Cedar Ln, Chicago, TX 15075",15075,(598)-448-8844,mia.martinez@yahoo.com
+992,Caroline Barnes,32,4/1/1993,F,Dr. Angela Chen,Commercial - BlueCross,27821.46,5/18/2025,6/1/2025,"8055 Walnut Ave, Phoenix, WA 37607",37607,(324)-868-6307,
+993,Diana King,27,11/13/1997,F,Dr. Laura Gomez,Medicaid,16949.77,2/28/2024,3/4/2024,"3855 Ridge Rd, Chicago, GA 65392",65392,(521)-948-5535,diana.king@gmail.com
+994,Mia Johnson,50,12/9/1975,F,Dr. Samuel Ortiz,Commercial - Cigna,26898,1/12/2025,,"1279 Maple Ave, Nashville, FL 36071",36071,(638)-478-1277,mia.johnson@gmail.com
+995,Thomas Baker,66,8/26/1959,F,Dr. David Patel,Commercial - BlueCross,22564.19,1/1/2025,1/2/2025,"108 Pine Dr, Dallas, WA 31417",31417,(645)-362-1244,
+996,Caleb Lopez,81,10/8/1943,F,Dr. Samuel Ortiz,Commercial - Cigna,26972.85,6/2/2024,6/6/2024,"7145 Sunset Blvd, Miami, TN 95180",95180,(237)-779-9572,caleb.lopez@gmail.com
+997,Franklin Brown,80,7/22/1944,M,Dr. Robert Kim,Medicare,32218.76,7/8/2024,7/19/2024,"563 Ridge Rd, Chicago, TN 85880",85880,(757)-630-6773,franklin.brown@yahoo.com
+998,Victoria King,57,1/17/1968,F,Dr. Priya Shah,Commercial - Aetna,5030.28,1/26/2025,1/30/2025,"9573 Walnut Ave, Houston, IL 47930",47930,(348)-246-3597,
+999,Caroline Hernandez,21,5/16/2003,M,Dr. Jason Miller,Self-Pay,16058.23,10/16/2024,10/24/2024,"212 Oak St, Dallas, CO 18392",18392,(774)-675-7482,caroline.hernandez@example.org
+1000,Quinn Perez,56,7/12/1968,M,Dr. Jason Miller,Medicare Advantage,35565.32,4/1/2024,4/5/2024,"7089 Oak St, Denver, FL 38657",38657,(223)-616-5002,quinn.perez@yahoo.com
