@@ -32,6 +32,7 @@ Operational and clinical gaps based on readmission behavior
 This project is structured exactly like a real Quality Analyst / Healthcare Data Analyst portfolio.
 
 ## 📂 Repository Structure
+```sql
 healthcare_readmissions_analysis/
 │
 ├── data/
@@ -51,7 +52,7 @@ healthcare_readmissions_analysis/
 │   └── visuals_sample.png
 │
 └── README.md
-
+```
 ## Key Questions Answered in This Project
 
 ✔ What is the hospital’s 30-day readmission rate?
