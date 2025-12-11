@@ -1,57 +1,273 @@
-# About This Project
-This project demonstrates a full exploratory analysis workflow using a synthetic healthcare dataset designed to mirror real-world clinical, demographic, and utilization patterns. It highlights the core analytical skills used across healthcare quality, population health, and value-based care environments—cleaning patient-level data, exploring risk factors, visualizing trends, and identifying drivers of 30-day readmissions.
+###Hospital Readmissions Analysis Using SQL & Exploratory Data Analysis
 
-The goal of this project is to showcase the technical and analytical capabilities required for healthcare analytics roles, including EDA, data quality checks, insight generation, and basic clinical interpretation. It reflects how an analyst supports quality improvement, SDoH initiatives, care management programs, and operational decision-making through data.
+A full-stack healthcare analytics project demonstrating SQL, EDA, and clinical quality metrics.
 
-# Project Highlights
-## 1. End-to-End Exploratory Data Analysis (EDA)
+##Project Overview
 
-Full Python-based EDA workflow using pandas and matplotlib
+Hospital readmissions—especially within 7 and 30 days—are a core CMS quality metric and one of the most expensive and preventable healthcare events.
+This project performs an end-to-end analysis of inpatient encounters and readmissions using:
 
-Univariate and bivariate analysis of demographics, clinical factors, and utilization metrics
+Microsoft SQL Server (T-SQL)
 
-Identification of patterns in age, BMI, blood pressure, cholesterol, comorbidities, and hospital visits
+Healthcare quality metric logic (CMS 30-day readmissions)
 
-Readmission-focused insights aligned with real-world population health analytics
+Exploratory Data Analysis (EDA)
 
-## 2. Healthcare-Specific Insight Generation
+Clinical insights for quality improvement and utilization management
 
-Analysis centered around 30-day hospital readmissions, a key quality metric
+The goal of this analysis is to understand:
 
-Exploration of relationships between clinical risk factors (diabetes, hypertension, smoking status) and outcomes
+Which patients are at highest risk of readmission
 
-Population-level trends consistent with CMS, payor, and quality improvement use cases
+Which medical conditions contribute the most to readmissions
 
-Demonstrates how analysts support care management, SDoH programs, and QI initiatives
+How readmission rates trend over time
 
-## 3. Clean, Structured, SQL-Ready Dataset
+Early (0–7 day) vs. standard (0–30 day) readmission patterns
 
-Synthetic dataset designed to mimic real patient-level clinical and utilization data
+Which patients experience multiple readmissions (“frequent flyers”)
 
-Intentionally simple data schema to enable:
+Operational and clinical gaps based on readmission behavior
 
-SQL practice
+This project is structured exactly like a real Quality Analyst / Healthcare Data Analyst portfolio.
 
-BI dashboards
+📂 Repository Structure
+healthcare_readmissions_analysis/
+│
+├── data/
+│   ├── hospital_readmissions.csv
+│   ├── patient_encounters.csv
+│   └── members.csv
+│
+├── sql/
+│   ├── week1_utilization_metrics.sql
+│   ├── week2_readmissions_analysis.sql
+│   └── advanced_readmission_queries.sql
+│
+├── notebooks/
+│   └── eda_hospital_readmissions.ipynb
+│
+├── images/
+│   └── visuals_sample.png
+│
+└── README.md
 
-Modeling demos
+🧠 Key Questions Answered in This Project
+✔ What is the hospital’s 30-day readmission rate?
+✔ How does readmission rate vary by medical condition?
+✔ Are certain months associated with higher readmissions?
+✔ Who are the “frequent flyer” patients?
+✔ How many patients are readmitted within 7 days (an early bounce-back)?
+✔ What are the operational patterns behind readmission behavior?
+🗃️ Dataset Description
 
-Data quality walkthroughs
+This project uses three synthetic but realistic healthcare datasets:
 
-Includes a full data dictionary (column names, types, and definitions)
+1. hospital_readmissions.csv
 
-## 4. Key Skills Demonstrated
+Encounter-level data including:
 
-This project showcases competencies essential for healthcare analytics roles, including:
+encounter_id
 
-Data cleaning and validation
+patient_name
 
-Exploratory data analysis
+DOB
 
-Visualization and interpretation
+date_of_admission
 
-Population health modeling concepts
+date_of_discharge
 
-Understanding of clinical context
+date_of_readmission
 
-Communicating insights to operational and clinical stakeholders
+primary & secondary medical conditions
+
+measure_name
+
+2. patient_encounters.csv
+
+General utilization metrics:
+
+billing amount
+
+length of stay
+
+payor type
+
+admission/discharge dates
+
+3. members.csv
+
+Member-level demographics:
+
+risk scores
+
+line of business (Medicaid/Medicare)
+
+SDoH flag
+
+geographic indicators
+
+Tools & Technologies Used
+SQL Server / T-SQL
+
+CTEs
+
+GROUP BY + HAVING
+
+Window functions
+
+DATEDIFF logic
+
+Dataset creation + transformations
+
+Readmission rate calculation
+
+Healthcare Analytics Concepts
+
+CMS 30-day readmission definition
+
+7-day early readmission identification
+
+High-risk condition detection
+
+Patient-level utilization patterns
+
+Quality improvement metrics
+
+EDA Techniques
+
+(Optional notebook using Python/Pandas)
+
+Core Analyses & SQL Logic
+
+Below are examples of the types of metrics calculated in this project.
+
+🔹 1. Identify All 30-Day Readmissions
+SELECT
+    COUNT(*) AS total_readmissions
+FROM hospital_readmissions
+WHERE date_of_readmission IS NOT NULL
+  AND DATEDIFF(DAY, date_of_discharge, date_of_readmission) BETWEEN 0 AND 30;
+
+🔹 2. Readmission Rate by Primary Medical Condition
+SELECT
+    primary_medical_condition,
+    COUNT(*) AS total_discharges,
+    SUM(CASE 
+            WHEN DATEDIFF(DAY, date_of_discharge, date_of_readmission) BETWEEN 0 AND 30 
+            THEN 1 ELSE 0 
+        END) AS readmitted_30_days,
+    CAST(SUM(CASE 
+                WHEN DATEDIFF(DAY, date_of_discharge, date_of_readmission) BETWEEN 0 AND 30 
+                THEN 1 ELSE 0 
+             END) AS DECIMAL(10,2)) 
+        / NULLIF(COUNT(*), 0) AS readmission_rate
+FROM hospital_readmissions
+GROUP BY primary_medical_condition
+ORDER BY readmission_rate DESC;
+
+🔹 3. Monthly Readmission Trend
+SELECT
+    FORMAT(date_of_discharge, 'yyyy-MM') AS discharge_month,
+    COUNT(*) AS total_discharges,
+    SUM(CASE 
+            WHEN DATEDIFF(DAY, date_of_discharge, date_of_readmission) BETWEEN 0 AND 30 
+            THEN 1 ELSE 0 
+        END) AS readmitted_30_days,
+    CAST(SUM(CASE 
+                WHEN DATEDIFF(DAY, date_of_discharge, date_of_readmission) BETWEEN 0 AND 30 
+             END) AS DECIMAL(10,2))
+        / NULLIF(COUNT(*), 0) AS readmission_rate
+FROM hospital_readmissions
+GROUP BY FORMAT(date_of_discharge, 'yyyy-MM')
+ORDER BY discharge_month;
+
+🔹 4. Early Readmissions (0–7 Days)
+SELECT
+    encounter_id,
+    patient_name,
+    date_of_discharge,
+    date_of_readmission,
+    DATEDIFF(DAY, date_of_discharge, date_of_readmission) AS days_to_readmission
+FROM hospital_readmissions
+WHERE date_of_readmission IS NOT NULL
+  AND DATEDIFF(DAY, date_of_discharge, date_of_readmission) BETWEEN 0 AND 7;
+
+🔹 5. Frequent Flyers (Patients With >1 Readmission)
+WITH frequent_patients AS (
+    SELECT
+        patient_name,
+        COUNT(*) AS num_readmissions
+    FROM hospital_readmissions
+    WHERE date_of_readmission IS NOT NULL
+    GROUP BY patient_name
+    HAVING COUNT(*) > 1
+)
+SELECT
+    hr.patient_name,
+    hr.date_of_discharge,
+    hr.date_of_readmission,
+    DATEDIFF(DAY, hr.date_of_discharge, hr.date_of_readmission) AS days_to_readmission,
+    fp.num_readmissions
+FROM hospital_readmissions AS hr
+JOIN frequent_patients AS fp
+    ON hr.patient_name = fp.patient_name
+WHERE hr.date_of_readmission IS NOT NULL
+ORDER BY hr.patient_name, hr.date_of_discharge;
+
+Skills Demonstrated
+SQL / Data Engineering
+
+Data modeling
+
+Aggregation logic
+
+Quality metric calculation
+
+Error-proof analytics (NULL handling, DIV0 protection)
+
+Window functions & CTEs
+
+Healthcare Domain Knowledge
+
+CMS readmission definitions
+
+Condition-based stratification
+
+High-utilization patient identification
+
+Trend analysis for quality improvement
+
+Business Intelligence
+
+KPI development
+
+Readmission dashboards
+
+Performance insights for care management
+
+Clinical operations reporting
+
+Why This Project Matters
+
+Hospital readmissions represent:
+
+Higher costs
+
+Lower CMS star scores
+
+Penalties and reimbursement reductions
+
+Indicators of care coordination gaps
+
+This project simulates exactly what a Quality Analyst / Population Health Analyst / Healthcare Data Analyst does in real roles.
+
+It is a perfect portfolio example because it shows:
+
+Real SQL skills
+
+Real healthcare metrics
+
+Real analytical reasoning
+
+Real problem solving
