@@ -29,8 +29,6 @@ Which patients experience multiple readmissions (“frequent flyers”)
 
 Operational and clinical gaps based on readmission behavior
 
-This project is structured exactly like a real Quality Analyst / Healthcare Data Analyst portfolio.
-
 ## 📂 Repository Structure
 ```sql
 healthcare_readmissions_analysis/
@@ -64,7 +62,6 @@ healthcare_readmissions_analysis/
 ✔ Who are the “frequent flyer” patients?
 
 ✔ How many patients are readmitted within 7 days (an early bounce-back)?
-
 
 ✔ What are the operational patterns behind readmission behavior?
 
@@ -115,6 +112,12 @@ This project uses three synthetic but realistic healthcare datasets:
     SDoH flag
 
     geographic indicators
+
+## Key Insights
+
+- Asthma, CHF, and COPD exhibited the highest 30-day readmission rates, indicating a need for targeted post-discharge interventions.
+- 7-day readmissions represented a meaningful subset of 30-day readmissions, highlighting early transition-of-care risk.
+- Monthly readmission trends suggested seasonal variation in readmission risk, with higher rates observed in select winter months.
 
 ## Tools & Technologies Used
 SQL Server / T-SQL
